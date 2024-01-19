@@ -82,7 +82,7 @@ def main():
         # Adjust the range to get more pages if needed
         for page_number in range(1, 8):
             page_url = f'{base_url}&offset={25 * (page_number - 1)}'
-            page.goto(page_url, timeout=60000)
+            page.goto(page_url, timeout=120000)
 
             hotels_list.extend(scrape_hotels_on_page(page))
 
