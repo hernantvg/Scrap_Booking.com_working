@@ -49,8 +49,10 @@ def main():
         city = 'Uruguay'
         checkin_date = '2024-01-23'
         checkout_date = '2024-01-24'
+        # Order list price, review_score_and_price, bayesian_review_score, class_and_price
+        order = 'review_score_and_price'
 
-        base_url = f'https://www.booking.com/searchresults.{language}.html?checkin={checkin_date}&checkout={checkout_date}&selected_currency=USD&ss={city}&ssne={city}&ssne_untouched={city}&lang={language}&sb=1&src_elem=sb&src=searchresults&dest_type=city&group_adults=1&no_rooms=1&group_children=0&sb_travel_purpose=leisure&order=review_score_and_price'
+        base_url = f'https://www.booking.com/searchresults.{language}.html?checkin={checkin_date}&checkout={checkout_date}&selected_currency=USD&ss={city}&ssne={city}&ssne_untouched={city}&lang={language}&sb=1&src_elem=sb&src=searchresults&dest_type=city&group_adults=1&no_rooms=1&group_children=0&sb_travel_purpose=leisure&order={order}'
 
         browser = p.chromium.launch(headless=True)
         ua = (
