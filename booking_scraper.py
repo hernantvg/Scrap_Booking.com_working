@@ -32,7 +32,7 @@ def scrape_hotels_on_page(page):
         # Get image link
         image = hotel.locator('//a[@data-testid="property-card-desktop-single-image"]/img').get_attribute("src")
         if image:
-            # Modificar la URL de "square200" a "square600"
+            #Modify the URL from "square200" to "square600"
             image = image.replace("square200", "square600")
         hotel_dict['image_links'] = image if image else None
 
@@ -73,7 +73,7 @@ def main():
 
             print(f'Page {page_number}: There are {len(hotels_list)} hotels.')
 
-        # Agregar descripción a cada hotel
+        # Add description to each hotel
         for hotel in hotels_list:
             hotel['description'] = scrape_hotel_description(hotel['hotel_url'])
 
