@@ -18,6 +18,19 @@ def scrape_hotel_description(hotel_url):
     except Exception as e:
         return f"Error: {str(e)}"
 
+def scrape_popular_facilities(hotel_url):
+    try:
+        response = requests.get(hotel_url)
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.text, 'html.parser')
+            facilities_elements = soup.find_all('span', class_='a5a5a75131')
+            facilities_list = [facility.get_text(strip=True) for facility in facilities_elements]
+            return facilities_list
+        else:
+            return ["Error al acceder a la página del hotel."]
+    except Exception as e:
+        return [f"Error: {str(e)}"]
+
 def scrape_hotels_on_page(page):
     hotels = page.locator('//div[@data-testid="property-card"]').all()
     hotels_list = []
@@ -32,7 +45,7 @@ def scrape_hotels_on_page(page):
         # Get image link
         image = hotel.locator('//a[@data-testid="property-card-desktop-single-image"]/img').get_attribute("src")
         if image:
-            #Modify the URL from "square200" to "square600"
+            # Modify the URL from "square200" to "square600"
             image = image.replace("square200", "square600")
         hotel_dict['image_links'] = image if image else None
 
@@ -40,13 +53,17 @@ def scrape_hotels_on_page(page):
         hotel_link = hotel.locator('//a[@data-testid="availability-cta-btn"]').get_attribute("href")
         hotel_dict['hotel_url'] = hotel_link
 
+        # Add popular facilities
+        popular_facilities = scrape_popular_facilities(hotel_link)
+        hotel_dict['popular_facilities'] = list(set(popular_facilities))  # Usar un conjunto para eliminar duplicados
         hotels_list.append(hotel_dict)
+
     return hotels_list
 
 def main():
     with sync_playwright() as p:
         language = 'es'
-        city = 'Uruguay'
+        city = 'Lima'
         checkin_date = '2024-01-23'
         checkout_date = '2024-01-24'
 
@@ -65,19 +82,19 @@ def main():
         # Adjust the range to get more pages if needed
         for page_number in range(1, 4):
             page_url = f'{base_url}&offset={25 * (page_number - 1)}'
-            page.goto(page_url, timeout=60000)
+            page.goto(page_url, timeout=120000)
 
             hotels_list.extend(scrape_hotels_on_page(page))
 
             print(f'Page {page_number}: There are {len(hotels_list)} hotels.')
 
-        # Add description to each hotel
+        # Add description and popular facilities to each hotel
         for hotel in hotels_list:
             hotel['description'] = scrape_hotel_description(hotel['hotel_url'])
 
         df = pd.DataFrame(hotels_list)
-        df.to_excel('hotels_list.xlsx', index=False)
-        df.to_csv('hotels_list.csv', index=False)
+        df.to_excel('hotels_list_{city}.xlsx', index=False)
+        df.to_csv('hotels_list_{city}.csv', index=False)
 
         browser.close()
 
