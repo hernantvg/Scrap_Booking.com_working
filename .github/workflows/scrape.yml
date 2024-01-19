@@ -1,0 +1,38 @@
+name: Scrape and Update
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.11
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          playwright install chromium
+         
+      - name: Run script
+        run: python booking_scraper2.py
+
+      - name: Update CSV and XLSX
+        run: |
+          cp hotels_list2.csv path/to/your/repository
+          cp hotels_list2.xlsx path/to/your/repository
+          git add path/to/your/repository/hotels_list2.csv path/to/your/repository/hotels_list2.xlsx
+          git commit -m "Update CSV and XLSX"
+
+          # Use the GitHub API to push changes
+          git push https://${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
