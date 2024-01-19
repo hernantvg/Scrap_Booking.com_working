@@ -1,5 +1,22 @@
 from playwright.sync_api import sync_playwright
 import pandas as pd
+from bs4 import BeautifulSoup
+import requests
+
+def scrape_hotel_description(hotel_url):
+    try:
+        response = requests.get(hotel_url)
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.text, 'html.parser')
+            description_element = soup.find('p', class_='a53cbfa6de b3efd73f69')
+            if description_element:
+                return description_element.get_text(strip=True)
+            else:
+                return "Descripción no encontrada en la página."
+        else:
+            return "Error al acceder a la página del hotel."
+    except Exception as e:
+        return f"Error: {str(e)}"
 
 def scrape_hotels_on_page(page):
     hotels = page.locator('//div[@data-testid="property-card"]').all()
@@ -29,7 +46,7 @@ def scrape_hotels_on_page(page):
 def main():
     with sync_playwright() as p:
         language = 'es'
-        city = 'Montevideo'
+        city = 'Uruguay'
         checkin_date = '2024-01-23'
         checkout_date = '2024-01-24'
 
@@ -46,13 +63,17 @@ def main():
         hotels_list = []  # Initialize outside the loop
 
         # Adjust the range to get more pages if needed
-        for page_number in range(1, 2):  # Change 4 to the desired number of pages
+        for page_number in range(1, 5):  # Change 4 to the desired number of pages
             page_url = f'{base_url}&offset={25 * (page_number - 1)}'
             page.goto(page_url, timeout=60000)
 
             hotels_list.extend(scrape_hotels_on_page(page))
 
             print(f'Page {page_number}: There are {len(hotels_list)} hotels.')
+
+        # Agregar descripción a cada hotel
+        for hotel in hotels_list:
+            hotel['description'] = scrape_hotel_description(hotel['hotel_url'])
 
         df = pd.DataFrame(hotels_list)
         df.to_excel('hotels_list.xlsx', index=False)
