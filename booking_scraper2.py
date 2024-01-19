@@ -93,8 +93,8 @@ def main():
             hotel['description'] = scrape_hotel_description(hotel['hotel_url'])
 
         df = pd.DataFrame(hotels_list)
-        df.to_excel('hotels_list2.xlsx', index=False)
-        df.to_csv('hotels_list2.csv', index=False)
+        df.to_excel('hotels_list_{city}.xlsx', index=False)
+        df.to_csv('hotels_list_{city}.csv', index=False)
 
         browser.close()
 
