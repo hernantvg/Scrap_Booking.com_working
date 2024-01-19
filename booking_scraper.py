@@ -47,14 +47,10 @@ def main():
     with sync_playwright() as p:
         language = 'es'
         city = 'Uruguay'
-        # Adjust the range to get more pages if needed
-        pages = '1, 5' 
         checkin_date = '2024-01-23'
         checkout_date = '2024-01-24'
-        # Order list price, review_score_and_price, bayesian_review_score, class_and_price
-        order = 'review_score_and_price'
 
-        base_url = f'https://www.booking.com/searchresults.{language}.html?checkin={checkin_date}&checkout={checkout_date}&selected_currency=USD&ss={city}&ssne={city}&ssne_untouched={city}&lang={language}&sb=1&src_elem=sb&src=searchresults&dest_type=city&group_adults=1&no_rooms=1&group_children=0&sb_travel_purpose=leisure&order={order}'
+        base_url = f'https://www.booking.com/searchresults.{language}.html?checkin={checkin_date}&checkout={checkout_date}&selected_currency=USD&ss={city}&ssne={city}&ssne_untouched={city}&lang={language}&sb=1&src_elem=sb&src=searchresults&dest_type=city&group_adults=1&no_rooms=1&group_children=0&sb_travel_purpose=leisure'
 
         browser = p.chromium.launch(headless=True)
         ua = (
@@ -67,7 +63,7 @@ def main():
         hotels_list = []  # Initialize outside the loop
 
         # Adjust the range to get more pages if needed
-        for page_number in range({pages}):
+        for page_number in range(1, 4):
             page_url = f'{base_url}&offset={25 * (page_number - 1)}'
             page.goto(page_url, timeout=60000)
 

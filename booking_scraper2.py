@@ -18,6 +18,19 @@ def scrape_hotel_description(hotel_url):
     except Exception as e:
         return f"Error: {str(e)}"
 
+def scrape_popular_facilities(hotel_url):
+    try:
+        response = requests.get(hotel_url)
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.text, 'html.parser')
+            facilities_elements = soup.find_all('span', class_='a5a5a75131')
+            facilities_list = [facility.get_text(strip=True) for facility in facilities_elements]
+            return facilities_list
+        else:
+            return ["Error al acceder a la página del hotel."]
+    except Exception as e:
+        return [f"Error: {str(e)}"]
+
 def scrape_hotels_on_page(page):
     hotels = page.locator('//div[@data-testid="property-card"]').all()
     hotels_list = []
@@ -40,9 +53,8 @@ def scrape_hotels_on_page(page):
         hotel_link = hotel.locator('//a[@data-testid="availability-cta-btn"]').get_attribute("href")
         hotel_dict['hotel_url'] = hotel_link
 
-        # Scrape popular facilities
-        facilities = hotel.locator('//div[@class="c1f85371f5 c56ea7427a"]').inner_text()
-        hotel_dict['popular_facilities'] = facilities.strip() if facilities else None
+        # Add popular facilities
+        hotel_dict['popular_facilities'] = scrape_popular_facilities(hotel_link)
 
         hotels_list.append(hotel_dict)
     return hotels_list
@@ -51,14 +63,10 @@ def main():
     with sync_playwright() as p:
         language = 'es'
         city = 'Uruguay'
-        # Adjust the range to get more pages if needed
-        pages = 5
         checkin_date = '2024-01-23'
         checkout_date = '2024-01-24'
-        # Order list price, review_score_and_price, bayesian_review_score, class_and_price
-        order = 'review_score_and_price'
 
-        base_url = f'https://www.booking.com/searchresults.{language}.html?checkin={checkin_date}&checkout={checkout_date}&selected_currency=USD&ss={city}&ssne={city}&ssne_untouched={city}&lang={language}&sb=1&src_elem=sb&src=searchresults&dest_type=city&group_adults=1&no_rooms=1&group_children=0&sb_travel_purpose=leisure&order={order}'
+        base_url = f'https://www.booking.com/searchresults.{language}.html?checkin={checkin_date}&checkout={checkout_date}&selected_currency=USD&ss={city}&ssne={city}&ssne_untouched={city}&lang={language}&sb=1&src_elem=sb&src=searchresults&dest_type=city&group_adults=1&no_rooms=1&group_children=0&sb_travel_purpose=leisure'
 
         browser = p.chromium.launch(headless=True)
         ua = (
@@ -71,7 +79,7 @@ def main():
         hotels_list = []  # Initialize outside the loop
 
         # Adjust the range to get more pages if needed
-        for page_number in range(pages):
+        for page_number in range(1, 4):
             page_url = f'{base_url}&offset={25 * (page_number - 1)}'
             page.goto(page_url, timeout=60000)
 
@@ -79,13 +87,13 @@ def main():
 
             print(f'Page {page_number}: There are {len(hotels_list)} hotels.')
 
-        # Add description to each hotel
+        # Add description and popular facilities to each hotel
         for hotel in hotels_list:
             hotel['description'] = scrape_hotel_description(hotel['hotel_url'])
 
         df = pd.DataFrame(hotels_list)
-        df.to_excel('hotels_list.xlsx', index=False)
-        df.to_csv('hotels_list.csv', index=False)
+        df.to_excel('hotels_list2.xlsx', index=False)
+        df.to_csv('hotels_list2.csv', index=False)
 
         browser.close()
 
