@@ -63,7 +63,7 @@ def scrape_hotels_on_page(page):
 def main():
     with sync_playwright() as p:
         language = 'es'
-        city = 'Panamá'
+        city = 'Lisboa'
         checkin_date = '2024-01-23'
         checkout_date = '2024-01-24'
 
