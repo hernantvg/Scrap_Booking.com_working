@@ -14,6 +14,9 @@ def scrape_hotels_on_page(page):
 
         # Get image link
         image = hotel.locator('//a[@data-testid="property-card-desktop-single-image"]/img').get_attribute("src")
+        if image:
+            # Modificar la URL de "square200" a "square600"
+            image = image.replace("square200", "square600")
         hotel_dict['image_links'] = image if image else None
 
         # Get hotel URL
