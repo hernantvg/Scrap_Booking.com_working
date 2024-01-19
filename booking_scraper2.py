@@ -54,9 +54,10 @@ def scrape_hotels_on_page(page):
         hotel_dict['hotel_url'] = hotel_link
 
         # Add popular facilities
-        hotel_dict['popular_facilities'] = scrape_popular_facilities(hotel_link)
-
+        popular_facilities = scrape_popular_facilities(hotel_link)
+        hotel_dict['popular_facilities'] = list(set(popular_facilities))  # Usar un conjunto para eliminar duplicados
         hotels_list.append(hotel_dict)
+
     return hotels_list
 
 def main():
