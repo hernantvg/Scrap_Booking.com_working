@@ -27,12 +27,11 @@ jobs:
       - name: Run script
         run: python booking_scraper2.py
 
-      - name: Update CSV and XLSX
-        run: |
-          cp hotels_list2.csv path/to/your/repository
-          cp hotels_list2.xlsx path/to/your/repository
-          git add path/to/your/repository/hotels_list2.csv path/to/your/repository/hotels_list2.xlsx
-          git commit -m "Update CSV and XLSX"
 
-          # Use the GitHub API to push changes
-          git push https://${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: hotels_list2
+          path: hotels_list2.csv
+          overwrite: true
+    
