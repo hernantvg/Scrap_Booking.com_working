@@ -34,4 +34,5 @@ jobs:
           name: hotels_list2
           path: hotels_list2.csv
           overwrite: true
+          retention-days: 5
     
