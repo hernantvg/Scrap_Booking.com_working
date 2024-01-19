@@ -47,6 +47,8 @@ def main():
     with sync_playwright() as p:
         language = 'es'
         city = 'Uruguay'
+        # Adjust the range to get more pages if needed
+        pages = '1, 5' 
         checkin_date = '2024-01-23'
         checkout_date = '2024-01-24'
         # Order list price, review_score_and_price, bayesian_review_score, class_and_price
@@ -65,7 +67,7 @@ def main():
         hotels_list = []  # Initialize outside the loop
 
         # Adjust the range to get more pages if needed
-        for page_number in range(1, 5):  # Change 4 to the desired number of pages
+        for page_number in range({pages}):
             page_url = f'{base_url}&offset={25 * (page_number - 1)}'
             page.goto(page_url, timeout=60000)
 
