@@ -2,6 +2,7 @@ from playwright.sync_api import sync_playwright
 import pandas as pd
 from bs4 import BeautifulSoup
 import requests
+from datetime import datetime, timedelta
 
 def scrape_hotel_description(hotel_url):
     try:
@@ -31,7 +32,7 @@ def scrape_popular_facilities(hotel_url):
     except Exception as e:
         return [f"Error: {str(e)}"]
 
-def scrape_hotels_on_page(page):
+def scrape_hotels_on_page(page, city, country):
     hotels = page.locator('//div[@data-testid="property-card"]').all()
     hotels_list = []
     for hotel in hotels:
@@ -45,17 +46,27 @@ def scrape_hotels_on_page(page):
         # Get image link
         image = hotel.locator('//a[@data-testid="property-card-desktop-single-image"]/img').get_attribute("src")
         if image:
-            # Modify the URL from "square200" to "square600"
-            image = image.replace("square200", "square600")
+            # Modify the URL from "square200" to "max1024x768"
+            image = image.replace("square200", "max1024x768")
         hotel_dict['image_links'] = image if image else None
 
         # Get hotel URL
-        hotel_link = hotel.locator('//a[@data-testid="availability-cta-btn"]').get_attribute("href")
-        hotel_dict['hotel_url'] = hotel_link
+        hotel_link_element = hotel.locator('//a[@data-testid="availability-cta-btn"]')
+        if hotel_link_element:
+            hotel_link = hotel_link_element.get_attribute("href")
+            if hotel_link:
+                # Truncate the link to ".html" and add "?aid=2410095"
+                hotel_link = f"{hotel_link.split('.html')[0]}.html?aid=2410095"
+                hotel_dict['hotel_url'] = hotel_link
 
-        # Add popular facilities
+        # Tu código existente para obtener y procesar las instalaciones populares
         popular_facilities = scrape_popular_facilities(hotel_link)
-        hotel_dict['popular_facilities'] = list(set(popular_facilities))  # Usar un conjunto para eliminar duplicados
+        hotel_dict['popular_facilities'] = ', '.join(set(popular_facilities))  # Unir y eliminar duplicados
+
+        # Add city and country information
+        hotel_dict['city'] = city
+        hotel_dict['country'] = country
+
         hotels_list.append(hotel_dict)
 
     return hotels_list
@@ -63,11 +74,14 @@ def scrape_hotels_on_page(page):
 def main():
     with sync_playwright() as p:
         language = 'es'
-        city = 'Lima'
-        checkin_date = '2024-01-23'
-        checkout_date = '2024-01-24'
+        country = 'Peru'
+        city = 'Lima'      
+        # Obtener la fecha actual y calcular las fechas de checkin y checkout
+        today = datetime.now()
+        checkin_date = (today + timedelta(days=2)).strftime('%Y-%m-%d')
+        checkout_date = (today + timedelta(days=4)).strftime('%Y-%m-%d')
 
-        base_url = f'https://www.booking.com/searchresults.{language}.html?checkin={checkin_date}&checkout={checkout_date}&selected_currency=USD&ss={city}&ssne={city}&ssne_untouched={city}&lang={language}&sb=1&src_elem=sb&src=searchresults&dest_type=city&group_adults=1&no_rooms=1&group_children=0&sb_travel_purpose=leisure'
+        base_url = f'https://www.booking.com/searchresults.{language}.html?&checkin={checkin_date}&checkout={checkout_date}&selected_currency=USD&ss={city}&ssne={city}&ssne_untouched={city}&lang={language}&sb=1&src_elem=sb&src=searchresults&dest_type=city&group_adults=1&no_rooms=1&group_children=0&sb_travel_purpose=leisure'
 
         browser = p.chromium.launch(headless=True)
         ua = (
@@ -80,21 +94,21 @@ def main():
         hotels_list = []  # Initialize outside the loop
 
         # Adjust the range to get more pages if needed
-        for page_number in range(1, 4):
+        for page_number in range(1, 2):
             page_url = f'{base_url}&offset={25 * (page_number - 1)}'
             page.goto(page_url, timeout=120000)
 
-            hotels_list.extend(scrape_hotels_on_page(page))
+            hotels_list.extend(scrape_hotels_on_page(page, city, country))
 
             print(f'Page {page_number}: There are {len(hotels_list)} hotels.')
 
-        # Add description and popular facilities to each hotel
+        # Add description to each hotel
         for hotel in hotels_list:
             hotel['description'] = scrape_hotel_description(hotel['hotel_url'])
 
         df = pd.DataFrame(hotels_list)
-        df.to_excel('hotels_list_{city}.xlsx', index=False)
-        df.to_csv('hotels_list_{city}.csv', index=False)
+        df.to_excel(f'data/{city}.xlsx', index=False)
+        df.to_csv(f'data/{city}.csv', index=False)
 
         browser.close()
 
