@@ -78,16 +78,16 @@ def scrape_hotels_on_page(page, city, country, hotel_name, hotel_url):
 
     # Obtener información de puntuación y reseñas
     try:
-        review_score_component = page.locator('//div[@data-testid="review-score-right-component"]')
+        review_score_component = page.locator('.gallery-side-reviews-wrapper__header [aria-label^="Puntuación:"]')
 
         score_text = review_score_component.inner_text()
         score = score_text.split()[1]
 
-        rating_text = review_score_component.locator('div[aria-label^="Valoración:"]').inner_text()
+        rating_text = review_score_component.inner_text('div[aria-label^="Valoración:"]').strip()
         rating = rating_text.split(":")[1].strip()
 
-        reviews_count_text = review_score_component.locator('div[aria-label$="comentarios"]').inner_text()
-        reviews_count = reviews_count_text.split()[0]
+        reviews_count_text = review_score_component.inner_text('div[aria-label$="comentarios"]').split()[0]
+        reviews_count = reviews_count_text
 
         hotel_dict['score'] = score
         hotel_dict['rating'] = rating
@@ -96,7 +96,6 @@ def scrape_hotels_on_page(page, city, country, hotel_name, hotel_url):
         print(f"Error al obtener información de puntuación y reseñas: {str(e)}")
 
     return hotel_dict
-
 
 def main():
     with sync_playwright() as p:
