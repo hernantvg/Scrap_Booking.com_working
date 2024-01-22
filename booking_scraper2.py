@@ -83,10 +83,10 @@ def scrape_hotels_on_page(page, city, country, hotel_name, hotel_url):
         score_text = review_score_component.inner_text()
         score = score_text.split()[1]
 
-        rating_text = review_score_component.inner_text('div[aria-label^="Valoración:"]')
+        rating_text = review_score_component.locator('div[aria-label^="Valoración:"]').inner_text()
         rating = rating_text.split(":")[1].strip()
 
-        reviews_count_text = review_score_component.inner_text('div[aria-label$="comentarios"]')
+        reviews_count_text = review_score_component.locator('div[aria-label$="comentarios"]').inner_text()
         reviews_count = reviews_count_text.split()[0]
 
         hotel_dict['score'] = score
