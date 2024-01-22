@@ -79,7 +79,7 @@ def main():
         # Obtener la fecha actual y calcular las fechas de checkin y checkout
         today = datetime.now()
         checkin_date = (today + timedelta(days=2)).strftime('%Y-%m-%d')
-        checkout_date = (today + timedelta(days=4)).strftime('%Y-%m-%d')
+        checkout_date = (today + timedelta(days=3)).strftime('%Y-%m-%d')
 
         base_url = f'https://www.booking.com/searchresults.{language}.html?&checkin={checkin_date}&checkout={checkout_date}&selected_currency=USD&ss={city}&ssne={city}&ssne_untouched={city}&lang={language}&sb=1&src_elem=sb&src=searchresults&dest_type=city&group_adults=1&no_rooms=1&group_children=0&sb_travel_purpose=leisure'
 
@@ -94,7 +94,7 @@ def main():
         hotels_list = []  # Initialize outside the loop
 
         # Adjust the range to get more pages if needed
-        for page_number in range(1, 2):
+        for page_number in range(1, 5):
             page_url = f'{base_url}&offset={25 * (page_number - 1)}'
             page.goto(page_url, timeout=120000)
 
