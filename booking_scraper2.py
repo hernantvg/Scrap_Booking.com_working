@@ -76,7 +76,20 @@ def scrape_hotels_on_page(page, city, country, hotel_name, hotel_url):
     # Add description to each hotel
     hotel_dict['description'] = scrape_hotel_description(hotel_url)
 
+    # Obtener información de puntuación y reseñas
+    try:
+        score = page.locator('//div[@data-testid="review-score"]/div[1]').inner_text()
+        avg_review = page.locator('//div[@data-testid="review-score"]/div[2]/div[1]').inner_text()
+        reviews_count = page.locator('//div[@data-testid="review-score"]/div[2]/div[2]').inner_text().split()[0]
+
+        hotel_dict['score'] = score
+        hotel_dict['avg_review'] = avg_review
+        hotel_dict['reviews_count'] = reviews_count
+    except Exception as e:
+        print(f"Error al obtener información de puntuación y reseñas: {str(e)}")
+
     return hotel_dict
+
 
 def main():
     with sync_playwright() as p:
