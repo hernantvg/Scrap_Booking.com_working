@@ -1,6 +1,28 @@
 <?php
+// Habilitar el registro de errores y mostrarlos en pantalla
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+// Habilitar el registro de errores en un archivo de registro
+ini_set('log_errors', 1);
+ini_set('error_log', __DIR__ . '/error_log.txt');
+
 // Cargar el archivo wp-load.php para acceder a las funciones de WordPress
 require_once(dirname(__FILE__) . '/../wp-load.php');
+require_once(dirname(__FILE__) . '/../wp-config.php');
+require_once(dirname(__FILE__) . '/../wp-admin/includes/admin.php');
+
+// Función para descargar la imagen desde la URL usando media_sideload_image
+function download_image($image_url, $post_id, $hotel_name) {
+    $attachment_id = media_sideload_image($image_url, $post_id, $hotel_name, 'id');
+
+    if (!is_wp_error($attachment_id)) {
+        return $attachment_id;
+    } else {
+        error_log('Error al descargar la imagen: ' . $attachment_id->get_error_message());
+        return false;
+    }
+}
 
 // Ruta al archivo CSV
 $csv_file = __DIR__ . '/hotel_list.csv';
@@ -17,21 +39,21 @@ if (($handle = fopen($csv_file, 'r')) !== FALSE) {
         $score = $data[2];
         $avg_review = $data[3];
         $reviews_count = $data[4];
-        $image_links = explode(',', $data[5]);
+        $image_url = $data[5];
         $hotel_url = $data[6];
-        $popular_facilities = json_decode($data[7], true);
+        $popular_facilities = $data[7];
         $city = $data[8];
         $country = $data[9];
         $description = $data[10];
         $online_count = rand(2, 15);
 
-
         // Crear un array con los datos del post
         $post_data = array(
-            'post_title'   => $hotel_name,
+            'post_title' => $hotel_name,
             'post_content' => '', // Inicializar el contenido del post
-            'post_status'  => 'publish',
-            'post_type'    => 'post',
+            'post_status' => 'publish',
+            'post_type' => 'post',
+            'post_author' => 1, // ID del usuario que creó la entrada
         );
 
         // Insertar el post en WordPress
@@ -39,25 +61,15 @@ if (($handle = fopen($csv_file, 'r')) !== FALSE) {
 
         // Verificar si la inserción fue exitosa antes de continuar
         if ($post_id) {
-            // Establecer la primera imagen como imagen destacada
-            if (!empty($image_links[0])) {
-                $featured_image_url = $image_links[0];
-                $attachment_id = upload_image_from_url($featured_image_url, $post_id);
-
-                if ($attachment_id) {
-                    // Establecer la imagen descargada como imagen destacada
-                    set_post_thumbnail($post_id, $attachment_id);
-                }
-            }
 
             // Crear el contenido del post en WordPress
             $post_content = "
                 <div class='hotel-info'>
-                        <p><strong>Desde:</strong> {$price} /noche</p>
-                        <p><strong>Puntuación:</strong> {$score} / {$avg_review}</p>
-                        <p class='align-right'><a href='{$hotel_url}&#map_opened-hotel_sidebar_static_map' class='small-availability-button' target='_blank' style='text-decoration: none;'>Ver ubicación en el mapa</a></p>
+                    <p><strong>Desde:</strong> {$price} /noche</p>
+                    <p><strong>Puntuación:</strong> {$score} / {$avg_review}</p>
+                    <p class='align-right'><a href='{$hotel_url}&#map_opened-hotel_sidebar_static_map' class='small-availability-button' target='_blank' style='text-decoration: none;'>Ver ubicación en el mapa</a></p>
                 </div>
-                <p><a href='{$hotel_url}' target='_blank' style='text-decoration: none;'><img src='{$featured_image_url}' alt='Hotel Image'></a></p>
+                <p><a href='{$hotel_url}' target='_blank' style='text-decoration: none;'><img src='{$image_url}' alt='{$hotel_name}'></a></p>
                 <p><a href='{$hotel_url}&activeTab=photosGallery' class='small-availability-button' target='_blank' style='text-decoration: none;'>Ver más fotos de {$hotel_name}</a></p>
                 
                 <p><a href='{$hotel_url}#tab-reviews' target='_blank' style='text-decoration: none;'><strong>{$hotel_name} recibió :</strong> {$reviews_count} calificaciones</a></p>
@@ -68,19 +80,78 @@ if (($handle = fopen($csv_file, 'r')) !== FALSE) {
                 <p><a href='{$hotel_url}' class='availability-button' target='_blank' style='text-decoration: none;'>Ver Disponibilidad de {$hotel_name}</a></p>
             ";
 
-            // Agregar las popular facilities como tags al contenido del post
-            wp_set_post_tags($post_id, $popular_facilities, true);
-
-            // // Categorizar por país (country) y ciudad (city)
-            // $country_term = wp_insert_term($country, 'country');
-            // $city_term = wp_insert_term($city, 'city', array('parent' => $country_term['term_id']));
-
-            // // Asignar las categorías al post
-            // wp_set_post_categories($post_id, array($country_term['term_id'], $city_term['term_id']), true);
-
-
             // Actualizar el contenido del post con la información adicional
             wp_update_post(array('ID' => $post_id, 'post_content' => $post_content));
+
+            try {
+                // Subir y asignar la imagen destacada usando media_sideload_image
+                $image_id = download_image($image_url, $post_id, $hotel_name);
+
+                if ($image_id !== false) {
+                    // Establecer la imagen destacada
+                    set_post_thumbnail($post_id, $image_id);
+                }
+            } catch (Exception $e) {
+                error_log('Error: ' . $e->getMessage() . ' (Código: ' . $e->getCode() . ')');
+                continue; // Salir del script de PHP
+            }
+
+            // Agregar las categorías
+            if (!empty($city) && !empty($country)) {
+                // Elimina espacios en blanco alrededor de $city y $country
+                $city = trim($city);
+                $country = trim($country);
+
+                // Verifica si la categoría del país ya existe
+                $country_id = get_cat_ID($country);
+
+                // Si no existe, la crea
+                if ($country_id == 0) {
+                    $country_args = array(
+                        'cat_name' => $country,
+                        'category_description' => '', // Puedes ajustar esto si es necesario
+                        'category_nicename' => sanitize_title($country),
+                        'category_parent' => ''
+                    );
+
+                    // Crea la categoría del país y obtiene su ID
+                    $country_id = wp_insert_category($country_args);
+                }
+
+                // Verifica si la subcategoría de la ciudad ya existe bajo el país
+                $city_term = get_term_by('name', $city, 'category');
+
+                // Si no existe, la crea como subcategoría del país
+                if (!$city_term) {
+                    $city_args = array(
+                        'cat_name' => $city,
+                        'category_description' => '', // Puedes ajustar esto si es necesario
+                        'category_nicename' => sanitize_title($city),
+                        'category_parent' => $country_id
+                    );
+
+                    // Crea la subcategoría de la ciudad y obtiene su ID
+                    $city_id = wp_insert_category($city_args);
+                } else {
+                    // Si la subcategoría ya existe, obtiene su ID
+                    $city_id = $city_term->term_id;
+                }
+
+                // Agrega $city como categoría principal
+                $filtered_categories[] = $city_id;
+
+                // Agrega $country como categoría secundaria
+                $filtered_categories[] = $country_id;
+
+                // Asigna las categorías filtradas al post
+                wp_set_post_categories($post_id, $filtered_categories, true);
+            }
+
+            // Agregar las etiquetas
+            if (!empty($popular_facilities)) {
+                $tag_array = explode(',', $popular_facilities);
+                wp_set_post_tags($post_id, $tag_array, true);
+            }
 
             echo "Post creado con éxito. ID: {$post_id}\n";
         } else {
@@ -93,33 +164,4 @@ if (($handle = fopen($csv_file, 'r')) !== FALSE) {
     echo "Error al abrir el archivo CSV.\n";
 }
 
-// Función para subir imagen desde URL y devolver el ID del archivo adjunto
-function upload_image_from_url($image_url, $post_id) {
-    $upload_dir = wp_upload_dir();
-    $image_data = file_get_contents($image_url);
-    $filename = basename($image_url);
-    if (wp_mkdir_p($upload_dir['path'])) {
-        $file = $upload_dir['path'] . '/' . $filename;
-    } else {
-        $file = $upload_dir['basedir'] . '/' . $filename;
-    }
-    file_put_contents($file, $image_data);
-
-    $wp_filetype = wp_check_filetype($filename, null);
-    $attachment = array(
-        'post_mime_type' => $wp_filetype['type'],
-        'post_title'     => sanitize_file_name($filename),
-        'post_content'   => '',
-        'post_status'    => 'inherit',
-    );
-
-    $attachment_id = wp_insert_attachment($attachment, $file, $post_id);
-    if (!is_wp_error($attachment_id)) {
-        require_once(ABSPATH . 'wp-admin/includes/image.php');
-        $attachment_data = wp_generate_attachment_metadata($attachment_id, $file);
-        wp_update_attachment_metadata($attachment_id, $attachment_data);
-        return $attachment_id;
-    }
-    return false;
-}
 ?>
