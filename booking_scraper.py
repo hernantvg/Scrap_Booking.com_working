@@ -75,7 +75,7 @@ def main():
     with sync_playwright() as p:
         language = 'es'
         country = 'Uruguay'
-        city = 'Colonia'      
+        city = 'Maldonado'      
         # Obtener la fecha actual y calcular las fechas de checkin y checkout
         today = datetime.now()
         checkin_date = (today + timedelta(days=10)).strftime('%Y-%m-%d')
@@ -94,7 +94,7 @@ def main():
         hotels_list = []  # Initialize outside the loop
 
         # Adjust the range to get more pages if needed
-        for page_number in range(1, 2):
+        for page_number in range(1, 5):
             page_url = f'{base_url}&offset={25 * (page_number - 1)}'
             page.goto(page_url, timeout=120000)
 
