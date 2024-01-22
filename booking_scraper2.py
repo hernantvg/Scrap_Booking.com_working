@@ -44,7 +44,9 @@ def scrape_images(hotel_url):
                 image_urls = []
                 for image_tag in image_tags:
                     thumb_url = image_tag['data-thumb-url']
-                    image_urls.append(thumb_url)
+                    # Replace "max500" with "max1024x768"
+                    image = thumb_url.replace("max500", "max1024x768")
+                    image_urls.append(image)
                 
                 return image_urls
             else:
