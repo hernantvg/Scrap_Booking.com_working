@@ -1,6 +1,7 @@
 from playwright.sync_api import sync_playwright
 import pandas as pd
 from bs4 import BeautifulSoup
+import requests
 from datetime import datetime, timedelta
 
 def scrape_hotel_description(hotel_url):
@@ -76,7 +77,7 @@ def main():
             hotels_list.append(hotel_info)
 
         df = pd.DataFrame(hotels_list)
-        df.to_csv(f'data/{country}_{city}_hotels.csv', index=False)
+        df.to_csv(f'data/{country}_{city}.csv', index=False)
 
         browser.close()
 
