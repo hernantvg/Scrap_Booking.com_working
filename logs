@@ -4,3 +4,7 @@ Error al obtener información de puntuación y reseñas: Locator.inner_text() ta
 
 PS C:\Users\hemarino\Documents\GitHub\Scrap_Booking.com_working> py .\booking_scraper2.py
 Error al obtener información de puntuación y reseñas: Locator.inner_text() takes 1 positional argument but 2 were given
+
+
+
+waiting for locator("[data-testid=\"review-score-component\"] [aria-label^=\"Puntuación:\"]")
