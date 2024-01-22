@@ -78,15 +78,15 @@ def scrape_hotels_on_page(page, city, country, hotel_name, hotel_url):
 
     # Obtener información de puntuación y reseñas
     try:
-        review_score_component = page.locator('.gallery-side-reviews-wrapper__header [aria-label^="Puntuación:"]')
+        review_score_component = page.locator('[data-testid="review-score-component"]')
 
         score_text = review_score_component.inner_text()
         score = score_text.split()[1]
 
-        rating_text = review_score_component.inner_text('div[aria-label^="Valoración:"]').strip()
+        rating_text = review_score_component.inner_text('span[aria-label^="Valoración:"]').strip()
         rating = rating_text.split(":")[1].strip()
 
-        reviews_count_text = review_score_component.inner_text('div[aria-label$="comentarios"]').split()[0]
+        reviews_count_text = review_score_component.inner_text('span[aria-label$="comentarios"]').split()[0]
         reviews_count = reviews_count_text
 
         hotel_dict['score'] = score
