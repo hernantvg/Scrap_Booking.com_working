@@ -32,12 +32,40 @@ def scrape_popular_facilities(hotel_url):
     except Exception as e:
         return [f"Error: {str(e)}"]
 
+def scrape_images(hotel_url):
+    try:
+        response = requests.get(hotel_url)
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.text, 'html.parser')
+            
+            image_tags = soup.select('a[data-id][data-thumb-url]')
+            
+            if image_tags:
+                image_urls = []
+                for image_tag in image_tags:
+                    thumb_url = image_tag['data-thumb-url']
+                    image_urls.append(thumb_url)
+                
+                return image_urls
+            else:
+                return ["No se encontraron imágenes en la página."]
+        
+        else:
+            return ["Error al acceder a la página del hotel."]
+    except Exception as e:
+        return [f"Error: {str(e)}"]
+
+
 def scrape_hotels_on_page(page, city, country, hotel_name, hotel_url):
     hotel_dict = {}
     hotel_dict['hotel'] = hotel_name
     hotel_dict['city'] = city
     hotel_dict['country'] = country
     hotel_dict['hotel_url'] = hotel_url
+
+    # Obtener las URLs de las imágenes del hotel
+    image_urls = scrape_images(hotel_url)
+    hotel_dict['image_urls'] = image_urls
 
     # Tu código existente para obtener y procesar las instalaciones populares
     popular_facilities = scrape_popular_facilities(hotel_url)
