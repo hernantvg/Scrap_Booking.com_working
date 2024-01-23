@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 
-def scrape_hotel_description_with_retry(hotel_url, max_retries=10):
+def scrape_hotel_description_with_retry(hotel_url, max_retries=3):
     for retry in range(max_retries):
         try:
             response = requests.get(hotel_url)
@@ -21,7 +21,7 @@ def scrape_hotel_description_with_retry(hotel_url, max_retries=10):
             print(f"Error en el intento {retry + 1}: {str(e)}")
     return "Error: Se ha excedido el número máximo de intentos."
 
-def get_element_text_with_retry(element, selector, max_retries=10):
+def get_element_text_with_retry(element, selector, max_retries=3):
     for retry in range(max_retries):
         try:
             return element.locator(selector).inner_text(timeout=5000)
@@ -29,7 +29,7 @@ def get_element_text_with_retry(element, selector, max_retries=10):
             print(f"Timeout en el intento {retry + 1}. Reintentando...")
     return "No disponible (timeout)"
 
-def scrape_popular_facilities_with_retry(hotel_url, max_retries=10):
+def scrape_popular_facilities_with_retry(hotel_url, max_retries=3):
     for retry in range(max_retries):
         try:
             response = requests.get(hotel_url)
@@ -52,9 +52,24 @@ def scrape_hotels_on_page(page, city, country):
         hotel_dict = {}
         hotel_dict['hotel'] = get_element_text_with_retry(hotel, '//div[@data-testid="title"]')
         hotel_dict['price'] = get_element_text_with_retry(hotel, '//span[@data-testid="price-and-discounted-price"]')
-        # hotel_dict['score'] = get_element_text_with_retry(hotel, '//div[@data-testid="review-score"]/div[1]')
-        # hotel_dict['avg review'] = get_element_text_with_retry(hotel, '//div[@data-testid="review-score"]/div[2]/div[1]')
-        # hotel_dict['reviews count'] = get_element_text_with_retry(hotel, '//div[@data-testid="review-score"]/div[2]/div[2]').split()[0]
+        # Handling exceptions for specific elements
+        try:
+            hotel_dict['score'] = get_element_text_with_retry(hotel, '//div[@data-testid="review-score"]/div[1]')
+        except Exception as e:
+            print(f"Error al obtener la puntuación: {str(e)}")
+            hotel_dict['score'] = "ver..."
+
+        try:
+            hotel_dict['avg_review'] = get_element_text_with_retry(hotel, '//div[@data-testid="review-score"]/div[2]/div[1]')
+        except Exception as e:
+            print(f"Error al obtener la revisión promedio: {str(e)}")
+            hotel_dict['avg_review'] = "ver..."
+
+        try:
+            hotel_dict['reviews_count'] = get_element_text_with_retry(hotel, '//div[@data-testid="review-score"]/div[2]/div[2]').split()[0]
+        except Exception as e:
+            print(f"Error al obtener la cantidad de revisiones: {str(e)}")
+            hotel_dict['reviews_count'] = "ver..."
 
         # Get image link
         image = hotel.locator('//a[@data-testid="property-card-desktop-single-image"]/img').get_attribute("src")
