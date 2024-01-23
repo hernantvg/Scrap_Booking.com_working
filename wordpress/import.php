@@ -66,7 +66,7 @@ if (($handle = fopen($csv_file, 'r')) !== FALSE) {
             $post_content = "
                 <div class='hotel-info'>
                     <p><strong>Desde:</strong> {$price} /noche</p>
-                    <p><strong>Puntuación:</strong> {$score} / {$avg_review}</p>
+                    <p><strong>Puntuación:</strong><a href='{$hotel_url}' target='_blank' style='text-decoration: none;'>{$score} / {$avg_review}</a></p>
                     <p class='align-right'><a href='{$hotel_url}&#map_opened-hotel_sidebar_static_map' class='small-availability-button' target='_blank' style='text-decoration: none;'>Ver ubicación en el mapa</a></p>
                 </div>
                 <p><a href='{$hotel_url}' target='_blank' style='text-decoration: none;'><img src='{$image_url}' alt='{$hotel_name}'></a></p>
@@ -137,14 +137,15 @@ if (($handle = fopen($csv_file, 'r')) !== FALSE) {
                     $city_id = $city_term->term_id;
                 }
 
-                // Agrega $city como categoría principal
-                $filtered_categories[] = $city_id;
+                    // Agrega $city como categoría principal
+                    $filtered_categories[] = $city_id;
 
-                // Agrega $country como categoría secundaria
-                $filtered_categories[] = $country_id;
+                    // Asigna la categoría de la ciudad como categoría principal al post
+                    wp_set_post_categories($post_id, $filtered_categories, true);
 
-                // Asigna las categorías filtradas al post
-                wp_set_post_categories($post_id, $filtered_categories, true);
+                    // Agrega $country como categoría secundaria
+                    wp_set_post_categories($post_id, array($country_id), true);
+
             }
 
             // Agregar las etiquetas
