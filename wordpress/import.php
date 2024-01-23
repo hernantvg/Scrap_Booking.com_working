@@ -66,7 +66,7 @@ if (($handle = fopen($csv_file, 'r')) !== FALSE) {
             $post_content = "
                 <div class='hotel-info'>
                     <p><strong>Desde:</strong> {$price} /noche</p>
-                    <p><strong>Puntuación:</strong><a href='{$hotel_url}' target='_blank' style='text-decoration: none;'>{$score} / {$avg_review}</a></p>
+                    <p><strong>Puntuación:</strong><a href='{$hotel_url}' target='_blank' style='text-decoration: none;'> {$score} / {$avg_review}</a></p>
                     <p class='align-right'><a href='{$hotel_url}&#map_opened-hotel_sidebar_static_map' class='small-availability-button' target='_blank' style='text-decoration: none;'>Ver ubicación en el mapa</a></p>
                 </div>
                 <p><a href='{$hotel_url}' target='_blank' style='text-decoration: none;'><img src='{$image_url}' alt='{$hotel_name}'></a></p>
