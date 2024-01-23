@@ -127,7 +127,7 @@ def scrape_all_pages(base_url, page_count, city, country):
 def main():
     language = 'es'
     country = 'Chile'
-    city = 'Santiago'
+    city = 'Valparaíso'
     # Obtener la fecha actual y calcular las fechas de checkin y checkout
     today = datetime.now()
     checkin_date = (today + timedelta(days=10)).strftime('%Y-%m-%d')
@@ -136,7 +136,7 @@ def main():
     base_url = f'https://www.booking.com/searchresults.{language}.html?&checkin={checkin_date}&checkout={checkout_date}&selected_currency=USD&ss={city}&ssne={city}&ssne_untouched={city}&lang={language}&sb=1&src_elem=sb&src=searchresults&dest_type=city&group_adults=1&no_rooms=1&group_children=0&sb_travel_purpose=leisure'
 
     # Adjust the range to get more pages if needed
-    hotels_list = scrape_all_pages(base_url, page_count=34, city=city, country=country)
+    hotels_list = scrape_all_pages(base_url, page_count=10, city=city, country=country)
 
     # Add description to each hotel
     for hotel in hotels_list:
