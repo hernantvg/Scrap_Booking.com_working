@@ -60,7 +60,7 @@ def scrape_images(hotel_url):
 
 def scrape_hotels_on_page(page, city, country, hotel_name, hotel_url):
     hotel_dict = {}
-    hotel_dict['hotel'] = hotel_name
+    hotel_dict['hotel_name'] = hotel_name
     hotel_dict['city'] = city
     hotel_dict['country'] = country
     hotel_dict['hotel_url'] = hotel_url
@@ -76,24 +76,7 @@ def scrape_hotels_on_page(page, city, country, hotel_name, hotel_url):
     # Add description to each hotel
     hotel_dict['description'] = scrape_hotel_description(hotel_url)
 
-    # # Obtener información de comentarios, nombre y país de los huéspedes
-    # try:
-    #     review_element = page.locator('.reviews-carousel-scroll .althotelsReview2')
-    #     comment = review_element.inner_text().strip()
-
-    #     user_element = review_element.locator('.icon_user_back_container .bui-avatar-block__text')
-    #     user_name = user_element.locator('.bui-avatar-block__title').inner_text()
-    #     user_country = user_element.locator('.bui-avatar-block__subtitle .bui-flag img').get_attribute("alt")
-
-    #     hotel_dict['comment'] = comment
-    #     hotel_dict['user_name'] = user_name
-    #     hotel_dict['user_country'] = user_country
-    # except Exception as e:
-    #     print(f"Error al obtener información de comentarios, nombre y país de los huéspedes: {str(e)}")
-
     return hotel_dict
-
-
 
 def main():
     with sync_playwright() as p:
@@ -124,7 +107,7 @@ def main():
             hotels_list.append(hotel_info)
 
         df = pd.DataFrame(hotels_list)
-        df.to_csv(f'data/{country}_{city}.csv', index=False)
+        df.to_csv(f'data/{country}.csv', index=False)
 
         browser.close()
 
