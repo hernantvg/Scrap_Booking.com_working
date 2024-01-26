@@ -24,11 +24,17 @@ function download_image($image_url, $post_id, $hotel_name) {
     }
 }
 
-// Ruta al archivo CSV
-$csv_file = __DIR__ . '/hotel_list.csv';
+// Ruta a la carpeta 'data'
+$data_folder = __DIR__ . '/data';
+
+// Obtener la lista de archivos CSV en la carpeta 'data'
+$csv_files = glob($data_folder . '/*.csv');
+
+// Seleccionar un archivo CSV al azar
+$random_csv_file = $csv_files[array_rand($csv_files)];
 
 // Leer datos desde el archivo CSV
-if (($handle = fopen($csv_file, 'r')) !== FALSE) {
+if (($handle = fopen($random_csv_file, 'r')) !== FALSE) {
     // Ignorar la primera fila (encabezados)
     fgetcsv($handle);
 
@@ -161,6 +167,12 @@ if (($handle = fopen($csv_file, 'r')) !== FALSE) {
     }
 
     fclose($handle);
+
+    // Mover el archivo CSV seleccionado a la carpeta 'data/process'
+    $new_location = __DIR__ . '/data/process/' . basename($random_csv_file);
+    rename($random_csv_file, $new_location);
+
+    echo "Proceso de importación finalizado. Archivo CSV movido a: $new_location\n";
 } else {
     echo "Error al abrir el archivo CSV.\n";
 }
