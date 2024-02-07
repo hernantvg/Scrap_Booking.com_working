@@ -115,7 +115,7 @@ def main():
     language = 'es'
 
     # Leer las ciudades y países desde el archivo
-    with open('city.txt', 'r') as file:
+    with open('city.txt', 'r', encoding='utf-8') as file:
         city_lines = file.readlines()
 
     processed_lines = read_processed_lines()
