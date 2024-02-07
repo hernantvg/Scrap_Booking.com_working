@@ -63,7 +63,7 @@ def scrape_hotels_on_page(page, city, country):
             hotel_dict['avg_review'] = get_element_text_with_retry(hotel, '//div[@data-testid="review-score"]/div[2]/div[1]')
         except Exception as e:
             print(f"Error al obtener la revisión promedio: {str(e)}")
-            hotel_dict['avg_review'] = "ver..."
+            hotel_dict['avg_review'] = ""
 
         try:
             hotel_dict['reviews_count'] = get_element_text_with_retry(hotel, '//div[@data-testid="review-score"]/div[2]/div[2]').split()[0]
@@ -99,8 +99,30 @@ def scrape_hotels_on_page(page, city, country):
 
     return hotels_list
 
-def scrape_all_pages(base_url, page_count, city, country):
-    hotels_list = []
+def read_processed_lines():
+    try:
+        with open('processed_lines.txt', 'r') as processed_file:
+            processed_lines = processed_file.read().splitlines()
+        return set(processed_lines)
+    except FileNotFoundError:
+        return set()
+
+def write_processed_line(line):
+    with open('processed_lines.txt', 'a') as processed_file:
+        processed_file.write(line + '\n')
+
+def main():
+    language = 'es'
+
+    # Leer las ciudades y países desde el archivo
+    with open('city.txt', 'r') as file:
+        city_lines = file.readlines()
+
+    processed_lines = read_processed_lines()
+
+    today = datetime.now()
+    checkin_date = (today + timedelta(days=10)).strftime('%Y-%m-%d')
+    checkout_date = (today + timedelta(days=11)).strftime('%Y-%m-%d')
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
@@ -109,42 +131,52 @@ def scrape_all_pages(base_url, page_count, city, country):
             "AppleWebKit/537.36 (KHTML, like Gecko) "
             "Chrome/69.0.3497.100 Safari/537.36"
         )
-        page = browser.new_page(user_agent=ua)
 
-        for page_number in range(1, page_count + 1):
-            page_url = f'{base_url}&offset={25 * (page_number - 1)}'
-            print(f'Visitando la página: {page_url}')
-            page.goto(page_url, timeout=120000)
+        for city_line in city_lines:
+            city_country = city_line.strip().split(', ')
+            if len(city_country) == 2:
+                city, country = city_country
+            else:
+                print(f"Formato incorrecto en la línea: '{city_line}'. Debe ser 'city, country'. Saltando esta línea.")
+                continue
 
-            hotels_list.extend(scrape_hotels_on_page(page, city, country))
+            if city_line in processed_lines:
+                print(f"Línea ya procesada: '{city_line}'. Saltando esta línea.")
+                continue
 
-            print(f'Página {page_number} procesada. Total de hoteles hasta ahora: {len(hotels_list)}')
+            base_url = f'https://www.booking.com/searchresults.{language}.html?&checkin={checkin_date}&checkout={checkout_date}&selected_currency=USD&ss={city},{country}&ssne={city},{country}&ssne_untouched={city},{country}&lang={language}&sb=1&src_elem=sb&src=searchresults&dest_type=city&group_adults=1&no_rooms=1&group_children=0&sb_travel_purpose=leisure'
+
+            page = browser.new_page(user_agent=ua)
+
+            hotels_list = scrape_all_pages(page, base_url, city, country)
+
+            print(f'Total de hoteles para {city}, {country}: {len(hotels_list)}')
+
+            # Guardar el número de líneas procesadas
+            write_processed_line(city_line)
+
+            # Agregar descripción a cada hotel
+            for hotel in hotels_list:
+                hotel['description'] = scrape_hotel_description_with_retry(hotel['hotel_url'])
+
+            df = pd.DataFrame(hotels_list)
+            df.to_csv(f'data/{city}-{country}.csv', index=False)
 
         browser.close()
 
+def scrape_all_pages(page, base_url, city, country):
+    hotels_list = []
+
+    for page_number in range(1, 41):  # Ajusta el rango para obtener más páginas si es necesario
+        page_url = f'{base_url}&offset={25 * (page_number - 1)}'
+        print(f'Visitando la página: {page_url}')
+        page.goto(page_url, timeout=120000)
+
+        hotels_list.extend(scrape_hotels_on_page(page, city, country))
+
+        print(f'Página {page_number} procesada. Total de hoteles hasta ahora: {len(hotels_list)}')
+
     return hotels_list
-
-def main():
-    language = 'es'
-    country = 'Argentina'
-    city = 'Santa Fe'
-    # Obtener la fecha actual y calcular las fechas de checkin y checkout
-    today = datetime.now()
-    checkin_date = (today + timedelta(days=10)).strftime('%Y-%m-%d')
-    checkout_date = (today + timedelta(days=11)).strftime('%Y-%m-%d')
-
-    base_url = f'https://www.booking.com/searchresults.{language}.html?&checkin={checkin_date}&checkout={checkout_date}&selected_currency=USD&ss={city},{country}&ssne={city},{country}&ssne_untouched={city},{country}&lang={language}&sb=1&src_elem=sb&src=searchresults&dest_type=city&group_adults=1&no_rooms=1&group_children=0&sb_travel_purpose=leisure'
-
-    # Adjust the range to get more pages if needed
-    hotels_list = scrape_all_pages(base_url, page_count=30, city=city, country=country)
-
-    # Add description to each hotel
-    for hotel in hotels_list:
-        hotel['description'] = scrape_hotel_description_with_retry(hotel['hotel_url'])
-
-    df = pd.DataFrame(hotels_list)
-    # df.to_excel(f'data/{city}.xlsx', index=False)
-    df.to_csv(f'data/{city}.csv', index=False)
 
 if __name__ == '__main__':
     main()
