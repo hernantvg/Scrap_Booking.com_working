@@ -51,8 +51,13 @@ def scrape_hotels_on_page(page, city, country):
         print("Procesando un nuevo hotel...")
         hotel_dict = {}
         hotel_dict['hotel'] = get_element_text_with_retry(hotel, '//div[@data-testid="title"]')
-        hotel_dict['price'] = get_element_text_with_retry(hotel, '//span[@data-testid="price-and-discounted-price"]')
         # Handling exceptions for specific elements
+        try:
+            hotel_dict['price'] = get_element_text_with_retry(hotel, '//span[@data-testid="price-and-discounted-price"]')
+        except Exception as e:
+            print(f"Error al obtener el precio: {str(e)}")
+            hotel_dict['price'] = "ver precio"    
+
         try:
             hotel_dict['score'] = get_element_text_with_retry(hotel, '//div[@data-testid="review-score"]/div[1]')
         except Exception as e:
@@ -153,7 +158,7 @@ def main():
             print(f'Total de hoteles para {city}, {country}: {len(hotels_list)}')
 
             # Guardar el número de líneas procesadas
-            write_processed_line(city_line)
+            write_processed_line(city_line.strip())
 
             # Agregar descripción a cada hotel
             for hotel in hotels_list:

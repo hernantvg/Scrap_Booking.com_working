@@ -1,5 +1,116 @@
-La Paz, Bolivia
+San Antonio Oeste, Argentina
+Villa del Rosario, Argentina
+Villa Paranacito, Argentina
+Fray Luis A. Beltrán, Argentina
+Carmen de Areco, Argentina
+Ceres, Argentina
+San Cristóbal, Argentina
+Puerto Deseado, Argentina
+Añatuya, Argentina
+La Quiaca, Argentina
+Mar de Ajó, Argentina
+San Javier, Argentina
+Frías, Argentina
+Joaquín V. González, Argentina
+Puerto San Martín, Argentina
+Oncativo, Argentina
+Plaza Huincul, Argentina
+Chos Malal, Argentina
+Santa Rosa de Calamuchita, Argentina
+Rosario del Tala, Argentina
+San Salvador, Argentina
+Junín de los Andes, Argentina
+La Carlota, Argentina
+Las Parejas, Argentina
+Laguna Paiva, Argentina
+Malvinas Argentinas, Argentina
+Malargüe, Argentina
+Cafayate, Argentina
+Río Colorado, Argentina
+Oliva, Argentina
+Coronel Dorrego, Argentina
+Cerrillos, Argentina
+Monte Quemado, Argentina
+Humahuaca, Argentina
+Belén, Argentina
+Capilla del Monte, Argentina
+Armstrong, Argentina
+Villa La Angostura, Argentina
+Sarmiento, Argentina
+Benito Juárez, Argentina
+Frontera, Argentina
+Corral de Bustos, Argentina
+Leones, Argentina
+Choele Choel, Argentina
+Santa María, Argentina
+Pedro Luro, Argentina
+Castelli, Argentina
+Monte Cristo, Argentina
+Embalse, Argentina
+Rada Tilly, Argentina
+Chamical, Argentina
+Yacimiento Río Turbio, Argentina
+Justiniano Posse, Argentina
+Mina Clavero, Argentina
+Laprida, Argentina
+Helvecia, Argentina
+San Julián, Argentina
+Villa General Belgrano, Argentina
+Santa Rosa de Río Primero, Argentina
+Lamarque, Argentina
+Las Lomitas, Argentina
+Senillosa, Argentina
+Laguna Larga, Argentina
+Sierra Grande, Argentina
+Carhué, Argentina
+Santa Rosa, Argentina
+Río Primero, Argentina
+Jesús Nazareno, Argentina
+General Fernández Oro, Argentina
+Rinconada, Argentina
+Ingeniero Guillermo N. Juárez, Argentina
+Comandante Luis Piedra Buena, Argentina
+Trevelín, Argentina
+Villa Cura Brochero, Argentina
+Ingeniero Jacobacci, Argentina
+Ingeniero Luis A. Huergo, Argentina
+Veintiocho de Noviembre, Argentina
+Chepes, Argentina
+General Levalle, Argentina
+Perùgorría, Argentina
+Villa Huidobro, Argentina
+General Conesa, Argentina
+San Antonio de los Cobres, Argentina
+Macachín, Argentina
+Bialet Massé, Argentina
+Los Menucos, Argentina
+Perito Moreno, Argentina
+Gobernador Gregores, Argentina
+Abra Pampa, Argentina
+Victorica, Argentina
+La Paz, Argentina
+Comandante Fontana, Argentina
+El Maitén, Argentina
+Darregueira, Argentina
+Pampa del Infierno, Argentina
+Villalonga, Argentina
+Río Mayo, Argentina
+Chumbicha, Argentina
+Uspallata, Argentina
+Trancas, Argentina
+Alto Río Senguer, Argentina
+Sierra Colorada, Argentina
+Villa Rumipal, Argentina
+Las Lajas, Argentina
+Los Blancos, Argentina
+Susques, Argentina
+Comallo, Argentina
+Rodeo, Argentina
+Gastre, Argentina
+Tinogasta, Argentina
+Telsen, Argentina
 Santa Cruz, Bolivia
+La Paz, Bolivia
 Cochabamba, Bolivia
 Sucre, Bolivia
 Oruro, Bolivia
