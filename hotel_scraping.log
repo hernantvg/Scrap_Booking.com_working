@@ -1,0 +1,64 @@
+2024-03-02 12:13:41,561 ERROR:Task was destroyed but it is pending!
+task: <Task pending name='Task-105' coro=<Locator.inner_text() done, defined at C:\Users\Hernan\AppData\Local\Programs\Python\Python310\lib\site-packages\playwright\_impl\_locator.py:392> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[SyncBase._sync.<locals>.<lambda>() at C:\Users\Hernan\AppData\Local\Programs\Python\Python310\lib\site-packages\playwright\_impl\_sync_base.py:100, ProtocolCallback.__init__.<locals>.cb() at C:\Users\Hernan\AppData\Local\Programs\Python\Python310\lib\site-packages\playwright\_impl\_connection.py:168]>
+2024-03-02 12:20:54,436 ERROR:Task was destroyed but it is pending!
+task: <Task pending name='Task-19' coro=<Locator.inner_text() done, defined at C:\Users\Hernan\AppData\Local\Programs\Python\Python310\lib\site-packages\playwright\_impl\_locator.py:392> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[SyncBase._sync.<locals>.<lambda>() at C:\Users\Hernan\AppData\Local\Programs\Python\Python310\lib\site-packages\playwright\_impl\_sync_base.py:100, ProtocolCallback.__init__.<locals>.cb() at C:\Users\Hernan\AppData\Local\Programs\Python\Python310\lib\site-packages\playwright\_impl\_connection.py:168]>
+2024-03-02 12:31:13,838 INFO: L�neas procesadas cargadas: {'Abaet�, Brasil', 'Almadina, Brasil'}
+2024-03-02 12:31:14,684 INFO: L�nea ya procesada: 'Abaet�, Brasil
+'. Saltando esta l�nea.
+2024-03-02 12:31:14,684 INFO: L�nea ya procesada: 'Almadina, Brasil
+'. Saltando esta l�nea.
+2024-03-02 12:31:14,813 INFO: Visitando la p�gina: https://www.booking.com/searchresults.es.html?&checkin=2024-03-12&checkout=2024-03-13&selected_currency=USD&ss=Santa Quit�ria do Maranh�o,Brasil&ssne=Santa Quit�ria do Maranh�o,Brasil&ssne_untouched=Santa Quit�ria do Maranh�o,Brasil&lang=es&sb=1&src_elem=sb&src=searchresults&dest_type=city&group_adults=1&no_rooms=1&group_children=0&sb_travel_purpose=leisure&offset=0
+2024-03-02 12:31:17,965 INFO: Procesando un nuevo hotel...
+2024-03-02 12:31:22,991 ERROR: Error al obtener la puntuaci�n: Timeout 5000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//div[@data-testid=\"property-card\"]").first.locator("xpath=//div[@data-testid=\"review-score\"]/div[1]")
+============================================================
+2024-03-02 12:31:28,023 ERROR: Error al obtener la revisi�n promedio: Timeout 5000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//div[@data-testid=\"property-card\"]").first.locator("xpath=//div[@data-testid=\"review-score\"]/div[2]/div[1]")
+============================================================
+2024-03-02 12:31:33,051 ERROR: Error al obtener la cantidad de revisiones: Timeout 5000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//div[@data-testid=\"property-card\"]").first.locator("xpath=//div[@data-testid=\"review-score\"]/div[2]/div[2]")
+============================================================
+2024-03-02 12:31:35,757 INFO: P�gina 1 procesada. Total de hoteles hasta ahora: 1
+2024-03-02 12:31:35,757 INFO: Total de hoteles para Santa Quit�ria do Maranh�o, Brasil: 1
+2024-03-02 12:33:12,843 INFO: Líneas procesadas cargadas: {'Abaeté, Brasil', 'Santa Quitéria do Maranhão, Brasil', 'Almadina, Brasil'}
+2024-03-02 12:33:13,821 INFO: Línea ya procesada: 'Abaeté, Brasil
+'. Saltando esta línea.
+2024-03-02 12:33:13,821 INFO: Línea ya procesada: 'Almadina, Brasil
+'. Saltando esta línea.
+2024-03-02 12:33:13,821 INFO: Línea ya procesada: 'Santa Quitéria do Maranhão, Brasil
+'. Saltando esta línea.
+2024-03-02 12:33:13,932 INFO: Visitando la página: https://www.booking.com/searchresults.es.html?&checkin=2024-03-12&checkout=2024-03-13&selected_currency=USD&ss=São Tomé das Letras,Brasil&ssne=São Tomé das Letras,Brasil&ssne_untouched=São Tomé das Letras,Brasil&lang=es&sb=1&src_elem=sb&src=searchresults&dest_type=city&group_adults=1&no_rooms=1&group_children=0&sb_travel_purpose=leisure&offset=0
+2024-03-02 12:33:17,440 INFO: Procesando un nuevo hotel...
+2024-03-02 12:33:22,346 INFO: Procesando un nuevo hotel...
+2024-03-02 12:33:25,861 INFO: Procesando un nuevo hotel...
+2024-03-02 12:33:28,969 INFO: Procesando un nuevo hotel...
+2024-03-02 12:33:31,712 INFO: Procesando un nuevo hotel...
+2024-03-02 12:33:35,090 INFO: Procesando un nuevo hotel...
+2024-03-02 12:33:38,370 INFO: Procesando un nuevo hotel...
+2024-03-02 12:33:41,005 INFO: Procesando un nuevo hotel...
+2024-03-02 12:33:44,404 INFO: Procesando un nuevo hotel...
+2024-03-02 12:39:40,618 INFO: Líneas procesadas cargadas: {'Abaeté, Brasil', 'Santa Quitéria do Maranhão, Brasil', 'Almadina, Brasil'}
+2024-03-02 12:39:41,492 INFO: Línea ya procesada: 'Abaeté, Brasil
+'. Saltando esta línea.
+2024-03-02 12:39:41,495 INFO: Línea ya procesada: 'Almadina, Brasil
+'. Saltando esta línea.
+2024-03-02 12:39:41,496 INFO: Línea ya procesada: 'Santa Quitéria do Maranhão, Brasil
+'. Saltando esta línea.
+2024-03-02 12:39:41,625 INFO: Visitando la página: https://www.booking.com/searchresults.es.html?&checkin=2024-03-12&checkout=2024-03-13&selected_currency=USD&ss=São Tomé das Letras,Brasil&ssne=São Tomé das Letras,Brasil&ssne_untouched=São Tomé das Letras,Brasil&lang=es&sb=1&src_elem=sb&src=searchresults&dest_type=city&group_adults=1&no_rooms=1&group_children=0&sb_travel_purpose=leisure&offset=0
+2024-03-02 12:39:44,805 INFO: Procesando un nuevo hotel...
+2024-03-02 12:39:47,519 INFO: Procesando un nuevo hotel...
+2024-03-02 12:39:50,800 INFO: Procesando un nuevo hotel...
+2024-03-02 12:44:27,340 INFO: Líneas procesadas cargadas: {'Abaeté, Brasil', 'Santa Quitéria do Maranhão, Brasil', 'Almadina, Brasil'}
+2024-03-02 12:44:28,206 INFO: Línea ya procesada: 'Abaeté, Brasil
+'. Saltando esta línea.
+2024-03-02 12:44:28,209 INFO: Línea ya procesada: 'Almadina, Brasil
+'. Saltando esta línea.
+2024-03-02 12:44:28,209 INFO: Línea ya procesada: 'Santa Quitéria do Maranhão, Brasil
+'. Saltando esta línea.
+2024-03-02 12:44:28,330 INFO: Visitando la página: https://www.booking.com/searchresults.es.html?&checkin=2024-03-12&checkout=2024-03-13&selected_currency=USD&ss=São Tomé das Letras,Brasil&ssne=São Tomé das Letras,Brasil&ssne_untouched=São Tomé das Letras,Brasil&lang=es&sb=1&src_elem=sb&src=searchresults&dest_type=city&group_adults=1&no_rooms=1&group_children=0&sb_travel_purpose=leisure&offset=0
+2024-03-02 12:44:31,936 INFO: Procesando un nuevo hotel...
+2024-03-02 12:44:33,349 ERROR: Task was destroyed but it is pending!
+task: <Task pending name='Task-10' coro=<Locator.inner_text() done, defined at C:\Users\Hernan\AppData\Local\Programs\Python\Python310\lib\site-packages\playwright\_impl\_locator.py:392> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[SyncBase._sync.<locals>.<lambda>() at C:\Users\Hernan\AppData\Local\Programs\Python\Python310\lib\site-packages\playwright\_impl\_sync_base.py:100, ProtocolCallback.__init__.<locals>.cb() at C:\Users\Hernan\AppData\Local\Programs\Python\Python310\lib\site-packages\playwright\_impl\_connection.py:168]>
