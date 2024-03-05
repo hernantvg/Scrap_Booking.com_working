@@ -1,3 +1,376 @@
-Abaeté, Brasil
-Almadina, Brasil
-Santa Quitéria do Maranhão, Brasil
+les Escaldes, Andorra
+Andorra la Vella, Andorra
+Umm Al Quwain City, Emiratos Arabes Unidos
+Ras Al Khaimah City, Emiratos Arabes Unidos
+Zayed City, Emiratos Arabes Unidos
+Khawr Fakkan, Emiratos Arabes Unidos
+Dubai, Emiratos Arabes Unidos
+Dibba Al-Fujairah, Emiratos Arabes Unidos
+Dibba Al-Hisn, Emiratos Arabes Unidos
+Sharjah, Emiratos Arabes Unidos
+Ar Ruways, Emiratos Arabes Unidos
+Al Fujairah City, Emiratos Arabes Unidos
+Al Ain City, Emiratos Arabes Unidos
+Ajman City, Emiratos Arabes Unidos
+Adh Dhayd, Emiratos Arabes Unidos
+Abu Dhabi, Emiratos Arabes Unidos
+Khalifah A City, Emiratos Arabes Unidos
+Bani Yas City, Emiratos Arabes Unidos
+Musaffah, Emiratos Arabes Unidos
+Al Shamkhah City, Emiratos Arabes Unidos
+Reef Al Fujairah City, Emiratos Arabes Unidos
+Zaranj, Afghanistan
+Bazar-e Yakawlang, Afghanistan
+Taloqan, Afghanistan
+Shindand, Afghanistan
+Shibirghan, Afghanistan
+Shahrak, Afghanistan
+Sar-e Pul, Afghanistan
+Sang-e Charak, Afghanistan
+Aibak, Afghanistan
+Rustaq, Afghanistan
+Qarqin, Afghanistan
+Qarawul, Afghanistan
+Pul-e Khumri, Afghanistan
+Paghman, Afghanistan
+Nahrin, Afghanistan
+Maymana, Afghanistan
+Mehtar Lam, Afghanistan
+Mazar-e Sharif, Afghanistan
+Lashkar Gah, Afghanistan
+Kushk, Afghanistan
+Kunduz, Afghanistan
+Khost, Afghanistan
+Khulm, Afghanistan
+Khash, Afghanistan
+Khanabad, Afghanistan
+Karukh, Afghanistan
+Kandahar, Afghanistan
+Kabul, Afghanistan
+Jalalabad, Afghanistan
+Jabal os Saraj, Afghanistan
+Herat, Afghanistan
+Ghormach, Afghanistan
+Ghazni, Afghanistan
+Gereshk, Afghanistan
+Gardez, Afghanistan
+Fayzabad, Afghanistan
+Farah, Afghanistan
+Eslam Qaleh, Afghanistan
+Charikar, Afghanistan
+Baraki Barak, Afghanistan
+Bamyan, Afghanistan
+Balkh, Afghanistan
+Baghlan, Afghanistan
+Art Khwajah, Afghanistan
+Asmar, Afghanistan
+Asadabad, Afghanistan
+Andkhoy, Afghanistan
+Bazarak, Afghanistan
+Markaz-e Woluswali-ye Achin, Afghanistan
+Saint John’s, Antigua and Barbuda
+The Valley, Anguilla
+Sarande, Albania
+Pogradec, Albania
+Kukes, Albania
+Korce, Albania
+Gjirokaster, Albania
+Elbasan, Albania
+Burrel, Albania
+Vlore, Albania
+Tirana, Albania
+Shkoder, Albania
+Patos Fshat, Albania
+Patos, Albania
+Lushnje, Albania
+Lezhe, Albania
+Lac, Albania
+Kruje, Albania
+Kavaje, Albania
+Fier-Cifci, Albania
+Fier, Albania
+Durres, Albania
+Berat, Albania
+Kapan, Armenia
+Goris, Armenia
+Hats’avan, Armenia
+Artashat, Armenia
+Ararat, Armenia
+Yerevan, Armenia
+Vagharshapat, Armenia
+Stepanavan, Armenia
+Spitak, Armenia
+Sevan, Armenia
+Masis, Armenia
+Vanadzor, Armenia
+Gavar, Armenia
+Hrazdan, Armenia
+Armavir, Armenia
+Gyumri, Armenia
+Ch’arents’avan, Armenia
+Ashtarak, Armenia
+Abovyan, Armenia
+Saurimo, Angola
+Lucapa, Angola
+Luau, Angola
+Uige, Angola
+Soio, Angola
+N'zeto, Angola
+N’dalatando, Angola
+Mbanza Kongo, Angola
+Malanje, Angola
+Luanda, Angola
+Caxito, Angola
+Cabinda, Angola
+Sumbe, Angola
+Mocamedes, Angola
+Menongue, Angola
+Luena, Angola
+Lubango, Angola
+Longonjo, Angola
+Lobito, Angola
+Cuito, Angola
+Huambo, Angola
+Catumbela, Angola
+Catabola, Angola
+Camacupa, Angola
+Caala, Angola
+Benguela, Angola
+Zarate, Argentina
+Wanda, Argentina
+Villa Ortuzar, Argentina
+Villa Ocampo, Argentina
+Villa Lugano, Argentina
+Villaguay, Argentina
+Villa Gesell, Argentina
+Villa de Mayo, Argentina
+Tortuguitas, Argentina
+Tigre, Argentina
+Tandil, Argentina
+San Vicente, Argentina
+Santo Tome, Argentina
+Santos Lugares, Argentina
+Santa Elena, Argentina
+San Pedro, Argentina
+San Pedro, Argentina
+San Luis del Palmar, Argentina
+San Lorenzo, Argentina
+San Javier, Argentina
+San Isidro, Argentina
+Saladas, Argentina
+Retiro, Argentina
+Resistencia, Argentina
+Reconquista, Argentina
+Quilmes, Argentina
+Puerto Rico, Argentina
+Puerto Iguazu, Argentina
+Puerto Esperanza, Argentina
+Puerto Eldorado, Argentina
+Posadas, Argentina
+Pontevedra, Argentina
+Pirane, Argentina
+Pilar, Argentina
+Paso de los Libres, Argentina
+Obera, Argentina
+Necochea, Argentina
+Muniz, Argentina
+Moron, Argentina
+Monte Caseros, Argentina
+Montecarlo, Argentina
+Merlo, Argentina
+Mercedes, Argentina
+Mercedes, Argentina
+Mar del Plata, Argentina
+Lujan, Argentina
+Los Polvorines, Argentina
+La Plata, Argentina
+La Paz, Argentina
+Jardin America, Argentina
+Hurlingham, Argentina
+Gualeguaychu, Argentina
+Gualeguay, Argentina
+Goya, Argentina
+Gobernador Virasora, Argentina
+General Pacheco, Argentina
+General Jose de San Martin, Argentina
+Garupa, Argentina
+Formosa, Argentina
+Fontana, Argentina
+Federal, Argentina
+Esquina, Argentina
+El Soberbio, Argentina
+Don Torcuato, Argentina
+Dolores, Argentina
+Curuzu Cuatia, Argentina
+Corrientes, Argentina
+Concordia, Argentina
+Concepcion del Uruguay, Argentina
+Colegiales, Argentina
+Chajari, Argentina
+Campana, Argentina
+Buenos Aires, Argentina
+Boedo, Argentina
+Berazategui, Argentina
+Bella Vista, Argentina
+Belgrano, Argentina
+Barranqueras, Argentina
+Barracas, Argentina
+Balcarce, Argentina
+Azul, Argentina
+Avellaneda, Argentina
+Aristobulo del Valle, Argentina
+Zapala, Argentina
+Yerba Buena, Argentina
+Villa Regina, Argentina
+Villa Paula de Sarmiento, Argentina
+Villa Nueva, Argentina
+Villa Maria, Argentina
+Villa Dolores, Argentina
+Villa Constitucion, Argentina
+Villa Carlos Paz, Argentina
+Villa Angela, Argentina
+Villa Allende, Argentina
+Viedma, Argentina
+Victoria, Argentina
+Vera, Argentina
+Venado Tuerto, Argentina
+Veinticinco de Mayo, Argentina
+Ushuaia, Argentina
+Unquillo, Argentina
+Tres Isletas, Argentina
+Tres Arroyos, Argentina
+Trelew, Argentina
+Termas de Rio Hondo, Argentina
+Tartagal, Argentina
+Tafi Viejo, Argentina
+Sunchales, Argentina
+Santo Tome, Argentina
+Santiago del Estero, Argentina
+Santa Rosa, Argentina
+Santa Lucia, Argentina
+Santa Fe, Argentina
+San Salvador de Jujuy, Argentina
+San Ramon de la Nueva Oran, Argentina
+San Rafael, Argentina
+San Pedro de Jujuy, Argentina
+San Nicolas de los Arroyos, Argentina
+San Miguel de Tucuman, Argentina
+San Martin de los Andes, Argentina
+San Martin, Argentina
+San Luis, Argentina
+San Justo, Argentina
+San Juan, Argentina
+San Jose de Jachal, Argentina
+San Jorge, Argentina
+San Francisco, Argentina
+Catamarca, Argentina
+San Antonio Oeste, Argentina
+Salta, Argentina
+Rufino, Argentina
+Rosario, Argentina
+Rio Tercero, Argentina
+Rio Segundo, Argentina
+Rio Grande, Argentina
+Rio Gallegos, Argentina
+Rio Cuarto, Argentina
+Rio Ceballos, Argentina
+Rawson, Argentina
+Rafaela, Argentina
+Quitilipi, Argentina
+Punta Alta, Argentina
+Puerto Madryn, Argentina
+Presidencia Roque Saenz Pena, Argentina
+Pocito, Argentina
+Plottier, Argentina
+Pergamino, Argentina
+Perez, Argentina
+Parana, Argentina
+Palpala, Argentina
+Olavarria, Argentina
+Nueve de Julio, Argentina
+Neuquen, Argentina
+Morteros, Argentina
+Monteros, Argentina
+Mendoza, Argentina
+Marcos Juarez, Argentina
+Machagai, Argentina
+Lincoln, Argentina
+Libertador General San Martin, Argentina
+Las Brenas, Argentina
+La Rioja, Argentina
+La Falda, Argentina
+La Calera, Argentina
+Laboulaye, Argentina
+Junin, Argentina
+Joaquin V. Gonzalez, Argentina
+Jesus Maria, Argentina
+Granadero Baigorria, Argentina
+Gobernador Galvez, Argentina
+General Villegas, Argentina
+General Roca, Argentina
+General Pinedo, Argentina
+General Pico, Argentina
+General Mosconi, Argentina
+Galvez, Argentina
+Firmat, Argentina
+Famailla, Argentina
+Esquel, Argentina
+Esperanza, Argentina
+Embarcacion, Argentina
+Embalse, Argentina
+El Bolson, Argentina
+Diamante, Argentina
+Dean Funes, Argentina
+Cutral-Co, Argentina
+Cruz del Eje, Argentina
+Crespo, Argentina
+Cosquin, Argentina
+Coronel Suarez, Argentina
+Coronda, Argentina
+Cordoba, Argentina
+Comodoro Rivadavia, Argentina
+Cipolletti, Argentina
+Cinco Saltos, Argentina
+Chivilcoy, Argentina
+Chimbas, Argentina
+Chilecito, Argentina
+Charata, Argentina
+Chacabuco, Argentina
+Centenario, Argentina
+Caucete, Argentina
+Catriel, Argentina
+Castelli, Argentina
+Casilda, Argentina
+Carcarana, Argentina
+Capitan Bermudez, Argentina
+Canada de Gomez, Argentina
+Caleta Olivia, Argentina
+Bell Ville, Argentina
+Bella Vista, Argentina
+Bahia Blanca, Argentina
+Arroyo Seco, Argentina
+Arroyito, Argentina
+Anatuya, Argentina
+Alta Gracia, Argentina
+Allen, Argentina
+Alderetes, Argentina
+Albardon, Argentina
+Aguilares, Argentina
+Balvanera, Argentina
+Villa Santa Rita, Argentina
+Villa Mercedes, Argentina
+San Miguel, Argentina
+San Carlos de Bariloche, Argentina
+Adrogue, Argentina
+Ingeniero Pablo Nogues, Argentina
+Jose C. Paz, Argentina
+Santa Maria, Argentina
+Pago Pago, American Samoa
+Wilten, Austria
+Wiener Neustadt, Austria
+Vienna, Austria
+Wetzelsdorf, Austria
+Wels, Austria
+Weinzierl bei Krems, Austria
+Villach, Austria
+Telfs, Austria
