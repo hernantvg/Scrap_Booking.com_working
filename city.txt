@@ -1309,7 +1309,6 @@ Bermejo, Bolivia
 Achocalla, Bolivia
 Ascencion de Guarayos, Bolivia
 San Borja, Bolivia
-Kralendijk, Bonaire, Saint Eustatius and Saba 
 Vitoria do Mearim, Brasil
 Vitoria de Santo Antao, Brasil
 Viseu, Brasil
@@ -5297,9 +5296,7 @@ Qingnian, China
 Shihao, China
 Yongcheng, China
 Zhuantang, China
-Guiyang, Guizhou, China
 Longling County, China
-Mianzhu, Deyang, Sichuan, China
 Pingwu County, China
 Tianjia, China
 Changling, China
@@ -8030,7 +8027,6 @@ Leganes, España
 Las Rozas de Madrid, España
 Lasarte, España
 La Sagrera, España
-Sant Pere, Santa Caterina i La Ribera, España
 La Pineda, España
 Lalin, España
 Laguna de Duero, España
