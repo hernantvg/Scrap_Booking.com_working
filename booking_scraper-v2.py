@@ -235,6 +235,7 @@ def main():
                 logging.error("Error inesperado: %s", e)
                 write_processed_line(city_line.strip())  # Agregar la línea al archivo de procesados si hay otro tipo de error
 
+    browser.close()
 
 # Función para procesar todas las páginas de resultados de búsqueda
 
