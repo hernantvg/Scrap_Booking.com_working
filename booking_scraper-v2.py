@@ -10,7 +10,7 @@ from requests.exceptions import HTTPError, ConnectionError
 # Configuración de logging
 LOG_FORMAT = '%(asctime)s %(levelname)s: %(message)s'
 LOG_FILE = 'hotel_scraping.log'
-logging.basicConfig(level=logging.ERROR, format=LOG_FORMAT, encoding='utf-8')
+logging.basicConfig(level=logging.INFO, format=LOG_FORMAT, encoding='utf-8')
 
 # Eliminar el manejador de consola predeterminado si existe
 root_logger = logging.getLogger()
