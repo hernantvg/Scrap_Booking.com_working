@@ -217,7 +217,7 @@ def scrape_all_pages(page, base_url, city, country):
     hotels_list = []
 
     for page_number in range(1, 2):
-        page_url = f'{base_url}&offset={25 * (page_number - 1)}'
+        page_url = f'{base_url}&offset={5 * (page_number - 1)}'
         logging.info(f'Visitando la página: {page_url}')
         page.goto(page_url, timeout=10000)
 
