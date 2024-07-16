@@ -51,7 +51,7 @@ def scrape_hotel_description_with_retry(hotel_url, max_retries=3):
             if response.status_code == 200:
                 soup = BeautifulSoup(response.text, 'html.parser')
                 description_element = soup.find(
-                    'p', class_='a53cbfa6de b3efd73f69')
+                    'p', class_='e2585683de c8d1788c8c')
                 if description_element:
                     return description_element.get_text(strip=True)
                 else:
