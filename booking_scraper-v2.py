@@ -83,15 +83,14 @@ def scrape_popular_facilities_with_retry(hotel_url, max_retries=3):
             response = requests.get(hotel_url)
             if response.status_code == 200:
                 soup = BeautifulSoup(response.text, 'html.parser')
-                facilities_elements = soup.find_all(
-                    'span', class_='a5a5a75131')
-                facilities_list = [facility.get_text(
-                    strip=True) for facility in facilities_elements]
+                facilities_elements = soup.find_all('span', class_='e39ce2c19b')
+                facilities_list = [facility.get_text(strip=True) for facility in facilities_elements]
                 return facilities_list
             else:
                 return ["Error al acceder a la página del hotel."]
         except Exception as e:
             logging.error(f"Error en el intento {retry + 1}: {str(e)}")
+    
     return ["Error: Se ha excedido el número máximo de intentos."]
 
 
@@ -217,8 +216,8 @@ def main():
 def scrape_all_pages(page, base_url, city, country):
     hotels_list = []
 
-    for page_number in range(1, 2):
-        page_url = f'{base_url}&offset={5 * (page_number - 1)}'
+    for page_number in range(1, 10):
+        page_url = f'{base_url}&offset={25 * (page_number - 1)}'
         logging.info(f'Visitando la página: {page_url}')
         page.goto(page_url, timeout=15000)
 
