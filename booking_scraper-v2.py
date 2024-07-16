@@ -83,15 +83,15 @@ def scrape_popular_facilities_with_retry(hotel_url, max_retries=3):
             response = requests.get(hotel_url)
             if response.status_code == 200:
                 soup = BeautifulSoup(response.text, 'html.parser')
-                facilities_elements = soup.select('div.e2585683de.fcfa97735d')
+                facilities_elements = soup.select('div.e2585683de.fcfa97735d')  # Cambiar el selector
                 facilities_list = [facility.get_text(strip=True) for facility in facilities_elements]
-                facilities_str = ", ".join(facilities_list)
-                return facilities_str
+                return ", ".join(facilities_list)  # Devolver como una lista separada por comas
             else:
-                return "Error al acceder a la página del hotel."
+                return ["Error al acceder a la página del hotel."]
         except Exception as e:
             logging.error(f"Error en el intento {retry + 1}: {str(e)}")
-    return "Error: Se ha excedido el número máximo de intentos."
+    return ["Error: Se ha excedido el número máximo de intentos."]
+
 
 # Función para extraer los datos de los hoteles en una página
 
