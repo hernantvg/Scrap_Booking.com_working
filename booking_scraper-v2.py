@@ -110,33 +110,33 @@ def scrape_hotels_on_page(page, city, country):
         hotel_dict = {}
         hotel_dict['hotel'] = get_element_text_with_retry(hotel, '//div[@data-testid="title"]')
 
-        try:
-            hotel_dict['price'] = get_element_text_with_retry(hotel, '//span[@data-testid="price-and-discounted-price"]')
-        except Exception as e:
-            logging.error(f"Error al obtener el precio: {str(e)}")
-            hotel_dict['price'] = "ver precio"
+        # try:
+        #     hotel_dict['price'] = get_element_text_with_retry(hotel, '//span[@data-testid="price-and-discounted-price"]')
+        # except Exception as e:
+        #     logging.error(f"Error al obtener el precio: {str(e)}")
+        #     hotel_dict['price'] = "ver precio"
 
-        try:
-            hotel_dict['score'] = get_element_text_with_retry(
-                hotel, '//div[@data-testid="review-score"]/div[1]')
-        except Exception as e:
-            logging.error(f"Error al obtener la puntuación: {str(e)}")
-            hotel_dict['score'] = "ver..."
+        # try:
+        #     hotel_dict['score'] = get_element_text_with_retry(
+        #         hotel, '//div[@data-testid="review-score"]/div[1]')
+        # except Exception as e:
+        #     logging.error(f"Error al obtener la puntuación: {str(e)}")
+        #     hotel_dict['score'] = "ver..."
 
-        try:
-            hotel_dict['avg_review'] = get_element_text_with_retry(
-                hotel, '//div[@data-testid="review-score"]/div[2]/div[1]')
-        except Exception as e:
-            logging.error(f"Error al obtener la revisión promedio: {str(e)}")
-            hotel_dict['avg_review'] = ""
+        # try:
+        #     hotel_dict['avg_review'] = get_element_text_with_retry(
+        #         hotel, '//div[@data-testid="review-score"]/div[2]/div[1]')
+        # except Exception as e:
+        #     logging.error(f"Error al obtener la revisión promedio: {str(e)}")
+        #     hotel_dict['avg_review'] = ""
 
-        try:
-            hotel_dict['reviews_count'] = get_element_text_with_retry(
-                hotel, '//div[@data-testid="review-score"]/div[2]/div[2]').split()[0]
-        except Exception as e:
-            logging.error(
-                f"Error al obtener la cantidad de revisiones: {str(e)}")
-            hotel_dict['reviews_count'] = "ver..."
+        # try:
+        #     hotel_dict['reviews_count'] = get_element_text_with_retry(
+        #         hotel, '//div[@data-testid="review-score"]/div[2]/div[2]').split()[0]
+        # except Exception as e:
+        #     logging.error(
+        #         f"Error al obtener la cantidad de revisiones: {str(e)}")
+        #     hotel_dict['reviews_count'] = "ver..."
 
         image = hotel.locator(
             '//a[@data-testid="property-card-desktop-single-image"]/img').get_attribute("src")
@@ -243,7 +243,7 @@ def main():
 def scrape_all_pages(page, base_url, city, country):
     hotels_list = []
 
-    for page_number in range(1, 10):
+    for page_number in range(1, 2):
         page_url = f'{base_url}&offset={25 * (page_number - 1)}'
         logging.info(f'Visitando la página: {page_url}')
         page.goto(page_url, timeout=10000)
