@@ -68,7 +68,7 @@ def scrape_hotel_description_with_retry(hotel_url, max_retries=3):
 def get_element_text_with_retry(element, selector, max_retries=3):
     for retry in range(max_retries):
         try:
-            return element.locator(selector).inner_text(timeout=5000)
+            return element.locator(selector).inner_text(timeout=10000)
         except TimeoutError:
             logging.error(
                 f"Timeout en el intento {retry + 1}. Reintentando...")
@@ -246,7 +246,7 @@ def scrape_all_pages(page, base_url, city, country):
     for page_number in range(1, 10):
         page_url = f'{base_url}&offset={25 * (page_number - 1)}'
         logging.info(f'Visitando la página: {page_url}')
-        page.goto(page_url, timeout=5000)
+        page.goto(page_url, timeout=10000)
 
         hotels_list.extend(scrape_hotels_on_page(page, city, country))
         logging.info(
