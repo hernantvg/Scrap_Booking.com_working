@@ -110,12 +110,20 @@ def scrape_hotels_on_page(page, city, country):
         hotel_dict = {}
         hotel_dict['hotel'] = get_element_text_with_retry(hotel, '//div[@data-testid="title"]')
 
-        # Obtener descripción del hotel
-        hotel_dict['description'] = scrape_hotel_description_with_retry(hotel_dict['hotel_url'])
+        # Obtener enlace del hotel
+        hotel_link_element = hotel.locator('//a[@data-testid="availability-cta-btn"]')
+        if hotel_link_element:
+            hotel_link = hotel_link_element.get_attribute("href")
+            if hotel_link:
+                hotel_url = f"{hotel_link.split('.html')[0]}.html?aid=2410095"
+                hotel_dict['hotel_url'] = hotel_url
 
-        # Obtener instalaciones populares del hotel
-        popular_facilities = scrape_popular_facilities_with_retry(hotel_dict['hotel_url'])
-        hotel_dict['popular_facilities'] = ', '.join(set(popular_facilities))
+                # Obtener descripción del hotel
+                hotel_dict['description'] = scrape_hotel_description_with_retry(hotel_url)
+
+                # Obtener instalaciones populares del hotel
+                popular_facilities = scrape_popular_facilities_with_retry(hotel_url)
+                hotel_dict['popular_facilities'] = ', '.join(set(popular_facilities))
 
         hotel_dict['city'] = city
         hotel_dict['country'] = country
@@ -184,7 +192,9 @@ def main():
                 write_processed_line(city_line.strip())
 
                 for hotel in hotels_list:
-                    hotel['description'] = scrape_hotel_description_with_retry(hotel['hotel_url'])
+                    hotel_url = hotel.get('hotel_url', None)
+                    if hotel_url:
+                        hotel['description'] = scrape_hotel_description_with_retry(hotel_url)
 
                 df = pd.DataFrame(hotels_list)
                 df.to_csv(f'data/{city}-{country}.csv', index=False)
@@ -198,6 +208,7 @@ def main():
                 write_processed_line(city_line.strip())  # Agregar la línea al archivo de procesados si hay otro tipo de error
 
     browser.close()
+
 
 # Función para procesar todas las páginas de resultados de búsqueda
 
