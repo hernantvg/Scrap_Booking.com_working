@@ -34,6 +34,8 @@ console_handler.setFormatter(logging.Formatter(LOG_FORMAT))
 root_logger.addHandler(console_handler)
 
 # Función decorada para reintentos con backoff exponencial en caso de errores de conexión o HTTP
+
+
 @on_exception(expo, (ConnectionError, HTTPError), max_tries=3)
 def safe_request(url, session):
     response = session.get(url)
@@ -41,6 +43,8 @@ def safe_request(url, session):
     return response
 
 # Función para obtener la descripción de un hotel con reintento
+
+
 def scrape_hotel_description_with_retry(hotel_url, max_retries=3):
     for retry in range(max_retries):
         try:
@@ -60,6 +64,8 @@ def scrape_hotel_description_with_retry(hotel_url, max_retries=3):
     return "Error: Se ha excedido el número máximo de intentos."
 
 # Función para obtener el texto de un elemento con reintento
+
+
 def get_element_text_with_retry(element, selector, max_retries=3):
     for retry in range(max_retries):
         try:
@@ -70,6 +76,8 @@ def get_element_text_with_retry(element, selector, max_retries=3):
     return "No disponible (timeout)"
 
 # Función para obtener las instalaciones populares de un hotel con reintento
+
+
 def scrape_popular_facilities_with_retry(hotel_url, max_retries=3):
     for retry in range(max_retries):
         try:
@@ -88,28 +96,10 @@ def scrape_popular_facilities_with_retry(hotel_url, max_retries=3):
 
     return ["Error: Se ha excedido el número máximo de intentos."]
 
-# Función para modificar la URL de la imagen
-def modify_image_url(image_url):
-    return image_url.replace('max500', 'max1024x768')
-
-# Función para obtener la URL de la imagen del hotel
-def scrape_hotel_image_url(hotel_url):
-    try:
-        response = requests.get(hotel_url)
-        if response.status_code == 200:
-            soup = BeautifulSoup(response.text, 'html.parser')
-            image_element = soup.find('a', {'data-id': True, 'data-thumb-url': True})
-            if image_element:
-                return modify_image_url(image_element['data-thumb-url'])
-            else:
-                return "Imagen no encontrada en la página."
-        else:
-            return "Error al acceder a la página del hotel."
-    except Exception as e:
-        logging.error(f"Error al obtener la URL de la imagen: {str(e)}")
-        return "Error al obtener la URL de la imagen."
 
 # Función para extraer los datos de los hoteles en una página
+
+
 def scrape_hotels_on_page(page, city, country):
     try:
         hotels = page.locator('//div[@data-testid="property-card"]').all()
@@ -145,7 +135,17 @@ def scrape_hotels_on_page(page, city, country):
 
                 # Obtener highres_url de la imagen
                 try:
-                    hotel_dict['highres_url'] = scrape_hotel_image_url(hotel_url)
+                    hotel_photos_script = hotel.inner_html()
+                    soup = BeautifulSoup(hotel_photos_script, 'html.parser')
+                    hotel_photos = soup.find_all(
+                        'script', string=lambda text: 'hotelPhotos' in text)
+                    if hotel_photos:
+                        photos_data = hotel_photos[0].string
+                        photos_json = json.loads(photos_data)
+                        if photos_json and 'hotelPhotos' in photos_json:
+                            first_photo = photos_json['hotelPhotos'][0]
+                            if 'highres_url' in first_photo:
+                                hotel_dict['highres_url'] = first_photo['highres_url']
                 except Exception as e:
                     logging.error(
                         f"Error al obtener highres_url de la imagen: {str(e)}")
@@ -157,7 +157,10 @@ def scrape_hotels_on_page(page, city, country):
 
     return hotels_list
 
+
 # Función para leer las líneas procesadas
+
+
 def read_processed_lines():
     try:
         with open('processed_lines.txt', 'r', encoding='utf-8') as processed_file:
@@ -167,11 +170,15 @@ def read_processed_lines():
         return set()
 
 # Función para escribir una línea procesada
+
+
 def write_processed_line(line):
     with open('processed_lines.txt', 'a', encoding='utf-8') as processed_file:
         processed_file.write(line + '\n')
 
 # Función principal del script
+
+
 def main():
     language = 'es'
 
@@ -234,11 +241,14 @@ def main():
 
     browser.close()
 
+
 # Función para procesar todas las páginas de resultados de búsqueda
+
+
 def scrape_all_pages(page, base_url, city, country):
     hotels_list = []
 
-    for page_number in range(1, 10):
+    for page_number in range(1, 2):
         page_url = f'{base_url}&offset={25 * (page_number - 1)}'
         logging.info(f'Visitando la página: {page_url}')
         page.goto(page_url, timeout=15000)
@@ -248,6 +258,7 @@ def scrape_all_pages(page, base_url, city, country):
             f'Página {page_number} procesada. Total de hoteles hasta ahora: {len(hotels_list)}')
 
     return hotels_list
+
 
 if __name__ == '__main__':
     main()
