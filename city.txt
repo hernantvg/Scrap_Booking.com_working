@@ -208,3 +208,38 @@ Phnom Penh, Camboya
 Podgorica, Montenegro
 Port Louis, Mauricio
 Port Moresby, Papúa Nueva Guinea
+Punta del Este, Uruguay
+Piriapolis, Uruguay
+Villa Serrana, Uruguay
+Colonia del Sacramento, Uruguay
+Salto, Uruguay
+Paysandu, Uruguay
+La Paloma, Uruguay
+Punta del Diablo, Uruguay
+Jose Ignacio, Uruguay
+La Pedrera, Uruguay
+El Chalten, Argentina
+El Calafate, Argentina
+Bariloche, Argentina
+Esquel, Argentina
+Cordoba, Argentina
+Rosario, Argentina
+Ushuaia, Argentina
+Rio Gallegos, Argentina
+Puerto Montt, Chile
+Puerto Natales, Chile
+Pucon, Chile
+San Martin de los Andes, Argentina
+Concepcion, Chile
+Pichilemu, Chile
+Viña del Mar, Chile
+Valparaiso, Chile
+Mendoza, Argentina
+Mar del Plata, Argentina
+La Paz, Bolivia
+Cochabamba, Bolivia
+Sucre, Bolivia
+Santa Cruz de la Sierra, Bolivia
+Uyuni, Bolivia
+La Paz Baja California, Mexico
+Cabo San Lucas, Mexico

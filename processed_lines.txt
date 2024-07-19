@@ -4,3 +4,225 @@ Londres, Reino Unido
 Dubai, Emiratos Árabes Unidos
 Singapur, Singapur
 Kuala Lumpur, Malasia
+Nueva York, Estados Unidos
+Estambul, Turquía
+Tokio, Japón
+Antalya, Turquía
+Seúl, Corea del Sur
+Osaka, Japón
+Phuket, Tailandia
+Mecca, Arabia Saudita
+Pattaya, Tailandia
+Milán, Italia
+Barcelona, España
+Palma de Mallorca, España
+Bali, Indonesia
+Hong Kong, China
+Ámsterdam, Países Bajos
+Las Vegas, Estados Unidos
+Miami, Estados Unidos
+Macau, China
+Toronto, Canadá
+Delhi, India
+Chennai, India
+Mumbai, India
+Praga, República Checa
+Roma, Italia
+Moscú, Rusia
+Viena, Austria
+Shenzhen, China
+Berlín, Alemania
+Jaipur, India
+Johannesburgo, Sudáfrica
+Riyadh, Arabia Saudita
+Los Ángeles, Estados Unidos
+Orlando, Estados Unidos
+Sídney, Australia
+Cancún, México
+Buenos Aires, Argentina
+San Francisco, Estados Unidos
+Madrid, España
+Lisboa, Portugal
+Copenhague, Dinamarca
+Dublín, Irlanda
+Budapest, Hungría
+Dubrovnik, Croacia
+Marrakech, Marruecos
+Zurich, Suiza
+Brisbane, Australia
+Vancouver, Canadá
+Múnich, Alemania
+São Paulo, Brasil
+Oslo, Noruega
+Doha, Catar
+Tel Aviv, Israel
+Hanoi, Vietnam
+Ho Chi Minh City, Vietnam
+Phnom Penh, Camboya
+Kraków, Polonia
+Edimburgo, Reino Unido
+Porto, Portugal
+Bruselas, Bélgica
+Atenas, Grecia
+Abu Dhabi, Emiratos Árabes Unidos
+Reikiavik, Islandia
+Nairobi, Kenia
+Melbourne, Australia
+Helsinki, Finlandia
+Auckland, Nueva Zelanda
+Beirut, Líbano
+El Cairo, Egipto
+Quito, Ecuador
+Lima, Perú
+Montevideo, Uruguay
+Ciudad de México, México
+Panamá, Panamá
+Santiago, Chile
+Manila, Filipinas
+Colombo, Sri Lanka
+Nápoles, Italia
+Ljubljana, Eslovenia
+Florencia, Italia
+Cracovia, Polonia
+Hobart, Australia
+Adelaida, Australia
+Fukuoka, Japón
+Nagasaki, Japón
+Kyoto, Japón
+Sevilla, España
+Valencia, España
+Sapporo, Japón
+Ginebra, Suiza
+Busan, Corea del Sur
+Alicante, España
+Oporto, Portugal
+Funchal, Portugal
+Valletta, Malta
+Addis Abeba, Etiopía
+Algiers, Argelia
+Amsterdam, Países Bajos
+Andorra la Vella, Andorra
+Ankara, Turquía
+Asmara, Eritrea
+Asunción, Paraguay
+Baghdad, Irak
+Baku, Azerbaiyán
+Bamako, Malí
+Bandar Seri Begawan, Brunéi
+Bangui, República Centroafricana
+Banjul, Gambia
+Basseterre, San Cristóbal y Nieves
+Beijing, China
+Beirut, Líbano
+Belgrado, Serbia
+Belmopán, Belice
+Berlín, Alemania
+Berna, Suiza
+Bishkek, Kirguistán
+Bissau, Guinea-Bisáu
+Bogotá, Colombia
+Brasilia, Brasil
+Bratislava, Eslovaquia
+Brazzaville, República del Congo
+Bridgetown, Barbados
+Bruselas, Bélgica
+Bucarest, Rumanía
+Budapest, Hungría
+Buenos Aires, Argentina
+Busan, Corea del Sur
+Cairo, Egipto
+Canberra, Australia
+Caracas, Venezuela
+Castries, Santa Lucía
+Ciudad de Panamá, Panamá
+Conakry, Guinea
+Dakar, Senegal
+Damascus, Siria
+Dhaka, Bangladesh
+Dili, Timor Oriental
+Djibouti, Yibuti
+Dushanbe, Tayikistán
+Freetown, Sierra Leona
+Gaborone, Botswana
+Georgetown, Guyana
+Guatemala City, Guatemala
+Harare, Zimbabue
+Honiara, Islas Salomón
+Islamabad, Pakistán
+Jakarta, Indonesia
+Juba, Sudán del Sur
+Kabul, Afganistán
+Kampala, Uganda
+Kathmandu, Nepal
+Khartoum, Sudán
+Kigali, Ruanda
+Kingston, Jamaica
+Kinshasa, República Democrática del Congo
+Kuwait City, Kuwait
+Libreville, Gabón
+Lilongwe, Malaui
+Lomé, Togo
+Luanda, Angola
+Lusaka, Zambia
+Majuro, Islas Marshall
+Malabo, Guinea Ecuatorial
+Male, Maldivas
+Managua, Nicaragua
+Manama, Baréin
+Maputo, Mozambique
+Maseru, Lesoto
+Mbabane, Esuatini
+Mogadishu, Somalia
+Monaco, Mónaco
+Monrovia, Liberia
+Moroni, Comoras
+Nassau, Bahamas
+Naypyidaw, Birmania
+Ndjamena, Chad
+Niamey, Níger
+Nicosia, Chipre
+Nouakchott, Mauritania
+Nuku'alofa, Tonga
+Nur-Sultan, Kazajistán
+Ottawa, Canadá
+Ouagadougou, Burkina Faso
+Palikir, Micronesia
+Paramaribo, Surinam
+Podgorica, Montenegro
+Port Louis, Mauricio
+Port Moresby, Papúa Nueva Guinea
+Punta del Este, Uruguay
+Piriapolis, Uruguay
+Villa Serrana, Uruguay
+Colonia del Sacramento, Uruguay
+Salto, Uruguay
+Paysandu, Uruguay
+La Paloma, Uruguay
+Punta del Diablo, Uruguay
+Jose Ignacio, Uruguay
+La Pedrera, Uruguay
+El Chalten, Argentina
+El Calafate, Argentina
+Bariloche, Argentina
+Esquel, Argentina
+Cordoba, Argentina
+Rosario, Argentina
+Ushuaia, Argentina
+Rio Gallegos, Argentina
+Puerto Montt, Chile
+Puerto Natales, Chile
+Pucon, Chile
+San Martin de los Andes, Argentina
+Concepcion, Chile
+Pichilemu, Chile
+Viña del Mar, Chile
+Valparaiso, Chile
+Mendoza, Argentina
+Mar del Plata, Argentina
+La Paz, Bolivia
+Cochabamba, Bolivia
+Sucre, Bolivia
+Santa Cruz de la Sierra, Bolivia
+Uyuni, Bolivia
+La Paz Baja California, Mexico
+Cabo San Lucas, Mexico
