@@ -10088,3 +10088,1025 @@ navigating to "https://www.booking.com/searchresults.es.html?&checkin=2024-07-28
 2024-07-18 14:50:45,823 INFO: Procesando un nuevo hotel...
 2024-07-18 14:50:53,399 INFO: Página 1 procesada. Total de hoteles hasta ahora: 27
 2024-07-18 14:50:53,401 INFO: Total de hoteles para Cabo San Lucas, Mexico: 27
+2024-07-19 20:08:55,912 INFO: Líneas procesadas cargadas: {'Sevilla, España', 'Maseru, Lesoto', 'Colonia del Sacramento, Uruguay', 'Islamabad, Pakistán', 'Hong Kong, China', 'Shenzhen, China', 'Cabo San Lucas, Mexico', 'Delhi, India', 'Milán, Italia', 'Bamako, Malí', 'Brazzaville, República del Congo', 'Nicosia, Chipre', "Nuku'alofa, Tonga", 'Kingston, Jamaica', 'Pucon, Chile', 'Esquel, Argentina', 'Lisboa, Portugal', 'Nassau, Bahamas', 'Porto, Portugal', 'Osaka, Japón', 'Adelaida, Australia', 'Jaipur, India', 'Male, Maldivas', 'Berlín, Alemania', 'Phuket, Tailandia', 'Beijing, China', 'Nápoles, Italia', 'Kinshasa, República Democrática del Congo', 'Asunción, Paraguay', 'Guatemala City, Guatemala', 'Villa Serrana, Uruguay', 'Monrovia, Liberia', 'Valparaiso, Chile', 'Basseterre, San Cristóbal y Nieves', 'Salto, Uruguay', 'La Paz, Bolivia', 'Palikir, Micronesia', 'Nouakchott, Mauritania', 'Ottawa, Canadá', 'Piriapolis, Uruguay', 'Berna, Suiza', 'Bariloche, Argentina', 'Majuro, Islas Marshall', 'Canberra, Australia', 'Bishkek, Kirguistán', 'Kyoto, Japón', 'Sapporo, Japón', 'Miami, Estados Unidos', 'Rio Gallegos, Argentina', 'Budapest, Hungría', 'Port Louis, Mauricio', 'Cracovia, Polonia', 'Andorra la Vella, Andorra', 'Mendoza, Argentina', 'Tokio, Japón', 'Belgrado, Serbia', 'Honiara, Islas Salomón', 'Moroni, Comoras', 'Caracas, Venezuela', 'Dubrovnik, Croacia', 'Paysandu, Uruguay', 'Rosario, Argentina', 'Libreville, Gabón', 'Managua, Nicaragua', 'Quito, Ecuador', 'Punta del Este, Uruguay', 'Johannesburgo, Sudáfrica', 'Helsinki, Finlandia', 'Toronto, Canadá', 'Damascus, Siria', 'Bogotá, Colombia', 'Manila, Filipinas', 'Madrid, España', 'Podgorica, Montenegro', 'Beirut, Líbano', 'El Cairo, Egipto', 'Khartoum, Sudán', 'Bangui, República Centroafricana', 'Cancún, México', 'Vancouver, Canadá', 'Monaco, Mónaco', 'París, Francia', 'Ciudad de México, México', 'Ciudad de Panamá, Panamá', 'Singapur, Singapur', 'Bissau, Guinea-Bisáu', 'Harare, Zimbabue', 'Nur-Sultan, Kazajistán', 'San Francisco, Estados Unidos', 'Georgetown, Guyana', 'Amsterdam, Países Bajos', 'Luanda, Angola', 'Manama, Baréin', 'Florencia, Italia', 'Cochabamba, Bolivia', 'Dhaka, Bangladesh', 'Banjul, Gambia', 'Chennai, India', 'Roma, Italia', 'San Martin de los Andes, Argentina', 'Santa Cruz de la Sierra, Bolivia', 'Freetown, Sierra Leona', 'Montevideo, Uruguay', 'Los Ángeles, Estados Unidos', 'Oslo, Noruega', 'Auckland, Nueva Zelanda', 'Kigali, Ruanda', 'Sucre, Bolivia', 'Ankara, Turquía', 'Tel Aviv, Israel', 'Seúl, Corea del Sur', 'Jose Ignacio, Uruguay', 'Mbabane, Esuatini', 'Baghdad, Irak', 'São Paulo, Brasil', 'Bridgetown, Barbados', 'Edimburgo, Reino Unido', 'Puerto Montt, Chile', 'Ushuaia, Argentina', 'Mecca, Arabia Saudita', 'Dubai, Emiratos Árabes Unidos', 'Fukuoka, Japón', 'Naypyidaw, Birmania', 'Jakarta, Indonesia', 'Valencia, España', 'Dili, Timor Oriental', 'Sídney, Australia', 'Mumbai, India', 'Zurich, Suiza', 'Bandar Seri Begawan, Brunéi', 'Kuala Lumpur, Malasia', 'Nueva York, Estados Unidos', 'Brasilia, Brasil', 'Abu Dhabi, Emiratos Árabes Unidos', 'Funchal, Portugal', 'Busan, Corea del Sur', 'Barcelona, España', 'Mar del Plata, Argentina', 'Múnich, Alemania', 'Malabo, Guinea Ecuatorial', 'Viña del Mar, Chile', 'Hobart, Australia', 'Dakar, Senegal', 'Pattaya, Tailandia', 'Baku, Azerbaiyán', 'Mogadishu, Somalia', 'Nairobi, Kenia', 'Macau, China', 'Kraków, Polonia', 'Oporto, Portugal', 'Punta del Diablo, Uruguay', 'Alicante, España', 'Bratislava, Eslovaquia', 'Bangkok, Tailandia', 'Nagasaki, Japón', 'Kabul, Afganistán', 'Santiago, Chile', 'Concepcion, Chile', 'Buenos Aires, Argentina', 'Hanoi, Vietnam', 'Castries, Santa Lucía', 'Conakry, Guinea', 'Ndjamena, Chad', 'Ginebra, Suiza', 'Estambul, Turquía', 'Lomé, Togo', 'El Chalten, Argentina', 'Colombo, Sri Lanka', 'Pichilemu, Chile', 'Bali, Indonesia', 'Las Vegas, Estados Unidos', 'Brisbane, Australia', 'Asmara, Eritrea', 'Niamey, Níger', 'Cairo, Egipto', 'Moscú, Rusia', 'La Paloma, Uruguay', 'Lima, Perú', 'Doha, Catar', 'Londres, Reino Unido', 'Ljubljana, Eslovenia', 'Kampala, Uganda', 'Lilongwe, Malaui', 'Kathmandu, Nepal', 'Kuwait City, Kuwait', 'Puerto Natales, Chile', 'La Paz Baja California, Mexico', 'Valletta, Malta', 'Gaborone, Botswana', 'Juba, Sudán del Sur', 'Ho Chi Minh City, Vietnam', 'Ámsterdam, Países Bajos', 'Bruselas, Bélgica', 'Panamá, Panamá', 'Bucarest, Rumanía', 'Dushanbe, Tayikistán', 'Lusaka, Zambia', 'La Pedrera, Uruguay', 'Palma de Mallorca, España', 'Belmopán, Belice', 'Antalya, Turquía', 'Paramaribo, Surinam', 'Ouagadougou, Burkina Faso', 'Port Moresby, Papúa Nueva Guinea', 'El Calafate, Argentina', 'Copenhague, Dinamarca', 'Viena, Austria', 'Dublín, Irlanda', 'Cordoba, Argentina', 'Marrakech, Marruecos', 'Atenas, Grecia', 'Melbourne, Australia', 'Reikiavik, Islandia', 'Djibouti, Yibuti', 'Praga, República Checa', 'Maputo, Mozambique', 'Orlando, Estados Unidos', 'Addis Abeba, Etiopía', 'Algiers, Argelia', 'Phnom Penh, Camboya', 'Riyadh, Arabia Saudita', 'Uyuni, Bolivia'}
+2024-07-19 20:09:01,623 INFO: Línea ya procesada: 'Bangkok, Tailandia
+'. Saltando esta línea.
+2024-07-19 20:09:01,673 INFO: Línea ya procesada: 'París, Francia
+'. Saltando esta línea.
+2024-07-19 20:09:01,674 INFO: Línea ya procesada: 'Londres, Reino Unido
+'. Saltando esta línea.
+2024-07-19 20:09:01,675 INFO: Línea ya procesada: 'Dubai, Emiratos Árabes Unidos
+'. Saltando esta línea.
+2024-07-19 20:09:01,675 INFO: Línea ya procesada: 'Singapur, Singapur
+'. Saltando esta línea.
+2024-07-19 20:09:01,676 INFO: Línea ya procesada: 'Kuala Lumpur, Malasia
+'. Saltando esta línea.
+2024-07-19 20:09:01,679 INFO: Línea ya procesada: 'Nueva York, Estados Unidos
+'. Saltando esta línea.
+2024-07-19 20:09:01,698 INFO: Línea ya procesada: 'Estambul, Turquía
+'. Saltando esta línea.
+2024-07-19 20:09:01,711 INFO: Línea ya procesada: 'Tokio, Japón
+'. Saltando esta línea.
+2024-07-19 20:09:01,745 INFO: Línea ya procesada: 'Antalya, Turquía
+'. Saltando esta línea.
+2024-07-19 20:09:01,757 INFO: Línea ya procesada: 'Seúl, Corea del Sur
+'. Saltando esta línea.
+2024-07-19 20:09:01,763 INFO: Línea ya procesada: 'Osaka, Japón
+'. Saltando esta línea.
+2024-07-19 20:09:01,776 INFO: Línea ya procesada: 'Phuket, Tailandia
+'. Saltando esta línea.
+2024-07-19 20:09:01,777 INFO: Línea ya procesada: 'Mecca, Arabia Saudita
+'. Saltando esta línea.
+2024-07-19 20:09:01,778 INFO: Línea ya procesada: 'Pattaya, Tailandia
+'. Saltando esta línea.
+2024-07-19 20:09:01,779 INFO: Línea ya procesada: 'Milán, Italia
+'. Saltando esta línea.
+2024-07-19 20:09:01,781 INFO: Línea ya procesada: 'Barcelona, España
+'. Saltando esta línea.
+2024-07-19 20:09:01,782 INFO: Línea ya procesada: 'Palma de Mallorca, España
+'. Saltando esta línea.
+2024-07-19 20:09:01,783 INFO: Línea ya procesada: 'Bali, Indonesia
+'. Saltando esta línea.
+2024-07-19 20:09:01,784 INFO: Línea ya procesada: 'Hong Kong, China
+'. Saltando esta línea.
+2024-07-19 20:09:01,789 INFO: Línea ya procesada: 'Ámsterdam, Países Bajos
+'. Saltando esta línea.
+2024-07-19 20:09:01,791 INFO: Línea ya procesada: 'Las Vegas, Estados Unidos
+'. Saltando esta línea.
+2024-07-19 20:09:01,792 INFO: Línea ya procesada: 'Miami, Estados Unidos
+'. Saltando esta línea.
+2024-07-19 20:09:01,793 INFO: Línea ya procesada: 'Macau, China
+'. Saltando esta línea.
+2024-07-19 20:09:01,794 INFO: Línea ya procesada: 'Toronto, Canadá
+'. Saltando esta línea.
+2024-07-19 20:09:01,794 INFO: Línea ya procesada: 'Delhi, India
+'. Saltando esta línea.
+2024-07-19 20:09:01,795 INFO: Línea ya procesada: 'Chennai, India
+'. Saltando esta línea.
+2024-07-19 20:09:01,795 INFO: Línea ya procesada: 'Mumbai, India
+'. Saltando esta línea.
+2024-07-19 20:09:01,796 INFO: Línea ya procesada: 'Praga, República Checa
+'. Saltando esta línea.
+2024-07-19 20:09:01,797 INFO: Línea ya procesada: 'Roma, Italia
+'. Saltando esta línea.
+2024-07-19 20:09:01,798 INFO: Línea ya procesada: 'Moscú, Rusia
+'. Saltando esta línea.
+2024-07-19 20:09:01,799 INFO: Línea ya procesada: 'Viena, Austria
+'. Saltando esta línea.
+2024-07-19 20:09:01,800 INFO: Línea ya procesada: 'Shenzhen, China
+'. Saltando esta línea.
+2024-07-19 20:09:01,806 INFO: Línea ya procesada: 'Berlín, Alemania
+'. Saltando esta línea.
+2024-07-19 20:09:01,807 INFO: Línea ya procesada: 'Jaipur, India
+'. Saltando esta línea.
+2024-07-19 20:09:01,808 INFO: Línea ya procesada: 'Johannesburgo, Sudáfrica
+'. Saltando esta línea.
+2024-07-19 20:09:01,808 INFO: Línea ya procesada: 'Riyadh, Arabia Saudita
+'. Saltando esta línea.
+2024-07-19 20:09:01,809 INFO: Línea ya procesada: 'Los Ángeles, Estados Unidos
+'. Saltando esta línea.
+2024-07-19 20:09:01,810 INFO: Línea ya procesada: 'Orlando, Estados Unidos
+'. Saltando esta línea.
+2024-07-19 20:09:01,810 INFO: Línea ya procesada: 'Sídney, Australia
+'. Saltando esta línea.
+2024-07-19 20:09:01,811 INFO: Línea ya procesada: 'Cancún, México
+'. Saltando esta línea.
+2024-07-19 20:09:01,811 INFO: Línea ya procesada: 'Buenos Aires, Argentina
+'. Saltando esta línea.
+2024-07-19 20:09:01,812 INFO: Línea ya procesada: 'San Francisco, Estados Unidos
+'. Saltando esta línea.
+2024-07-19 20:09:01,812 INFO: Línea ya procesada: 'Madrid, España
+'. Saltando esta línea.
+2024-07-19 20:09:01,813 INFO: Línea ya procesada: 'Lisboa, Portugal
+'. Saltando esta línea.
+2024-07-19 20:09:01,813 INFO: Línea ya procesada: 'Copenhague, Dinamarca
+'. Saltando esta línea.
+2024-07-19 20:09:01,814 INFO: Línea ya procesada: 'Dublín, Irlanda
+'. Saltando esta línea.
+2024-07-19 20:09:01,815 INFO: Línea ya procesada: 'Budapest, Hungría
+'. Saltando esta línea.
+2024-07-19 20:09:01,815 INFO: Línea ya procesada: 'Dubrovnik, Croacia
+'. Saltando esta línea.
+2024-07-19 20:09:01,816 INFO: Línea ya procesada: 'Marrakech, Marruecos
+'. Saltando esta línea.
+2024-07-19 20:09:01,817 INFO: Línea ya procesada: 'Zurich, Suiza
+'. Saltando esta línea.
+2024-07-19 20:09:01,823 INFO: Línea ya procesada: 'Brisbane, Australia
+'. Saltando esta línea.
+2024-07-19 20:09:01,824 INFO: Línea ya procesada: 'Vancouver, Canadá
+'. Saltando esta línea.
+2024-07-19 20:09:01,824 INFO: Línea ya procesada: 'Múnich, Alemania
+'. Saltando esta línea.
+2024-07-19 20:09:01,825 INFO: Línea ya procesada: 'São Paulo, Brasil
+'. Saltando esta línea.
+2024-07-19 20:09:01,826 INFO: Línea ya procesada: 'Oslo, Noruega
+'. Saltando esta línea.
+2024-07-19 20:09:01,827 INFO: Línea ya procesada: 'Doha, Catar
+'. Saltando esta línea.
+2024-07-19 20:09:01,827 INFO: Línea ya procesada: 'Tel Aviv, Israel
+'. Saltando esta línea.
+2024-07-19 20:09:01,828 INFO: Línea ya procesada: 'Hanoi, Vietnam
+'. Saltando esta línea.
+2024-07-19 20:09:01,829 INFO: Línea ya procesada: 'Ho Chi Minh City, Vietnam
+'. Saltando esta línea.
+2024-07-19 20:09:01,830 INFO: Línea ya procesada: 'Phnom Penh, Camboya
+'. Saltando esta línea.
+2024-07-19 20:09:01,830 INFO: Línea ya procesada: 'Kraków, Polonia
+'. Saltando esta línea.
+2024-07-19 20:09:01,831 INFO: Línea ya procesada: 'Edimburgo, Reino Unido
+'. Saltando esta línea.
+2024-07-19 20:09:01,832 INFO: Línea ya procesada: 'Porto, Portugal
+'. Saltando esta línea.
+2024-07-19 20:09:01,832 INFO: Línea ya procesada: 'Bruselas, Bélgica
+'. Saltando esta línea.
+2024-07-19 20:09:01,833 INFO: Línea ya procesada: 'Atenas, Grecia
+'. Saltando esta línea.
+2024-07-19 20:09:01,841 INFO: Línea ya procesada: 'Abu Dhabi, Emiratos Árabes Unidos
+'. Saltando esta línea.
+2024-07-19 20:09:01,843 INFO: Línea ya procesada: 'Reikiavik, Islandia
+'. Saltando esta línea.
+2024-07-19 20:09:01,844 INFO: Línea ya procesada: 'Nairobi, Kenia
+'. Saltando esta línea.
+2024-07-19 20:09:01,845 INFO: Línea ya procesada: 'Melbourne, Australia
+'. Saltando esta línea.
+2024-07-19 20:09:01,845 INFO: Línea ya procesada: 'Helsinki, Finlandia
+'. Saltando esta línea.
+2024-07-19 20:09:01,847 INFO: Línea ya procesada: 'Auckland, Nueva Zelanda
+'. Saltando esta línea.
+2024-07-19 20:09:01,847 INFO: Línea ya procesada: 'Beirut, Líbano
+'. Saltando esta línea.
+2024-07-19 20:09:01,848 INFO: Línea ya procesada: 'El Cairo, Egipto
+'. Saltando esta línea.
+2024-07-19 20:09:01,849 INFO: Línea ya procesada: 'Quito, Ecuador
+'. Saltando esta línea.
+2024-07-19 20:09:01,849 INFO: Línea ya procesada: 'Lima, Perú
+'. Saltando esta línea.
+2024-07-19 20:09:01,850 INFO: Línea ya procesada: 'Montevideo, Uruguay
+'. Saltando esta línea.
+2024-07-19 20:09:01,850 INFO: Línea ya procesada: 'Ciudad de México, México
+'. Saltando esta línea.
+2024-07-19 20:09:01,854 INFO: Línea ya procesada: 'Panamá, Panamá
+'. Saltando esta línea.
+2024-07-19 20:09:01,855 INFO: Línea ya procesada: 'Santiago, Chile
+'. Saltando esta línea.
+2024-07-19 20:09:01,857 INFO: Línea ya procesada: 'Manila, Filipinas
+'. Saltando esta línea.
+2024-07-19 20:09:01,857 INFO: Línea ya procesada: 'Colombo, Sri Lanka
+'. Saltando esta línea.
+2024-07-19 20:09:01,858 INFO: Línea ya procesada: 'Nápoles, Italia
+'. Saltando esta línea.
+2024-07-19 20:09:01,859 INFO: Línea ya procesada: 'Ljubljana, Eslovenia
+'. Saltando esta línea.
+2024-07-19 20:09:01,859 INFO: Línea ya procesada: 'Florencia, Italia
+'. Saltando esta línea.
+2024-07-19 20:09:01,860 INFO: Línea ya procesada: 'Cracovia, Polonia
+'. Saltando esta línea.
+2024-07-19 20:09:01,861 INFO: Línea ya procesada: 'Hobart, Australia
+'. Saltando esta línea.
+2024-07-19 20:09:01,862 INFO: Línea ya procesada: 'Adelaida, Australia
+'. Saltando esta línea.
+2024-07-19 20:09:01,862 INFO: Línea ya procesada: 'Fukuoka, Japón
+'. Saltando esta línea.
+2024-07-19 20:09:01,863 INFO: Línea ya procesada: 'Nagasaki, Japón
+'. Saltando esta línea.
+2024-07-19 20:09:01,863 INFO: Línea ya procesada: 'Kyoto, Japón
+'. Saltando esta línea.
+2024-07-19 20:09:01,864 INFO: Línea ya procesada: 'Sevilla, España
+'. Saltando esta línea.
+2024-07-19 20:09:01,864 INFO: Línea ya procesada: 'Valencia, España
+'. Saltando esta línea.
+2024-07-19 20:09:01,865 INFO: Línea ya procesada: 'Sapporo, Japón
+'. Saltando esta línea.
+2024-07-19 20:09:01,865 INFO: Línea ya procesada: 'Ginebra, Suiza
+'. Saltando esta línea.
+2024-07-19 20:09:01,866 INFO: Línea ya procesada: 'Busan, Corea del Sur
+'. Saltando esta línea.
+2024-07-19 20:09:01,866 INFO: Línea ya procesada: 'Alicante, España
+'. Saltando esta línea.
+2024-07-19 20:09:01,867 INFO: Línea ya procesada: 'Oporto, Portugal
+'. Saltando esta línea.
+2024-07-19 20:09:01,871 INFO: Línea ya procesada: 'Funchal, Portugal
+'. Saltando esta línea.
+2024-07-19 20:09:01,873 INFO: Línea ya procesada: 'Valletta, Malta
+'. Saltando esta línea.
+2024-07-19 20:09:01,874 INFO: Línea ya procesada: 'Addis Abeba, Etiopía
+'. Saltando esta línea.
+2024-07-19 20:09:01,874 INFO: Línea ya procesada: 'Algiers, Argelia
+'. Saltando esta línea.
+2024-07-19 20:09:01,875 INFO: Línea ya procesada: 'Amsterdam, Países Bajos
+'. Saltando esta línea.
+2024-07-19 20:09:01,877 INFO: Línea ya procesada: 'Andorra la Vella, Andorra
+'. Saltando esta línea.
+2024-07-19 20:09:01,878 INFO: Línea ya procesada: 'Ankara, Turquía
+'. Saltando esta línea.
+2024-07-19 20:09:01,879 INFO: Línea ya procesada: 'Asmara, Eritrea
+'. Saltando esta línea.
+2024-07-19 20:09:01,879 INFO: Línea ya procesada: 'Asunción, Paraguay
+'. Saltando esta línea.
+2024-07-19 20:09:01,880 INFO: Línea ya procesada: 'Baghdad, Irak
+'. Saltando esta línea.
+2024-07-19 20:09:01,881 INFO: Línea ya procesada: 'Baku, Azerbaiyán
+'. Saltando esta línea.
+2024-07-19 20:09:01,882 INFO: Línea ya procesada: 'Bamako, Malí
+'. Saltando esta línea.
+2024-07-19 20:09:01,882 INFO: Línea ya procesada: 'Bandar Seri Begawan, Brunéi
+'. Saltando esta línea.
+2024-07-19 20:09:01,883 INFO: Línea ya procesada: 'Bangui, República Centroafricana
+'. Saltando esta línea.
+2024-07-19 20:09:01,884 INFO: Línea ya procesada: 'Banjul, Gambia
+'. Saltando esta línea.
+2024-07-19 20:09:01,888 INFO: Línea ya procesada: 'Basseterre, San Cristóbal y Nieves
+'. Saltando esta línea.
+2024-07-19 20:09:01,890 INFO: Línea ya procesada: 'Beijing, China
+'. Saltando esta línea.
+2024-07-19 20:09:01,891 INFO: Línea ya procesada: 'Beirut, Líbano
+'. Saltando esta línea.
+2024-07-19 20:09:01,892 INFO: Línea ya procesada: 'Belgrado, Serbia
+'. Saltando esta línea.
+2024-07-19 20:09:01,893 INFO: Línea ya procesada: 'Belmopán, Belice
+'. Saltando esta línea.
+2024-07-19 20:09:01,893 INFO: Línea ya procesada: 'Berlín, Alemania
+'. Saltando esta línea.
+2024-07-19 20:09:01,894 INFO: Línea ya procesada: 'Berna, Suiza
+'. Saltando esta línea.
+2024-07-19 20:09:01,895 INFO: Línea ya procesada: 'Bishkek, Kirguistán
+'. Saltando esta línea.
+2024-07-19 20:09:01,895 INFO: Línea ya procesada: 'Bissau, Guinea-Bisáu
+'. Saltando esta línea.
+2024-07-19 20:09:01,896 INFO: Línea ya procesada: 'Bogotá, Colombia
+'. Saltando esta línea.
+2024-07-19 20:09:01,896 INFO: Línea ya procesada: 'Brasilia, Brasil
+'. Saltando esta línea.
+2024-07-19 20:09:01,897 INFO: Línea ya procesada: 'Bratislava, Eslovaquia
+'. Saltando esta línea.
+2024-07-19 20:09:01,898 INFO: Línea ya procesada: 'Brazzaville, República del Congo
+'. Saltando esta línea.
+2024-07-19 20:09:01,898 INFO: Línea ya procesada: 'Bridgetown, Barbados
+'. Saltando esta línea.
+2024-07-19 20:09:01,899 INFO: Línea ya procesada: 'Bruselas, Bélgica
+'. Saltando esta línea.
+2024-07-19 20:09:01,899 INFO: Línea ya procesada: 'Bucarest, Rumanía
+'. Saltando esta línea.
+2024-07-19 20:09:01,900 INFO: Línea ya procesada: 'Budapest, Hungría
+'. Saltando esta línea.
+2024-07-19 20:09:01,907 INFO: Línea ya procesada: 'Buenos Aires, Argentina
+'. Saltando esta línea.
+2024-07-19 20:09:01,908 INFO: Línea ya procesada: 'Busan, Corea del Sur
+'. Saltando esta línea.
+2024-07-19 20:09:01,909 INFO: Línea ya procesada: 'Cairo, Egipto
+'. Saltando esta línea.
+2024-07-19 20:09:01,909 INFO: Línea ya procesada: 'Canberra, Australia
+'. Saltando esta línea.
+2024-07-19 20:09:01,910 INFO: Línea ya procesada: 'Caracas, Venezuela
+'. Saltando esta línea.
+2024-07-19 20:09:01,911 INFO: Línea ya procesada: 'Castries, Santa Lucía
+'. Saltando esta línea.
+2024-07-19 20:09:01,911 INFO: Línea ya procesada: 'Ciudad de Panamá, Panamá
+'. Saltando esta línea.
+2024-07-19 20:09:01,912 INFO: Línea ya procesada: 'Conakry, Guinea
+'. Saltando esta línea.
+2024-07-19 20:09:01,912 INFO: Línea ya procesada: 'Copenhague, Dinamarca
+'. Saltando esta línea.
+2024-07-19 20:09:01,913 INFO: Línea ya procesada: 'Dakar, Senegal
+'. Saltando esta línea.
+2024-07-19 20:09:01,913 INFO: Línea ya procesada: 'Damascus, Siria
+'. Saltando esta línea.
+2024-07-19 20:09:01,914 INFO: Línea ya procesada: 'Dhaka, Bangladesh
+'. Saltando esta línea.
+2024-07-19 20:09:01,915 INFO: Línea ya procesada: 'Dili, Timor Oriental
+'. Saltando esta línea.
+2024-07-19 20:09:01,915 INFO: Línea ya procesada: 'Djibouti, Yibuti
+'. Saltando esta línea.
+2024-07-19 20:09:01,916 INFO: Línea ya procesada: 'Doha, Catar
+'. Saltando esta línea.
+2024-07-19 20:09:01,917 INFO: Línea ya procesada: 'Dublín, Irlanda
+'. Saltando esta línea.
+2024-07-19 20:09:01,927 INFO: Línea ya procesada: 'Dushanbe, Tayikistán
+'. Saltando esta línea.
+2024-07-19 20:09:01,928 INFO: Línea ya procesada: 'El Cairo, Egipto
+'. Saltando esta línea.
+2024-07-19 20:09:01,928 INFO: Línea ya procesada: 'Freetown, Sierra Leona
+'. Saltando esta línea.
+2024-07-19 20:09:01,929 INFO: Línea ya procesada: 'Gaborone, Botswana
+'. Saltando esta línea.
+2024-07-19 20:09:01,930 INFO: Línea ya procesada: 'Georgetown, Guyana
+'. Saltando esta línea.
+2024-07-19 20:09:01,930 INFO: Línea ya procesada: 'Guatemala City, Guatemala
+'. Saltando esta línea.
+2024-07-19 20:09:01,931 INFO: Línea ya procesada: 'Hanoi, Vietnam
+'. Saltando esta línea.
+2024-07-19 20:09:01,931 INFO: Línea ya procesada: 'Harare, Zimbabue
+'. Saltando esta línea.
+2024-07-19 20:09:01,932 INFO: Línea ya procesada: 'Helsinki, Finlandia
+'. Saltando esta línea.
+2024-07-19 20:09:01,932 INFO: Línea ya procesada: 'Honiara, Islas Salomón
+'. Saltando esta línea.
+2024-07-19 20:09:01,933 INFO: Línea ya procesada: 'Islamabad, Pakistán
+'. Saltando esta línea.
+2024-07-19 20:09:01,933 INFO: Línea ya procesada: 'Jakarta, Indonesia
+'. Saltando esta línea.
+2024-07-19 20:09:01,933 INFO: Línea ya procesada: 'Juba, Sudán del Sur
+'. Saltando esta línea.
+2024-07-19 20:09:01,934 INFO: Línea ya procesada: 'Kabul, Afganistán
+'. Saltando esta línea.
+2024-07-19 20:09:01,934 INFO: Línea ya procesada: 'Kampala, Uganda
+'. Saltando esta línea.
+2024-07-19 20:09:01,937 INFO: Línea ya procesada: 'Kathmandu, Nepal
+'. Saltando esta línea.
+2024-07-19 20:09:01,938 INFO: Línea ya procesada: 'Khartoum, Sudán
+'. Saltando esta línea.
+2024-07-19 20:09:01,939 INFO: Línea ya procesada: 'Kigali, Ruanda
+'. Saltando esta línea.
+2024-07-19 20:09:01,940 INFO: Línea ya procesada: 'Kingston, Jamaica
+'. Saltando esta línea.
+2024-07-19 20:09:01,940 INFO: Línea ya procesada: 'Kinshasa, República Democrática del Congo
+'. Saltando esta línea.
+2024-07-19 20:09:01,945 INFO: Línea ya procesada: 'Kuala Lumpur, Malasia
+'. Saltando esta línea.
+2024-07-19 20:09:01,972 INFO: Línea ya procesada: 'Kuwait City, Kuwait
+'. Saltando esta línea.
+2024-07-19 20:09:01,973 INFO: Línea ya procesada: 'Libreville, Gabón
+'. Saltando esta línea.
+2024-07-19 20:09:01,973 INFO: Línea ya procesada: 'Lilongwe, Malaui
+'. Saltando esta línea.
+2024-07-19 20:09:01,977 INFO: Línea ya procesada: 'Lima, Perú
+'. Saltando esta línea.
+2024-07-19 20:09:01,979 INFO: Línea ya procesada: 'Lisboa, Portugal
+'. Saltando esta línea.
+2024-07-19 20:09:01,983 INFO: Línea ya procesada: 'Ljubljana, Eslovenia
+'. Saltando esta línea.
+2024-07-19 20:09:01,992 INFO: Línea ya procesada: 'Lomé, Togo
+'. Saltando esta línea.
+2024-07-19 20:09:01,992 INFO: Línea ya procesada: 'Londres, Reino Unido
+'. Saltando esta línea.
+2024-07-19 20:09:01,993 INFO: Línea ya procesada: 'Luanda, Angola
+'. Saltando esta línea.
+2024-07-19 20:09:01,993 INFO: Línea ya procesada: 'Lusaka, Zambia
+'. Saltando esta línea.
+2024-07-19 20:09:01,994 INFO: Línea ya procesada: 'Madrid, España
+'. Saltando esta línea.
+2024-07-19 20:09:01,994 INFO: Línea ya procesada: 'Majuro, Islas Marshall
+'. Saltando esta línea.
+2024-07-19 20:09:01,994 INFO: Línea ya procesada: 'Malabo, Guinea Ecuatorial
+'. Saltando esta línea.
+2024-07-19 20:09:01,995 INFO: Línea ya procesada: 'Male, Maldivas
+'. Saltando esta línea.
+2024-07-19 20:09:01,995 INFO: Línea ya procesada: 'Managua, Nicaragua
+'. Saltando esta línea.
+2024-07-19 20:09:01,995 INFO: Línea ya procesada: 'Manama, Baréin
+'. Saltando esta línea.
+2024-07-19 20:09:01,996 INFO: Línea ya procesada: 'Manila, Filipinas
+'. Saltando esta línea.
+2024-07-19 20:09:01,996 INFO: Línea ya procesada: 'Maputo, Mozambique
+'. Saltando esta línea.
+2024-07-19 20:09:01,997 INFO: Línea ya procesada: 'Maseru, Lesoto
+'. Saltando esta línea.
+2024-07-19 20:09:01,997 INFO: Línea ya procesada: 'Mbabane, Esuatini
+'. Saltando esta línea.
+2024-07-19 20:09:01,998 INFO: Línea ya procesada: 'Mogadishu, Somalia
+'. Saltando esta línea.
+2024-07-19 20:09:01,998 INFO: Línea ya procesada: 'Monaco, Mónaco
+'. Saltando esta línea.
+2024-07-19 20:09:02,013 INFO: Línea ya procesada: 'Monrovia, Liberia
+'. Saltando esta línea.
+2024-07-19 20:09:02,013 INFO: Línea ya procesada: 'Montevideo, Uruguay
+'. Saltando esta línea.
+2024-07-19 20:09:02,014 INFO: Línea ya procesada: 'Moroni, Comoras
+'. Saltando esta línea.
+2024-07-19 20:09:02,014 INFO: Línea ya procesada: 'Moscú, Rusia
+'. Saltando esta línea.
+2024-07-19 20:09:02,014 INFO: Línea ya procesada: 'Nairobi, Kenia
+'. Saltando esta línea.
+2024-07-19 20:09:02,015 INFO: Línea ya procesada: 'Nassau, Bahamas
+'. Saltando esta línea.
+2024-07-19 20:09:02,015 INFO: Línea ya procesada: 'Naypyidaw, Birmania
+'. Saltando esta línea.
+2024-07-19 20:09:02,015 INFO: Línea ya procesada: 'Ndjamena, Chad
+'. Saltando esta línea.
+2024-07-19 20:09:02,016 INFO: Línea ya procesada: 'Niamey, Níger
+'. Saltando esta línea.
+2024-07-19 20:09:02,016 INFO: Línea ya procesada: 'Nicosia, Chipre
+'. Saltando esta línea.
+2024-07-19 20:09:02,016 INFO: Línea ya procesada: 'Nouakchott, Mauritania
+'. Saltando esta línea.
+2024-07-19 20:09:02,017 INFO: Línea ya procesada: 'Nuku'alofa, Tonga
+'. Saltando esta línea.
+2024-07-19 20:09:02,017 INFO: Línea ya procesada: 'Nur-Sultan, Kazajistán
+'. Saltando esta línea.
+2024-07-19 20:09:02,017 INFO: Línea ya procesada: 'Ottawa, Canadá
+'. Saltando esta línea.
+2024-07-19 20:09:02,020 INFO: Línea ya procesada: 'Ouagadougou, Burkina Faso
+'. Saltando esta línea.
+2024-07-19 20:09:02,021 INFO: Línea ya procesada: 'Palikir, Micronesia
+'. Saltando esta línea.
+2024-07-19 20:09:02,022 INFO: Línea ya procesada: 'Paramaribo, Surinam
+'. Saltando esta línea.
+2024-07-19 20:09:02,023 INFO: Línea ya procesada: 'Phnom Penh, Camboya
+'. Saltando esta línea.
+2024-07-19 20:09:02,023 INFO: Línea ya procesada: 'Podgorica, Montenegro
+'. Saltando esta línea.
+2024-07-19 20:09:02,024 INFO: Línea ya procesada: 'Port Louis, Mauricio
+'. Saltando esta línea.
+2024-07-19 20:09:02,024 INFO: Línea ya procesada: 'Port Moresby, Papúa Nueva Guinea
+'. Saltando esta línea.
+2024-07-19 20:09:02,024 INFO: Línea ya procesada: 'Punta del Este, Uruguay
+'. Saltando esta línea.
+2024-07-19 20:09:02,025 INFO: Línea ya procesada: 'Piriapolis, Uruguay
+'. Saltando esta línea.
+2024-07-19 20:09:02,025 INFO: Línea ya procesada: 'Villa Serrana, Uruguay
+'. Saltando esta línea.
+2024-07-19 20:09:02,025 INFO: Línea ya procesada: 'Colonia del Sacramento, Uruguay
+'. Saltando esta línea.
+2024-07-19 20:09:02,026 INFO: Línea ya procesada: 'Salto, Uruguay
+'. Saltando esta línea.
+2024-07-19 20:09:02,026 INFO: Línea ya procesada: 'Paysandu, Uruguay
+'. Saltando esta línea.
+2024-07-19 20:09:02,027 INFO: Línea ya procesada: 'La Paloma, Uruguay
+'. Saltando esta línea.
+2024-07-19 20:09:02,027 INFO: Línea ya procesada: 'Punta del Diablo, Uruguay
+'. Saltando esta línea.
+2024-07-19 20:09:02,027 INFO: Línea ya procesada: 'Jose Ignacio, Uruguay
+'. Saltando esta línea.
+2024-07-19 20:09:02,028 INFO: Línea ya procesada: 'La Pedrera, Uruguay
+'. Saltando esta línea.
+2024-07-19 20:09:02,028 INFO: Línea ya procesada: 'El Chalten, Argentina
+'. Saltando esta línea.
+2024-07-19 20:09:02,029 INFO: Línea ya procesada: 'El Calafate, Argentina
+'. Saltando esta línea.
+2024-07-19 20:09:02,029 INFO: Línea ya procesada: 'Bariloche, Argentina
+'. Saltando esta línea.
+2024-07-19 20:09:02,029 INFO: Línea ya procesada: 'Esquel, Argentina
+'. Saltando esta línea.
+2024-07-19 20:09:02,030 INFO: Línea ya procesada: 'Cordoba, Argentina
+'. Saltando esta línea.
+2024-07-19 20:09:02,030 INFO: Línea ya procesada: 'Rosario, Argentina
+'. Saltando esta línea.
+2024-07-19 20:09:02,030 INFO: Línea ya procesada: 'Ushuaia, Argentina
+'. Saltando esta línea.
+2024-07-19 20:09:02,031 INFO: Línea ya procesada: 'Rio Gallegos, Argentina
+'. Saltando esta línea.
+2024-07-19 20:09:02,031 INFO: Línea ya procesada: 'Puerto Montt, Chile
+'. Saltando esta línea.
+2024-07-19 20:09:02,031 INFO: Línea ya procesada: 'Puerto Natales, Chile
+'. Saltando esta línea.
+2024-07-19 20:09:02,032 INFO: Línea ya procesada: 'Pucon, Chile
+'. Saltando esta línea.
+2024-07-19 20:09:02,032 INFO: Línea ya procesada: 'San Martin de los Andes, Argentina
+'. Saltando esta línea.
+2024-07-19 20:09:02,032 INFO: Línea ya procesada: 'Concepcion, Chile
+'. Saltando esta línea.
+2024-07-19 20:09:02,033 INFO: Línea ya procesada: 'Pichilemu, Chile
+'. Saltando esta línea.
+2024-07-19 20:09:02,033 INFO: Línea ya procesada: 'Viña del Mar, Chile
+'. Saltando esta línea.
+2024-07-19 20:09:02,033 INFO: Línea ya procesada: 'Valparaiso, Chile
+'. Saltando esta línea.
+2024-07-19 20:09:02,034 INFO: Línea ya procesada: 'Mendoza, Argentina
+'. Saltando esta línea.
+2024-07-19 20:09:02,035 INFO: Línea ya procesada: 'Mar del Plata, Argentina
+'. Saltando esta línea.
+2024-07-19 20:09:02,037 INFO: Línea ya procesada: 'La Paz, Bolivia
+'. Saltando esta línea.
+2024-07-19 20:09:02,038 INFO: Línea ya procesada: 'Cochabamba, Bolivia
+'. Saltando esta línea.
+2024-07-19 20:09:02,039 INFO: Línea ya procesada: 'Sucre, Bolivia
+'. Saltando esta línea.
+2024-07-19 20:09:02,040 INFO: Línea ya procesada: 'Santa Cruz de la Sierra, Bolivia
+'. Saltando esta línea.
+2024-07-19 20:09:02,040 INFO: Línea ya procesada: 'Uyuni, Bolivia
+'. Saltando esta línea.
+2024-07-19 20:09:02,041 INFO: Línea ya procesada: 'La Paz Baja California, Mexico
+'. Saltando esta línea.
+2024-07-19 20:09:02,041 INFO: Línea ya procesada: 'Cabo San Lucas, Mexico
+'. Saltando esta línea.
+2024-07-19 20:09:02,168 INFO: Visitando la página: https://www.booking.com/searchresults.es.html?&checkin=2024-07-29&checkout=2024-07-30&selected_currency=USD&ss=Cabo Polonio,Uruguay&ssne=Cabo Polonio,Uruguay&ssne_untouched=Cabo Polonio,Uruguay&lang=es&sb=1&src_elem=sb&src=searchresults&dest_type=city&group_adults=1&no_rooms=1&group_children=0&sb_travel_purpose=leisure&offset=0
+2024-07-19 20:09:09,446 INFO: Procesando un nuevo hotel...
+2024-07-19 20:09:17,803 INFO: Procesando un nuevo hotel...
+2024-07-19 20:09:24,511 INFO: Procesando un nuevo hotel...
+2024-07-19 20:09:32,552 INFO: Procesando un nuevo hotel...
+2024-07-19 20:09:39,561 INFO: Procesando un nuevo hotel...
+2024-07-19 20:09:48,117 INFO: Procesando un nuevo hotel...
+2024-07-19 20:09:54,944 INFO: Procesando un nuevo hotel...
+2024-07-19 20:10:02,279 INFO: Procesando un nuevo hotel...
+2024-07-19 20:10:09,015 INFO: Procesando un nuevo hotel...
+2024-07-19 20:10:17,649 INFO: Procesando un nuevo hotel...
+2024-07-19 20:10:23,815 INFO: Procesando un nuevo hotel...
+2024-07-19 20:10:30,565 INFO: Procesando un nuevo hotel...
+2024-07-19 20:10:37,179 INFO: Procesando un nuevo hotel...
+2024-07-19 20:10:44,700 INFO: Procesando un nuevo hotel...
+2024-07-19 20:10:53,836 INFO: Procesando un nuevo hotel...
+2024-07-19 20:11:00,427 INFO: Procesando un nuevo hotel...
+2024-07-19 20:11:06,642 INFO: Procesando un nuevo hotel...
+2024-07-19 20:11:13,980 INFO: Procesando un nuevo hotel...
+2024-07-19 20:11:20,728 INFO: Procesando un nuevo hotel...
+2024-07-19 20:11:26,396 INFO: Procesando un nuevo hotel...
+2024-07-19 20:11:34,472 INFO: Procesando un nuevo hotel...
+2024-07-19 20:11:41,029 INFO: Procesando un nuevo hotel...
+2024-07-19 20:11:47,694 INFO: Procesando un nuevo hotel...
+2024-07-19 20:11:54,812 INFO: Procesando un nuevo hotel...
+2024-07-19 20:12:01,603 INFO: Procesando un nuevo hotel...
+2024-07-19 20:12:08,876 INFO: Página 1 procesada. Total de hoteles hasta ahora: 25
+2024-07-19 20:12:08,876 INFO: Total de hoteles para Cabo Polonio, Uruguay: 25
+2024-07-19 20:16:01,590 INFO: Líneas procesadas cargadas: {'La Paloma, Uruguay', 'Ciudad de México, México', 'Asunción, Paraguay', 'Pucon, Chile', 'Kingston, Jamaica', 'Libreville, Gabón', 'Phnom Penh, Camboya', 'Adelaida, Australia', 'Baghdad, Irak', 'Malabo, Guinea Ecuatorial', 'Barcelona, España', 'Tokio, Japón', 'Monaco, Mónaco', 'Santa Cruz de la Sierra, Bolivia', 'Ámsterdam, Países Bajos', 'Bridgetown, Barbados', 'Georgetown, Guyana', 'Esquel, Argentina', 'Abu Dhabi, Emiratos Árabes Unidos', 'Ginebra, Suiza', 'El Cairo, Egipto', 'Alicante, España', 'Nouakchott, Mauritania', 'Colombo, Sri Lanka', 'Uyuni, Bolivia', 'Andorra la Vella, Andorra', 'Delhi, India', 'Puerto Montt, Chile', 'Melbourne, Australia', 'Kigali, Ruanda', 'Ottawa, Canadá', 'Mbabane, Esuatini', 'Phuket, Tailandia', 'Ouagadougou, Burkina Faso', 'Monrovia, Liberia', 'Dubrovnik, Croacia', 'Lisboa, Portugal', 'Auckland, Nueva Zelanda', 'Moscú, Rusia', 'Hobart, Australia', 'Busan, Corea del Sur', 'Kathmandu, Nepal', 'Kinshasa, República Democrática del Congo', 'Nur-Sultan, Kazajistán', 'Viña del Mar, Chile', 'Maseru, Lesoto', 'El Chalten, Argentina', 'Lilongwe, Malaui', 'Atenas, Grecia', 'Las Vegas, Estados Unidos', 'Dubai, Emiratos Árabes Unidos', 'Paramaribo, Surinam', 'Tel Aviv, Israel', 'Mecca, Arabia Saudita', 'Belmopán, Belice', 'Sevilla, España', 'Kabul, Afganistán', 'Los Ángeles, Estados Unidos', 'Algiers, Argelia', 'Reikiavik, Islandia', 'Beirut, Líbano', 'Valencia, España', 'Helsinki, Finlandia', 'Mar del Plata, Argentina', 'La Paz, Bolivia', 'Guatemala City, Guatemala', 'Rio Gallegos, Argentina', 'Pattaya, Tailandia', 'Florencia, Italia', 'Naypyidaw, Birmania', 'Kuala Lumpur, Malasia', 'Múnich, Alemania', 'Ndjamena, Chad', 'Concepcion, Chile', 'Berlín, Alemania', 'Nassau, Bahamas', 'Sucre, Bolivia', 'Madrid, España', 'Banjul, Gambia', 'Managua, Nicaragua', 'Moroni, Comoras', 'Nueva York, Estados Unidos', 'Sídney, Australia', 'Cochabamba, Bolivia', 'Gaborone, Botswana', 'Bangkok, Tailandia', 'Doha, Catar', 'Nairobi, Kenia', 'Niamey, Níger', 'Riyadh, Arabia Saudita', 'Vancouver, Canadá', 'Viena, Austria', 'Basseterre, San Cristóbal y Nieves', 'Berna, Suiza', 'Kyoto, Japón', 'Funchal, Portugal', 'Santiago, Chile', 'El Calafate, Argentina', 'Majuro, Islas Marshall', 'Mumbai, India', 'Bruselas, Bélgica', 'Dushanbe, Tayikistán', 'Bali, Indonesia', 'Villa Serrana, Uruguay', 'Jose Ignacio, Uruguay', 'Podgorica, Montenegro', 'Cabo Polonio, Uruguay', 'Dakar, Senegal', 'Bucarest, Rumanía', 'Cracovia, Polonia', 'Bamako, Malí', 'Kampala, Uganda', 'Cancún, México', 'Panamá, Panamá', 'Toronto, Canadá', 'Milán, Italia', 'Manila, Filipinas', 'Maputo, Mozambique', 'Zurich, Suiza', 'Bandar Seri Begawan, Brunéi', 'Bissau, Guinea-Bisáu', 'Ciudad de Panamá, Panamá', 'Lusaka, Zambia', 'San Martin de los Andes, Argentina', 'Roma, Italia', 'Mendoza, Argentina', 'Brisbane, Australia', 'Edimburgo, Reino Unido', 'Beijing, China', 'Lima, Perú', 'Oporto, Portugal', 'Cairo, Egipto', 'Ushuaia, Argentina', 'Luanda, Angola', 'Shenzhen, China', 'Osaka, Japón', 'Quito, Ecuador', 'Kuwait City, Kuwait', 'Dili, Timor Oriental', 'Budapest, Hungría', 'Port Moresby, Papúa Nueva Guinea', 'Punta del Este, Uruguay', 'Salto, Uruguay', 'Oslo, Noruega', 'Londres, Reino Unido', 'Marrakech, Marruecos', 'Nápoles, Italia', 'Montevideo, Uruguay', 'Ankara, Turquía', 'Pichilemu, Chile', 'La Pedrera, Uruguay', 'São Paulo, Brasil', 'Ho Chi Minh City, Vietnam', 'Caracas, Venezuela', 'Hong Kong, China', 'Castries, Santa Lucía', 'Jakarta, Indonesia', 'Baku, Azerbaiyán', 'Porto, Portugal', 'Brasilia, Brasil', 'Dhaka, Bangladesh', 'Puerto Natales, Chile', 'Seúl, Corea del Sur', 'Chennai, India', 'Valletta, Malta', 'Valparaiso, Chile', 'Palma de Mallorca, España', 'Conakry, Guinea', 'Cabo San Lucas, Mexico', 'La Paz Baja California, Mexico', 'Orlando, Estados Unidos', 'Fukuoka, Japón', 'Copenhague, Dinamarca', 'Mogadishu, Somalia', 'San Francisco, Estados Unidos', 'Ljubljana, Eslovenia', 'Port Louis, Mauricio', 'Honiara, Islas Salomón', 'Brazzaville, República del Congo', 'Manama, Baréin', 'Praga, República Checa', 'Rosario, Argentina', "Nuku'alofa, Tonga", 'Paysandu, Uruguay', 'Singapur, Singapur', 'Damascus, Siria', 'Buenos Aires, Argentina', 'Jaipur, India', 'Punta del Diablo, Uruguay', 'Colonia del Sacramento, Uruguay', 'Bariloche, Argentina', 'Hanoi, Vietnam', 'Cordoba, Argentina', 'Lomé, Togo', 'Nagasaki, Japón', 'Khartoum, Sudán', 'Belgrado, Serbia', 'París, Francia', 'Bogotá, Colombia', 'Palikir, Micronesia', 'Johannesburgo, Sudáfrica', 'Freetown, Sierra Leona', 'Estambul, Turquía', 'Antalya, Turquía', 'Kraków, Polonia', 'Asmara, Eritrea', 'Male, Maldivas', 'Piriapolis, Uruguay', 'Nicosia, Chipre', 'Sapporo, Japón', 'Bratislava, Eslovaquia', 'Juba, Sudán del Sur', 'Addis Abeba, Etiopía', 'Macau, China', 'Harare, Zimbabue', 'Canberra, Australia', 'Bishkek, Kirguistán', 'Djibouti, Yibuti', 'Bangui, República Centroafricana', 'Miami, Estados Unidos', 'Dublín, Irlanda', 'Islamabad, Pakistán', 'Amsterdam, Países Bajos'}
+2024-07-19 20:16:02,166 INFO: Línea ya procesada: 'Bangkok, Tailandia
+'. Saltando esta línea.
+2024-07-19 20:16:02,198 INFO: Línea ya procesada: 'París, Francia
+'. Saltando esta línea.
+2024-07-19 20:16:02,213 INFO: Línea ya procesada: 'Londres, Reino Unido
+'. Saltando esta línea.
+2024-07-19 20:16:02,216 INFO: Línea ya procesada: 'Dubai, Emiratos Árabes Unidos
+'. Saltando esta línea.
+2024-07-19 20:16:02,222 INFO: Línea ya procesada: 'Singapur, Singapur
+'. Saltando esta línea.
+2024-07-19 20:16:02,224 INFO: Línea ya procesada: 'Kuala Lumpur, Malasia
+'. Saltando esta línea.
+2024-07-19 20:16:02,228 INFO: Línea ya procesada: 'Nueva York, Estados Unidos
+'. Saltando esta línea.
+2024-07-19 20:16:02,282 INFO: Línea ya procesada: 'Estambul, Turquía
+'. Saltando esta línea.
+2024-07-19 20:16:02,295 INFO: Línea ya procesada: 'Tokio, Japón
+'. Saltando esta línea.
+2024-07-19 20:16:02,299 INFO: Línea ya procesada: 'Antalya, Turquía
+'. Saltando esta línea.
+2024-07-19 20:16:02,302 INFO: Línea ya procesada: 'Seúl, Corea del Sur
+'. Saltando esta línea.
+2024-07-19 20:16:02,306 INFO: Línea ya procesada: 'Osaka, Japón
+'. Saltando esta línea.
+2024-07-19 20:16:02,311 INFO: Línea ya procesada: 'Phuket, Tailandia
+'. Saltando esta línea.
+2024-07-19 20:16:02,313 INFO: Línea ya procesada: 'Mecca, Arabia Saudita
+'. Saltando esta línea.
+2024-07-19 20:16:02,321 INFO: Línea ya procesada: 'Pattaya, Tailandia
+'. Saltando esta línea.
+2024-07-19 20:16:02,325 INFO: Línea ya procesada: 'Milán, Italia
+'. Saltando esta línea.
+2024-07-19 20:16:02,326 INFO: Línea ya procesada: 'Barcelona, España
+'. Saltando esta línea.
+2024-07-19 20:16:02,328 INFO: Línea ya procesada: 'Palma de Mallorca, España
+'. Saltando esta línea.
+2024-07-19 20:16:02,329 INFO: Línea ya procesada: 'Bali, Indonesia
+'. Saltando esta línea.
+2024-07-19 20:16:02,330 INFO: Línea ya procesada: 'Hong Kong, China
+'. Saltando esta línea.
+2024-07-19 20:16:02,333 INFO: Línea ya procesada: 'Ámsterdam, Países Bajos
+'. Saltando esta línea.
+2024-07-19 20:16:02,339 INFO: Línea ya procesada: 'Las Vegas, Estados Unidos
+'. Saltando esta línea.
+2024-07-19 20:16:02,340 INFO: Línea ya procesada: 'Miami, Estados Unidos
+'. Saltando esta línea.
+2024-07-19 20:16:02,341 INFO: Línea ya procesada: 'Macau, China
+'. Saltando esta línea.
+2024-07-19 20:16:02,342 INFO: Línea ya procesada: 'Toronto, Canadá
+'. Saltando esta línea.
+2024-07-19 20:16:02,343 INFO: Línea ya procesada: 'Delhi, India
+'. Saltando esta línea.
+2024-07-19 20:16:02,343 INFO: Línea ya procesada: 'Chennai, India
+'. Saltando esta línea.
+2024-07-19 20:16:02,344 INFO: Línea ya procesada: 'Mumbai, India
+'. Saltando esta línea.
+2024-07-19 20:16:02,344 INFO: Línea ya procesada: 'Praga, República Checa
+'. Saltando esta línea.
+2024-07-19 20:16:02,345 INFO: Línea ya procesada: 'Roma, Italia
+'. Saltando esta línea.
+2024-07-19 20:16:02,346 INFO: Línea ya procesada: 'Moscú, Rusia
+'. Saltando esta línea.
+2024-07-19 20:16:02,346 INFO: Línea ya procesada: 'Viena, Austria
+'. Saltando esta línea.
+2024-07-19 20:16:02,348 INFO: Línea ya procesada: 'Shenzhen, China
+'. Saltando esta línea.
+2024-07-19 20:16:02,349 INFO: Línea ya procesada: 'Berlín, Alemania
+'. Saltando esta línea.
+2024-07-19 20:16:02,349 INFO: Línea ya procesada: 'Jaipur, India
+'. Saltando esta línea.
+2024-07-19 20:16:02,350 INFO: Línea ya procesada: 'Johannesburgo, Sudáfrica
+'. Saltando esta línea.
+2024-07-19 20:16:02,354 INFO: Línea ya procesada: 'Riyadh, Arabia Saudita
+'. Saltando esta línea.
+2024-07-19 20:16:02,355 INFO: Línea ya procesada: 'Los Ángeles, Estados Unidos
+'. Saltando esta línea.
+2024-07-19 20:16:02,356 INFO: Línea ya procesada: 'Orlando, Estados Unidos
+'. Saltando esta línea.
+2024-07-19 20:16:02,357 INFO: Línea ya procesada: 'Sídney, Australia
+'. Saltando esta línea.
+2024-07-19 20:16:02,358 INFO: Línea ya procesada: 'Cancún, México
+'. Saltando esta línea.
+2024-07-19 20:16:02,358 INFO: Línea ya procesada: 'Buenos Aires, Argentina
+'. Saltando esta línea.
+2024-07-19 20:16:02,359 INFO: Línea ya procesada: 'San Francisco, Estados Unidos
+'. Saltando esta línea.
+2024-07-19 20:16:02,359 INFO: Línea ya procesada: 'Madrid, España
+'. Saltando esta línea.
+2024-07-19 20:16:02,359 INFO: Línea ya procesada: 'Lisboa, Portugal
+'. Saltando esta línea.
+2024-07-19 20:16:02,360 INFO: Línea ya procesada: 'Copenhague, Dinamarca
+'. Saltando esta línea.
+2024-07-19 20:16:02,360 INFO: Línea ya procesada: 'Dublín, Irlanda
+'. Saltando esta línea.
+2024-07-19 20:16:02,361 INFO: Línea ya procesada: 'Budapest, Hungría
+'. Saltando esta línea.
+2024-07-19 20:16:02,361 INFO: Línea ya procesada: 'Dubrovnik, Croacia
+'. Saltando esta línea.
+2024-07-19 20:16:02,361 INFO: Línea ya procesada: 'Marrakech, Marruecos
+'. Saltando esta línea.
+2024-07-19 20:16:02,362 INFO: Línea ya procesada: 'Zurich, Suiza
+'. Saltando esta línea.
+2024-07-19 20:16:02,363 INFO: Línea ya procesada: 'Brisbane, Australia
+'. Saltando esta línea.
+2024-07-19 20:16:02,363 INFO: Línea ya procesada: 'Vancouver, Canadá
+'. Saltando esta línea.
+2024-07-19 20:16:02,364 INFO: Línea ya procesada: 'Múnich, Alemania
+'. Saltando esta línea.
+2024-07-19 20:16:02,365 INFO: Línea ya procesada: 'São Paulo, Brasil
+'. Saltando esta línea.
+2024-07-19 20:16:02,365 INFO: Línea ya procesada: 'Oslo, Noruega
+'. Saltando esta línea.
+2024-07-19 20:16:02,366 INFO: Línea ya procesada: 'Doha, Catar
+'. Saltando esta línea.
+2024-07-19 20:16:02,366 INFO: Línea ya procesada: 'Tel Aviv, Israel
+'. Saltando esta línea.
+2024-07-19 20:16:02,367 INFO: Línea ya procesada: 'Hanoi, Vietnam
+'. Saltando esta línea.
+2024-07-19 20:16:02,368 INFO: Línea ya procesada: 'Ho Chi Minh City, Vietnam
+'. Saltando esta línea.
+2024-07-19 20:16:02,369 INFO: Línea ya procesada: 'Phnom Penh, Camboya
+'. Saltando esta línea.
+2024-07-19 20:16:02,371 INFO: Línea ya procesada: 'Kraków, Polonia
+'. Saltando esta línea.
+2024-07-19 20:16:02,372 INFO: Línea ya procesada: 'Edimburgo, Reino Unido
+'. Saltando esta línea.
+2024-07-19 20:16:02,373 INFO: Línea ya procesada: 'Porto, Portugal
+'. Saltando esta línea.
+2024-07-19 20:16:02,374 INFO: Línea ya procesada: 'Bruselas, Bélgica
+'. Saltando esta línea.
+2024-07-19 20:16:02,375 INFO: Línea ya procesada: 'Atenas, Grecia
+'. Saltando esta línea.
+2024-07-19 20:16:02,375 INFO: Línea ya procesada: 'Abu Dhabi, Emiratos Árabes Unidos
+'. Saltando esta línea.
+2024-07-19 20:16:02,376 INFO: Línea ya procesada: 'Reikiavik, Islandia
+'. Saltando esta línea.
+2024-07-19 20:16:02,376 INFO: Línea ya procesada: 'Nairobi, Kenia
+'. Saltando esta línea.
+2024-07-19 20:16:02,378 INFO: Línea ya procesada: 'Melbourne, Australia
+'. Saltando esta línea.
+2024-07-19 20:16:02,379 INFO: Línea ya procesada: 'Helsinki, Finlandia
+'. Saltando esta línea.
+2024-07-19 20:16:02,379 INFO: Línea ya procesada: 'Auckland, Nueva Zelanda
+'. Saltando esta línea.
+2024-07-19 20:16:02,380 INFO: Línea ya procesada: 'Beirut, Líbano
+'. Saltando esta línea.
+2024-07-19 20:16:02,380 INFO: Línea ya procesada: 'El Cairo, Egipto
+'. Saltando esta línea.
+2024-07-19 20:16:02,381 INFO: Línea ya procesada: 'Quito, Ecuador
+'. Saltando esta línea.
+2024-07-19 20:16:02,381 INFO: Línea ya procesada: 'Lima, Perú
+'. Saltando esta línea.
+2024-07-19 20:16:02,382 INFO: Línea ya procesada: 'Montevideo, Uruguay
+'. Saltando esta línea.
+2024-07-19 20:16:02,383 INFO: Línea ya procesada: 'Ciudad de México, México
+'. Saltando esta línea.
+2024-07-19 20:16:02,384 INFO: Línea ya procesada: 'Panamá, Panamá
+'. Saltando esta línea.
+2024-07-19 20:16:02,385 INFO: Línea ya procesada: 'Santiago, Chile
+'. Saltando esta línea.
+2024-07-19 20:16:02,387 INFO: Línea ya procesada: 'Manila, Filipinas
+'. Saltando esta línea.
+2024-07-19 20:16:02,388 INFO: Línea ya procesada: 'Colombo, Sri Lanka
+'. Saltando esta línea.
+2024-07-19 20:16:02,389 INFO: Línea ya procesada: 'Nápoles, Italia
+'. Saltando esta línea.
+2024-07-19 20:16:02,390 INFO: Línea ya procesada: 'Ljubljana, Eslovenia
+'. Saltando esta línea.
+2024-07-19 20:16:02,391 INFO: Línea ya procesada: 'Florencia, Italia
+'. Saltando esta línea.
+2024-07-19 20:16:02,392 INFO: Línea ya procesada: 'Cracovia, Polonia
+'. Saltando esta línea.
+2024-07-19 20:16:02,393 INFO: Línea ya procesada: 'Hobart, Australia
+'. Saltando esta línea.
+2024-07-19 20:16:02,394 INFO: Línea ya procesada: 'Adelaida, Australia
+'. Saltando esta línea.
+2024-07-19 20:16:02,395 INFO: Línea ya procesada: 'Fukuoka, Japón
+'. Saltando esta línea.
+2024-07-19 20:16:02,396 INFO: Línea ya procesada: 'Nagasaki, Japón
+'. Saltando esta línea.
+2024-07-19 20:16:02,397 INFO: Línea ya procesada: 'Kyoto, Japón
+'. Saltando esta línea.
+2024-07-19 20:16:02,397 INFO: Línea ya procesada: 'Sevilla, España
+'. Saltando esta línea.
+2024-07-19 20:16:02,398 INFO: Línea ya procesada: 'Valencia, España
+'. Saltando esta línea.
+2024-07-19 20:16:02,399 INFO: Línea ya procesada: 'Sapporo, Japón
+'. Saltando esta línea.
+2024-07-19 20:16:02,400 INFO: Línea ya procesada: 'Ginebra, Suiza
+'. Saltando esta línea.
+2024-07-19 20:16:02,403 INFO: Línea ya procesada: 'Busan, Corea del Sur
+'. Saltando esta línea.
+2024-07-19 20:16:02,404 INFO: Línea ya procesada: 'Alicante, España
+'. Saltando esta línea.
+2024-07-19 20:16:02,404 INFO: Línea ya procesada: 'Oporto, Portugal
+'. Saltando esta línea.
+2024-07-19 20:16:02,405 INFO: Línea ya procesada: 'Funchal, Portugal
+'. Saltando esta línea.
+2024-07-19 20:16:02,406 INFO: Línea ya procesada: 'Valletta, Malta
+'. Saltando esta línea.
+2024-07-19 20:16:02,407 INFO: Línea ya procesada: 'Addis Abeba, Etiopía
+'. Saltando esta línea.
+2024-07-19 20:16:02,409 INFO: Línea ya procesada: 'Algiers, Argelia
+'. Saltando esta línea.
+2024-07-19 20:16:02,410 INFO: Línea ya procesada: 'Amsterdam, Países Bajos
+'. Saltando esta línea.
+2024-07-19 20:16:02,410 INFO: Línea ya procesada: 'Andorra la Vella, Andorra
+'. Saltando esta línea.
+2024-07-19 20:16:02,411 INFO: Línea ya procesada: 'Ankara, Turquía
+'. Saltando esta línea.
+2024-07-19 20:16:02,411 INFO: Línea ya procesada: 'Asmara, Eritrea
+'. Saltando esta línea.
+2024-07-19 20:16:02,411 INFO: Línea ya procesada: 'Asunción, Paraguay
+'. Saltando esta línea.
+2024-07-19 20:16:02,412 INFO: Línea ya procesada: 'Baghdad, Irak
+'. Saltando esta línea.
+2024-07-19 20:16:02,412 INFO: Línea ya procesada: 'Baku, Azerbaiyán
+'. Saltando esta línea.
+2024-07-19 20:16:02,412 INFO: Línea ya procesada: 'Bamako, Malí
+'. Saltando esta línea.
+2024-07-19 20:16:02,413 INFO: Línea ya procesada: 'Bandar Seri Begawan, Brunéi
+'. Saltando esta línea.
+2024-07-19 20:16:02,413 INFO: Línea ya procesada: 'Bangui, República Centroafricana
+'. Saltando esta línea.
+2024-07-19 20:16:02,413 INFO: Línea ya procesada: 'Banjul, Gambia
+'. Saltando esta línea.
+2024-07-19 20:16:02,414 INFO: Línea ya procesada: 'Basseterre, San Cristóbal y Nieves
+'. Saltando esta línea.
+2024-07-19 20:16:02,414 INFO: Línea ya procesada: 'Beijing, China
+'. Saltando esta línea.
+2024-07-19 20:16:02,414 INFO: Línea ya procesada: 'Beirut, Líbano
+'. Saltando esta línea.
+2024-07-19 20:16:02,415 INFO: Línea ya procesada: 'Belgrado, Serbia
+'. Saltando esta línea.
+2024-07-19 20:16:02,415 INFO: Línea ya procesada: 'Belmopán, Belice
+'. Saltando esta línea.
+2024-07-19 20:16:02,416 INFO: Línea ya procesada: 'Berlín, Alemania
+'. Saltando esta línea.
+2024-07-19 20:16:02,416 INFO: Línea ya procesada: 'Berna, Suiza
+'. Saltando esta línea.
+2024-07-19 20:16:02,416 INFO: Línea ya procesada: 'Bishkek, Kirguistán
+'. Saltando esta línea.
+2024-07-19 20:16:02,417 INFO: Línea ya procesada: 'Bissau, Guinea-Bisáu
+'. Saltando esta línea.
+2024-07-19 20:16:02,420 INFO: Línea ya procesada: 'Bogotá, Colombia
+'. Saltando esta línea.
+2024-07-19 20:16:02,425 INFO: Línea ya procesada: 'Brasilia, Brasil
+'. Saltando esta línea.
+2024-07-19 20:16:02,452 INFO: Línea ya procesada: 'Bratislava, Eslovaquia
+'. Saltando esta línea.
+2024-07-19 20:16:02,463 INFO: Línea ya procesada: 'Brazzaville, República del Congo
+'. Saltando esta línea.
+2024-07-19 20:16:02,464 INFO: Línea ya procesada: 'Bridgetown, Barbados
+'. Saltando esta línea.
+2024-07-19 20:16:02,464 INFO: Línea ya procesada: 'Bruselas, Bélgica
+'. Saltando esta línea.
+2024-07-19 20:16:02,465 INFO: Línea ya procesada: 'Bucarest, Rumanía
+'. Saltando esta línea.
+2024-07-19 20:16:02,465 INFO: Línea ya procesada: 'Budapest, Hungría
+'. Saltando esta línea.
+2024-07-19 20:16:02,466 INFO: Línea ya procesada: 'Buenos Aires, Argentina
+'. Saltando esta línea.
+2024-07-19 20:16:02,466 INFO: Línea ya procesada: 'Busan, Corea del Sur
+'. Saltando esta línea.
+2024-07-19 20:16:02,467 INFO: Línea ya procesada: 'Cairo, Egipto
+'. Saltando esta línea.
+2024-07-19 20:16:02,468 INFO: Línea ya procesada: 'Canberra, Australia
+'. Saltando esta línea.
+2024-07-19 20:16:02,468 INFO: Línea ya procesada: 'Caracas, Venezuela
+'. Saltando esta línea.
+2024-07-19 20:16:02,468 INFO: Línea ya procesada: 'Castries, Santa Lucía
+'. Saltando esta línea.
+2024-07-19 20:16:02,469 INFO: Línea ya procesada: 'Ciudad de Panamá, Panamá
+'. Saltando esta línea.
+2024-07-19 20:16:02,469 INFO: Línea ya procesada: 'Conakry, Guinea
+'. Saltando esta línea.
+2024-07-19 20:16:02,469 INFO: Línea ya procesada: 'Copenhague, Dinamarca
+'. Saltando esta línea.
+2024-07-19 20:16:02,470 INFO: Línea ya procesada: 'Dakar, Senegal
+'. Saltando esta línea.
+2024-07-19 20:16:02,470 INFO: Línea ya procesada: 'Damascus, Siria
+'. Saltando esta línea.
+2024-07-19 20:16:02,471 INFO: Línea ya procesada: 'Dhaka, Bangladesh
+'. Saltando esta línea.
+2024-07-19 20:16:02,471 INFO: Línea ya procesada: 'Dili, Timor Oriental
+'. Saltando esta línea.
+2024-07-19 20:16:02,471 INFO: Línea ya procesada: 'Djibouti, Yibuti
+'. Saltando esta línea.
+2024-07-19 20:16:02,484 INFO: Línea ya procesada: 'Doha, Catar
+'. Saltando esta línea.
+2024-07-19 20:16:02,485 INFO: Línea ya procesada: 'Dublín, Irlanda
+'. Saltando esta línea.
+2024-07-19 20:16:02,485 INFO: Línea ya procesada: 'Dushanbe, Tayikistán
+'. Saltando esta línea.
+2024-07-19 20:16:02,486 INFO: Línea ya procesada: 'El Cairo, Egipto
+'. Saltando esta línea.
+2024-07-19 20:16:02,486 INFO: Línea ya procesada: 'Freetown, Sierra Leona
+'. Saltando esta línea.
+2024-07-19 20:16:02,487 INFO: Línea ya procesada: 'Gaborone, Botswana
+'. Saltando esta línea.
+2024-07-19 20:16:02,487 INFO: Línea ya procesada: 'Georgetown, Guyana
+'. Saltando esta línea.
+2024-07-19 20:16:02,488 INFO: Línea ya procesada: 'Guatemala City, Guatemala
+'. Saltando esta línea.
+2024-07-19 20:16:02,489 INFO: Línea ya procesada: 'Hanoi, Vietnam
+'. Saltando esta línea.
+2024-07-19 20:16:02,489 INFO: Línea ya procesada: 'Harare, Zimbabue
+'. Saltando esta línea.
+2024-07-19 20:16:02,489 INFO: Línea ya procesada: 'Helsinki, Finlandia
+'. Saltando esta línea.
+2024-07-19 20:16:02,490 INFO: Línea ya procesada: 'Honiara, Islas Salomón
+'. Saltando esta línea.
+2024-07-19 20:16:02,490 INFO: Línea ya procesada: 'Islamabad, Pakistán
+'. Saltando esta línea.
+2024-07-19 20:16:02,490 INFO: Línea ya procesada: 'Jakarta, Indonesia
+'. Saltando esta línea.
+2024-07-19 20:16:02,491 INFO: Línea ya procesada: 'Juba, Sudán del Sur
+'. Saltando esta línea.
+2024-07-19 20:16:02,491 INFO: Línea ya procesada: 'Kabul, Afganistán
+'. Saltando esta línea.
+2024-07-19 20:16:02,492 INFO: Línea ya procesada: 'Kampala, Uganda
+'. Saltando esta línea.
+2024-07-19 20:16:02,492 INFO: Línea ya procesada: 'Kathmandu, Nepal
+'. Saltando esta línea.
+2024-07-19 20:16:02,492 INFO: Línea ya procesada: 'Khartoum, Sudán
+'. Saltando esta línea.
+2024-07-19 20:16:02,493 INFO: Línea ya procesada: 'Kigali, Ruanda
+'. Saltando esta línea.
+2024-07-19 20:16:02,493 INFO: Línea ya procesada: 'Kingston, Jamaica
+'. Saltando esta línea.
+2024-07-19 20:16:02,493 INFO: Línea ya procesada: 'Kinshasa, República Democrática del Congo
+'. Saltando esta línea.
+2024-07-19 20:16:02,494 INFO: Línea ya procesada: 'Kuala Lumpur, Malasia
+'. Saltando esta línea.
+2024-07-19 20:16:02,494 INFO: Línea ya procesada: 'Kuwait City, Kuwait
+'. Saltando esta línea.
+2024-07-19 20:16:02,494 INFO: Línea ya procesada: 'Libreville, Gabón
+'. Saltando esta línea.
+2024-07-19 20:16:02,495 INFO: Línea ya procesada: 'Lilongwe, Malaui
+'. Saltando esta línea.
+2024-07-19 20:16:02,495 INFO: Línea ya procesada: 'Lima, Perú
+'. Saltando esta línea.
+2024-07-19 20:16:02,495 INFO: Línea ya procesada: 'Lisboa, Portugal
+'. Saltando esta línea.
+2024-07-19 20:16:02,496 INFO: Línea ya procesada: 'Ljubljana, Eslovenia
+'. Saltando esta línea.
+2024-07-19 20:16:02,496 INFO: Línea ya procesada: 'Lomé, Togo
+'. Saltando esta línea.
+2024-07-19 20:16:02,496 INFO: Línea ya procesada: 'Londres, Reino Unido
+'. Saltando esta línea.
+2024-07-19 20:16:02,497 INFO: Línea ya procesada: 'Luanda, Angola
+'. Saltando esta línea.
+2024-07-19 20:16:02,497 INFO: Línea ya procesada: 'Lusaka, Zambia
+'. Saltando esta línea.
+2024-07-19 20:16:02,497 INFO: Línea ya procesada: 'Madrid, España
+'. Saltando esta línea.
+2024-07-19 20:16:02,498 INFO: Línea ya procesada: 'Majuro, Islas Marshall
+'. Saltando esta línea.
+2024-07-19 20:16:02,498 INFO: Línea ya procesada: 'Malabo, Guinea Ecuatorial
+'. Saltando esta línea.
+2024-07-19 20:16:02,498 INFO: Línea ya procesada: 'Male, Maldivas
+'. Saltando esta línea.
+2024-07-19 20:16:02,499 INFO: Línea ya procesada: 'Managua, Nicaragua
+'. Saltando esta línea.
+2024-07-19 20:16:02,499 INFO: Línea ya procesada: 'Manama, Baréin
+'. Saltando esta línea.
+2024-07-19 20:16:02,499 INFO: Línea ya procesada: 'Manila, Filipinas
+'. Saltando esta línea.
+2024-07-19 20:16:02,500 INFO: Línea ya procesada: 'Maputo, Mozambique
+'. Saltando esta línea.
+2024-07-19 20:16:02,500 INFO: Línea ya procesada: 'Maseru, Lesoto
+'. Saltando esta línea.
+2024-07-19 20:16:02,501 INFO: Línea ya procesada: 'Mbabane, Esuatini
+'. Saltando esta línea.
+2024-07-19 20:16:02,501 INFO: Línea ya procesada: 'Mogadishu, Somalia
+'. Saltando esta línea.
+2024-07-19 20:16:02,502 INFO: Línea ya procesada: 'Monaco, Mónaco
+'. Saltando esta línea.
+2024-07-19 20:16:02,502 INFO: Línea ya procesada: 'Monrovia, Liberia
+'. Saltando esta línea.
+2024-07-19 20:16:02,503 INFO: Línea ya procesada: 'Montevideo, Uruguay
+'. Saltando esta línea.
+2024-07-19 20:16:02,504 INFO: Línea ya procesada: 'Moroni, Comoras
+'. Saltando esta línea.
+2024-07-19 20:16:02,505 INFO: Línea ya procesada: 'Moscú, Rusia
+'. Saltando esta línea.
+2024-07-19 20:16:02,505 INFO: Línea ya procesada: 'Nairobi, Kenia
+'. Saltando esta línea.
+2024-07-19 20:16:02,506 INFO: Línea ya procesada: 'Nassau, Bahamas
+'. Saltando esta línea.
+2024-07-19 20:16:02,506 INFO: Línea ya procesada: 'Naypyidaw, Birmania
+'. Saltando esta línea.
+2024-07-19 20:16:02,506 INFO: Línea ya procesada: 'Ndjamena, Chad
+'. Saltando esta línea.
+2024-07-19 20:16:02,507 INFO: Línea ya procesada: 'Niamey, Níger
+'. Saltando esta línea.
+2024-07-19 20:16:02,507 INFO: Línea ya procesada: 'Nicosia, Chipre
+'. Saltando esta línea.
+2024-07-19 20:16:02,507 INFO: Línea ya procesada: 'Nouakchott, Mauritania
+'. Saltando esta línea.
+2024-07-19 20:16:02,508 INFO: Línea ya procesada: 'Nuku'alofa, Tonga
+'. Saltando esta línea.
+2024-07-19 20:16:02,508 INFO: Línea ya procesada: 'Nur-Sultan, Kazajistán
+'. Saltando esta línea.
+2024-07-19 20:16:02,508 INFO: Línea ya procesada: 'Ottawa, Canadá
+'. Saltando esta línea.
+2024-07-19 20:16:02,509 INFO: Línea ya procesada: 'Ouagadougou, Burkina Faso
+'. Saltando esta línea.
+2024-07-19 20:16:02,509 INFO: Línea ya procesada: 'Palikir, Micronesia
+'. Saltando esta línea.
+2024-07-19 20:16:02,509 INFO: Línea ya procesada: 'Paramaribo, Surinam
+'. Saltando esta línea.
+2024-07-19 20:16:02,510 INFO: Línea ya procesada: 'Phnom Penh, Camboya
+'. Saltando esta línea.
+2024-07-19 20:16:02,510 INFO: Línea ya procesada: 'Podgorica, Montenegro
+'. Saltando esta línea.
+2024-07-19 20:16:02,510 INFO: Línea ya procesada: 'Port Louis, Mauricio
+'. Saltando esta línea.
+2024-07-19 20:16:02,511 INFO: Línea ya procesada: 'Port Moresby, Papúa Nueva Guinea
+'. Saltando esta línea.
+2024-07-19 20:16:02,511 INFO: Línea ya procesada: 'Punta del Este, Uruguay
+'. Saltando esta línea.
+2024-07-19 20:16:02,511 INFO: Línea ya procesada: 'Piriapolis, Uruguay
+'. Saltando esta línea.
+2024-07-19 20:16:02,512 INFO: Línea ya procesada: 'Villa Serrana, Uruguay
+'. Saltando esta línea.
+2024-07-19 20:16:02,512 INFO: Línea ya procesada: 'Colonia del Sacramento, Uruguay
+'. Saltando esta línea.
+2024-07-19 20:16:02,512 INFO: Línea ya procesada: 'Salto, Uruguay
+'. Saltando esta línea.
+2024-07-19 20:16:02,513 INFO: Línea ya procesada: 'Paysandu, Uruguay
+'. Saltando esta línea.
+2024-07-19 20:16:02,513 INFO: Línea ya procesada: 'La Paloma, Uruguay
+'. Saltando esta línea.
+2024-07-19 20:16:02,513 INFO: Línea ya procesada: 'Punta del Diablo, Uruguay
+'. Saltando esta línea.
+2024-07-19 20:16:02,514 INFO: Línea ya procesada: 'Jose Ignacio, Uruguay
+'. Saltando esta línea.
+2024-07-19 20:16:02,514 INFO: Línea ya procesada: 'La Pedrera, Uruguay
+'. Saltando esta línea.
+2024-07-19 20:16:02,514 INFO: Línea ya procesada: 'El Chalten, Argentina
+'. Saltando esta línea.
+2024-07-19 20:16:02,515 INFO: Línea ya procesada: 'El Calafate, Argentina
+'. Saltando esta línea.
+2024-07-19 20:16:02,515 INFO: Línea ya procesada: 'Bariloche, Argentina
+'. Saltando esta línea.
+2024-07-19 20:16:02,515 INFO: Línea ya procesada: 'Esquel, Argentina
+'. Saltando esta línea.
+2024-07-19 20:16:02,516 INFO: Línea ya procesada: 'Cordoba, Argentina
+'. Saltando esta línea.
+2024-07-19 20:16:02,516 INFO: Línea ya procesada: 'Rosario, Argentina
+'. Saltando esta línea.
+2024-07-19 20:16:02,516 INFO: Línea ya procesada: 'Ushuaia, Argentina
+'. Saltando esta línea.
+2024-07-19 20:16:02,517 INFO: Línea ya procesada: 'Rio Gallegos, Argentina
+'. Saltando esta línea.
+2024-07-19 20:16:02,518 INFO: Línea ya procesada: 'Puerto Montt, Chile
+'. Saltando esta línea.
+2024-07-19 20:16:02,519 INFO: Línea ya procesada: 'Puerto Natales, Chile
+'. Saltando esta línea.
+2024-07-19 20:16:02,519 INFO: Línea ya procesada: 'Pucon, Chile
+'. Saltando esta línea.
+2024-07-19 20:16:02,520 INFO: Línea ya procesada: 'San Martin de los Andes, Argentina
+'. Saltando esta línea.
+2024-07-19 20:16:02,521 INFO: Línea ya procesada: 'Concepcion, Chile
+'. Saltando esta línea.
+2024-07-19 20:16:02,521 INFO: Línea ya procesada: 'Pichilemu, Chile
+'. Saltando esta línea.
+2024-07-19 20:16:02,522 INFO: Línea ya procesada: 'Viña del Mar, Chile
+'. Saltando esta línea.
+2024-07-19 20:16:02,522 INFO: Línea ya procesada: 'Valparaiso, Chile
+'. Saltando esta línea.
+2024-07-19 20:16:02,522 INFO: Línea ya procesada: 'Mendoza, Argentina
+'. Saltando esta línea.
+2024-07-19 20:16:02,523 INFO: Línea ya procesada: 'Mar del Plata, Argentina
+'. Saltando esta línea.
+2024-07-19 20:16:02,523 INFO: Línea ya procesada: 'La Paz, Bolivia
+'. Saltando esta línea.
+2024-07-19 20:16:02,523 INFO: Línea ya procesada: 'Cochabamba, Bolivia
+'. Saltando esta línea.
+2024-07-19 20:16:02,524 INFO: Línea ya procesada: 'Sucre, Bolivia
+'. Saltando esta línea.
+2024-07-19 20:16:02,524 INFO: Línea ya procesada: 'Santa Cruz de la Sierra, Bolivia
+'. Saltando esta línea.
+2024-07-19 20:16:02,525 INFO: Línea ya procesada: 'Uyuni, Bolivia
+'. Saltando esta línea.
+2024-07-19 20:16:02,525 INFO: Línea ya procesada: 'La Paz Baja California, Mexico
+'. Saltando esta línea.
+2024-07-19 20:16:02,525 INFO: Línea ya procesada: 'Cabo San Lucas, Mexico
+'. Saltando esta línea.
+2024-07-19 20:16:02,526 INFO: Línea ya procesada: 'Cabo Polonio, Uruguay
+'. Saltando esta línea.
+2024-07-19 20:16:02,618 INFO: Visitando la página: https://www.booking.com/searchresults.es.html?&checkin=2024-07-29&checkout=2024-07-30&selected_currency=USD&ss=Torres,Brasil&ssne=Torres,Brasil&ssne_untouched=Torres,Brasil&lang=es&sb=1&src_elem=sb&src=searchresults&dest_type=city&group_adults=1&no_rooms=1&group_children=0&sb_travel_purpose=leisure&offset=0
+2024-07-19 20:16:07,198 INFO: Procesando un nuevo hotel...
+2024-07-19 20:16:14,474 INFO: Procesando un nuevo hotel...
+2024-07-19 20:16:22,565 INFO: Procesando un nuevo hotel...
+2024-07-19 20:16:30,253 INFO: Procesando un nuevo hotel...
+2024-07-19 20:16:38,953 INFO: Procesando un nuevo hotel...
+2024-07-19 20:16:46,302 INFO: Procesando un nuevo hotel...
+2024-07-19 20:16:54,274 INFO: Procesando un nuevo hotel...
+2024-07-19 20:17:01,154 INFO: Procesando un nuevo hotel...
+2024-07-19 20:17:10,200 INFO: Procesando un nuevo hotel...
