@@ -227,3 +227,25 @@ Uyuni, Bolivia
 La Paz Baja California, Mexico
 Cabo San Lucas, Mexico
 Cabo Polonio, Uruguay
+Torres, Brasil
+Garopaba, Brasil
+Ferrugem, Brasil
+Florianopolis, Brasil
+Camboriu, Brasil
+Ilha Grande, Brasil
+Paraty, Brasil
+Ubatuba, Brasil
+Arraial do Cabo, Brasil
+Cabo Frio, Brasil
+Búzios, Brasil
+Salvador de Bahía, Brasil
+Morro de Sao Paulo, Brasil
+Porto Seguro, Brasil
+Maceió, Brasil
+João Pessoa, Brasil
+Pipa, Brasil
+Jericoacoara, Brasil
+Cusco, Perú
+Montañita, Ecuador
+Máncora, Perú
+Cuenca, Ecuador
