@@ -270,3 +270,46 @@ Cartagena de Indias, Colombia
 Santa Marta, Colombia
 Medellín, Colombia
 Cali, Colombia
+Atlántida, Uruguay
+José Ignacio, Uruguay
+La Barra, Uruguay
+Carmelo, Uruguay
+Rocha, Uruguay
+Minas, Uruguay
+Tacuarembó, Uruguay
+Salto, Uruguay
+Paysandú, Uruguay
+Mercedes, Uruguay
+Durazno, Uruguay
+Rivera, Uruguay
+Florida, Uruguay
+San José de Mayo, Uruguay
+Treinta y Tres, Uruguay
+Artigas, Uruguay
+Maldonado, Uruguay
+Canelones, Uruguay
+San Carlos, Uruguay
+Aiguá, Uruguay
+Nueva Helvecia, Uruguay
+Libertad, Uruguay
+Bella Unión, Uruguay
+Trinidad, Uruguay
+Paso de los Toros, Uruguay
+Fray Bentos, Uruguay
+Young, Uruguay
+Dolores, Uruguay
+Melo, Uruguay
+Chuy, Uruguay
+Castillos, Uruguay
+San Gregorio de Polanco, Uruguay
+Progreso, Uruguay
+Pan de Azúcar, Uruguay
+Juan Lacaze, Uruguay
+Sarandí Grande, Uruguay
+Tarariras, Uruguay
+Rosario, Uruguay
+Nueva Palmira, Uruguay
+Santa Lucía, Uruguay
+Pando, Uruguay
+Vergara, Uruguay
+Lascano, Uruguay
