@@ -251,3 +251,5 @@ Máncora, Perú
 Cuenca, Ecuador
 Cartagena de Indias, Colombia
 Santa Marta, Colombia
+Medellín, Colombia
+Cali, Colombia
