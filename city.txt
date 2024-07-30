@@ -313,3 +313,702 @@ Santa Lucía, Uruguay
 Pando, Uruguay
 Vergara, Uruguay
 Lascano, Uruguay
+Buenos Aires, Argentina
+Mar del Plata, Argentina
+Córdoba, Argentina
+Mendoza, Argentina
+San Carlos de Bariloche, Argentina
+Ushuaia, Argentina
+El Calafate, Argentina
+Salta, Argentina
+Iguazú, Argentina
+Rosario, Argentina
+San Juan, Argentina
+La Plata, Argentina
+San Martín de los Andes, Argentina
+Villa Carlos Paz, Argentina
+Puerto Madryn, Argentina
+Villa La Angostura, Argentina
+San Salvador de Jujuy, Argentina
+Tandil, Argentina
+San Fernando del Valle de Catamarca, Argentina
+Trelew, Argentina
+Neuquén, Argentina
+Paraná, Argentina
+Corrientes, Argentina
+Bahía Blanca, Argentina
+Merlo, Argentina
+San Luis, Argentina
+Gualeguaychú, Argentina
+Pinamar, Argentina
+Villa Gesell, Argentina
+La Rioja, Argentina
+Posadas, Argentina
+Santa Rosa, Argentina
+Comodoro Rivadavia, Argentina
+Puerto Iguazú, Argentina
+Rio Gallegos, Argentina
+Esquel, Argentina
+El Chaltén, Argentina
+Alta Gracia, Argentina
+Cariló, Argentina
+Tigre, Argentina
+Luján, Argentina
+San Rafael, Argentina
+Baradero, Argentina
+Junín, Argentina
+Concordia, Argentina
+Resistencia, Argentina
+San Nicolás de los Arroyos, Argentina
+San Miguel de Tucumán, Argentina
+Villa General Belgrano, Argentina
+Viedma, Argentina
+San Antonio de Areco, Argentina
+Villa de Merlo, Argentina
+Colón, Argentina
+Oberá, Argentina
+Termas de Río Hondo, Argentina
+Cafayate, Argentina
+San Javier, Argentina
+Purmamarca, Argentina
+Tilcara, Argentina
+Humahuaca, Argentina
+La Cumbre, Argentina
+San Lorenzo, Argentina
+Villa Traful, Argentina
+El Bolsón, Argentina
+Villa Pehuenia, Argentina
+Puerto Deseado, Argentina
+Puerto San Julián, Argentina
+Villa Regina, Argentina
+Perito Moreno, Argentina
+Cachi, Argentina
+Tafí del Valle, Argentina
+Tafí Viejo, Argentina
+Yerba Buena, Argentina
+Jesús María, Argentina
+Mina Clavero, Argentina
+Villa Cura Brochero, Argentina
+La Falda, Argentina
+Río Ceballos, Argentina
+Embalse, Argentina
+Los Reartes, Argentina
+Salsipuedes, Argentina
+Santa María de Punilla, Argentina
+Cosquín, Argentina
+Capilla del Monte, Argentina
+Monte Hermoso, Argentina
+Coronel Suárez, Argentina
+Las Grutas, Argentina
+El Cóndor, Argentina
+San Clemente del Tuyú, Argentina
+Santa Teresita, Argentina
+San Bernardo, Argentina
+Mar de Ajó, Argentina
+Villa Gesell, Argentina
+Miramar, Argentina
+Necochea, Argentina
+Quequén, Argentina
+Villa del Dique, Argentina
+Valle Hermoso, Argentina
+Villa Dolores, Argentina
+Villa Giardino, Argentina
+Santiago, Chile
+Valparaíso, Chile
+Viña del Mar, Chile
+San Pedro de Atacama, Chile
+Puerto Varas, Chile
+Pucón, Chile
+La Serena, Chile
+Valdivia, Chile
+Punta Arenas, Chile
+Iquique, Chile
+Concepción, Chile
+Temuco, Chile
+Arica, Chile
+Puerto Montt, Chile
+Antofagasta, Chile
+Rancagua, Chile
+Chillán, Chile
+Osorno, Chile
+Coquimbo, Chile
+Talca, Chile
+Quintero, Chile
+Frutillar, Chile
+Villarrica, Chile
+Castro, Chile
+Curicó, Chile
+Calama, Chile
+Coyhaique, Chile
+Copiapó, Chile
+Linares, Chile
+San Fernando, Chile
+Ovalle, Chile
+Ancud, Chile
+Chaitén, Chile
+Vallenar, Chile
+Puerto Natales, Chile
+Isla de Pascua, Chile
+Pichilemu, Chile
+Quillota, Chile
+San Antonio, Chile
+Aysén, Chile
+Los Andes, Chile
+Melipilla, Chile
+Los Ángeles, Chile
+Talcahuano, Chile
+Tomé, Chile
+Constitución, Chile
+Quellón, Chile
+Molina, Chile
+San Vicente de Tagua Tagua, Chile
+La Ligua, Chile
+Coronel, Chile
+Huasco, Chile
+Tierra Amarilla, Chile
+Tocopilla, Chile
+Mejillones, Chile
+Lota, Chile
+Mulchén, Chile
+Lautaro, Chile
+Victoria, Chile
+Rengo, Chile
+Machalí, Chile
+Colchagua, Chile
+Buin, Chile
+Peñaflor, Chile
+Rapa Nui, Chile
+Algarrobo, Chile
+El Quisco, Chile
+Papudo, Chile
+Zapallar, Chile
+El Tabo, Chile
+Combarbalá, Chile
+Monte Patria, Chile
+Illapel, Chile
+Salamanca, Chile
+Quirihue, Chile
+Bulnes, Chile
+Nacimiento, Chile
+Angol, Chile
+Loncoche, Chile
+Panguipulli, Chile
+Lanco, Chile
+Paillaco, Chile
+Río Bueno, Chile
+La Unión, Chile
+Los Lagos, Chile
+Futrono, Chile
+Lago Ranco, Chile
+Puyehue, Chile
+Purranque, Chile
+Fresia, Chile
+Maullín, Chile
+Llanquihue, Chile
+Río Negro, Chile
+Hualaihué, Chile
+Palena, Chile
+Cochrane, Chile
+Villa O'Higgins, Chile
+Puerto Aysén, Chile
+Chonchi, Chile
+Dalcahue, Chile
+São Paulo, Brasil
+Salvador, Brasil
+Florianópolis, Brasil
+Fortaleza, Brasil
+Recife, Brasil
+Porto Alegre, Brasil
+Brasília, Brasil
+Curitiba, Brasil
+Belo Horizonte, Brasil
+Manaus, Brasil
+Natal, Brasil
+Foz do Iguaçu, Brasil
+Porto Seguro, Brasil
+João Pessoa, Brasil
+Maceió, Brasil
+Aracaju, Brasil
+Vitória, Brasil
+Campo Grande, Brasil
+Cuiabá, Brasil
+Palmas, Brasil
+Teresina, Brasil
+Goiânia, Brasil
+São Luís, Brasil
+Belém, Brasil
+Macapá, Brasil
+Rio Branco, Brasil
+Boa Vista, Brasil
+Santos, Brasil
+Búzios, Brasil
+Cabo Frio, Brasil
+Paraty, Brasil
+Angra dos Reis, Brasil
+Ilha Grande, Brasil
+Petrópolis, Brasil
+Niterói, Brasil
+Ouro Preto, Brasil
+Tiradentes, Brasil
+Diamantina, Brasil
+Mariana, Brasil
+Mariana, Brasil
+Lavras Novas, Brasil
+Brumadinho, Brasil
+Inhotim, Brasil
+Congonhas, Brasil
+São João del-Rei, Brasil
+Belo Vale, Brasil
+Caeté, Brasil
+Juiz de Fora, Brasil
+Montes Claros, Brasil
+Uberlândia, Brasil
+Uberaba, Brasil
+Araxá, Brasil
+Poços de Caldas, Brasil
+São José dos Campos, Brasil
+Sorocaba, Brasil
+Campinas, Brasil
+São Carlos, Brasil
+Ribeirão Preto, Brasil
+Franca, Brasil
+Presidente Prudente, Brasil
+Marília, Brasil
+Bauru, Brasil
+Jundiaí, Brasil
+Santos, Brasil
+Guarujá, Brasil
+Ilhabela, Brasil
+Ubatuba, Brasil
+Caraguatatuba, Brasil
+São Sebastião, Brasil
+Campos do Jordão, Brasil
+Itanhaém, Brasil
+Praia Grande, Brasil
+Peruíbe, Brasil
+Iguape, Brasil
+Cananéia, Brasil
+Paranaguá, Brasil
+Ilha do Mel, Brasil
+Guaratuba, Brasil
+Matinhos, Brasil
+Pontal do Paraná, Brasil
+Itapema, Brasil
+Bombinhas, Brasil
+Balneário Camboriú, Brasil
+Itajaí, Brasil
+Navegantes, Brasil
+Penha, Brasil
+Joinville, Brasil
+Blumenau, Brasil
+Brusque, Brasil
+Jaraguá do Sul, Brasil
+São Bento do Sul, Brasil
+Lages, Brasil
+Chapecó, Brasil
+Joaçaba, Brasil
+Concórdia, Brasil
+Criciúma, Brasil
+Tubarão, Brasil
+Imbituba, Brasil
+Laguna, Brasil
+La Paz, Bolivia
+Sucre, Bolivia
+Santa Cruz de la Sierra, Bolivia
+Cochabamba, Bolivia
+Potosí, Bolivia
+Oruro, Bolivia
+Tarija, Bolivia
+Uyuni, Bolivia
+Copacabana, Bolivia
+Coroico, Bolivia
+Rurrenabaque, Bolivia
+Trinidad, Bolivia
+Tupiza, Bolivia
+Samaipata, Bolivia
+Sorata, Bolivia
+Villazón, Bolivia
+Camiri, Bolivia
+Villamontes, Bolivia
+San Ignacio de Velasco, Bolivia
+Concepción, Bolivia
+San Javier, Bolivia
+Vallegrande, Bolivia
+San José de Chiquitos, Bolivia
+Puerto Quijarro, Bolivia
+Puerto Suárez, Bolivia
+Montero, Bolivia
+Yacuiba, Bolivia
+Cobija, Bolivia
+Achacachi, Bolivia
+Tiahuanaco, Bolivia
+Quime, Bolivia
+Patacamaya, Bolivia
+Challapata, Bolivia
+Colchani, Bolivia
+Santiago de Huata, Bolivia
+Llallagua, Bolivia
+Pucarani, Bolivia
+Llica, Bolivia
+Arica, Bolivia
+Huanuni, Bolivia
+Aiquile, Bolivia
+Mizque, Bolivia
+Torotoro, Bolivia
+Totora, Bolivia
+Incallajta, Bolivia
+Sacaba, Bolivia
+Quillacollo, Bolivia
+Tarata, Bolivia
+Punata, Bolivia
+Arani, Bolivia
+Asunción, Paraguay
+Ciudad del Este, Paraguay
+Encarnación, Paraguay
+San Bernardino, Paraguay
+Luque, Paraguay
+Areguá, Paraguay
+Caacupé, Paraguay
+Villarica, Paraguay
+Filadelfia, Paraguay
+Concepción, Paraguay
+Pedro Juan Caballero, Paraguay
+Coronel Oviedo, Paraguay
+Pilar, Paraguay
+Ypacaraí, Paraguay
+Bella Vista, Paraguay
+Tobatí, Paraguay
+Itaipú, Paraguay
+San Lorenzo, Paraguay
+Lambaré, Paraguay
+Fernando de la Mora, Paraguay
+Itauguá, Paraguay
+Caaguazú, Paraguay
+Paraguarí, Paraguay
+Piribebuy, Paraguay
+Yaguarón, Paraguay
+Santaní, Paraguay
+Itacurubí de la Cordillera, Paraguay
+Ayolas, Paraguay
+San Juan Bautista, Paraguay
+Ybycuí, Paraguay
+Villarrica, Paraguay
+Colonia Independencia, Paraguay
+Hohenau, Paraguay
+Carmen del Paraná, Paraguay
+Capitán Meza, Paraguay
+Jesús de Tavarangue, Paraguay
+Trinidad, Paraguay
+Nueva Italia, Paraguay
+Altos, Paraguay
+Quyquyhó, Paraguay
+Carapeguá, Paraguay
+Capiatá, Paraguay
+Coronel Bogado, Paraguay
+San Ignacio, Paraguay
+Santa María de Fe, Paraguay
+San Cosme y Damián, Paraguay
+Fuerte Olimpo, Paraguay
+Paso Yobai, Paraguay
+Benjamín Aceval, Paraguay
+Cerrito, Paraguay
+Lima, Perú
+Cusco, Perú
+Arequipa, Perú
+Trujillo, Perú
+Chiclayo, Perú
+Iquitos, Perú
+Puno, Perú
+Piura, Perú
+Tacna, Perú
+Ica, Perú
+Huaraz, Perú
+Paracas, Perú
+Nazca, Perú
+Ayacucho, Perú
+Tarapoto, Perú
+Cajamarca, Perú
+Huancayo, Perú
+Pucallpa, Perú
+Tumbes, Perú
+Moyobamba, Perú
+Huánuco, Perú
+Puerto Maldonado, Perú
+Juliaca, Perú
+Chachapoyas, Perú
+Tarma, Perú
+Chimbote, Perú
+Tingo María, Perú
+Huancavelica, Perú
+Abancay, Perú
+Pisco, Perú
+Moquegua, Perú
+Sullana, Perú
+Talara, Perú
+Ilo, Perú
+Chincha Alta, Perú
+Jaén, Perú
+Yurimaguas, Perú
+Paita, Perú
+Huaral, Perú
+Ferreñafe, Perú
+Lambayeque, Perú
+Oxapampa, Perú
+Satipo, Perú
+Bagua, Perú
+Huamachuco, Perú
+Cañete, Perú
+Chulucanas, Perú
+Barranca, Perú
+Lamas, Perú
+Tocache, Perú
+Rioja, Perú
+Ilave, Perú
+La Merced, Perú
+Sechura, Perú
+Yungay, Perú
+Mala, Perú
+San Ramón, Perú
+Atalaya, Perú
+Lircay, Perú
+Caraz, Perú
+Quillabamba, Perú
+Pampas, Perú
+Pallasca, Perú
+Pomabamba, Perú
+Contamana, Perú
+Huarmey, Perú
+Taraco, Perú
+Túcume, Perú
+Huanta, Perú
+Chincheros, Perú
+Uchiza, Perú
+Chota, Perú
+Andahuaylas, Perú
+Chepén, Perú
+La Oroya, Perú
+Monsefú, Perú
+Nuevo Chimbote, Perú
+Pacasmayo, Perú
+Querecotillo, Perú
+San Pedro de Lloc, Perú
+Supe, Perú
+Talavera, Perú
+Tocache, Perú
+Virú, Perú
+Aguas Calientes, Perú
+Andamarca, Perú
+Ayaviri, Perú
+Bernal, Perú
+Camana, Perú
+Colán, Perú
+El Carmen, Perú
+Guadalupe, Perú
+La Unión, Perú
+Máncora, Perú
+Pisac, Perú
+Reque, Perú
+San Ignacio, Perú
+Santa, Perú
+Sicán, Perú
+Zorritos, Perú
+Quito, Ecuador
+Guayaquil, Ecuador
+Cuenca, Ecuador
+Baños, Ecuador
+Manta, Ecuador
+Salinas, Ecuador
+Otavalo, Ecuador
+Montañita, Ecuador
+Loja, Ecuador
+Tena, Ecuador
+Puerto Ayora, Ecuador
+Puerto Baquerizo Moreno, Ecuador
+Riobamba, Ecuador
+Machala, Ecuador
+Ambato, Ecuador
+Ibarra, Ecuador
+Latacunga, Ecuador
+Esmeraldas, Ecuador
+Portoviejo, Ecuador
+Santo Domingo, Ecuador
+Puyo, Ecuador
+Tulcán, Ecuador
+Playas, Ecuador
+Canoa, Ecuador
+Mindo, Ecuador
+Vilcabamba, Ecuador
+Macas, Ecuador
+Guaranda, Ecuador
+Santa Elena, Ecuador
+Sucúa, Ecuador
+Zaruma, Ecuador
+Cotacachi, Ecuador
+Alausí, Ecuador
+Cayambe, Ecuador
+Salcedo, Ecuador
+Santa Cruz, Ecuador
+Cuyabeno, Ecuador
+Isabela, Ecuador
+San Cristóbal, Ecuador
+Jama, Ecuador
+Yaguachi, Ecuador
+Pomasqui, Ecuador
+Pedro Vicente Maldonado, Ecuador
+Pichincha, Ecuador
+Misahuallí, Ecuador
+Olón, Ecuador
+Ayampe, Ecuador
+Palora, Ecuador
+Chone, Ecuador
+Calceta, Ecuador
+Puerto López, Ecuador
+Jipijapa, Ecuador
+Santa Rosa, Ecuador
+Balao, Ecuador
+El Coca, Ecuador
+Lago Agrio, Ecuador
+Huaquillas, Ecuador
+Muisne, Ecuador
+Quinindé, Ecuador
+La Libertad, Ecuador
+Daule, Ecuador
+Pedro Carbo, Ecuador
+San Gabriel, Ecuador
+Machachi, Ecuador
+Amaguaña, Ecuador
+Guano, Ecuador
+Tisaleo, Ecuador
+Quero, Ecuador
+Baquerizo Moreno, Ecuador
+Pangua, Ecuador
+Chimbo, Ecuador
+San Miguel, Ecuador
+Penipe, Ecuador
+Mocha, Ecuador
+Pujilí, Ecuador
+Sigchos, Ecuador
+Guaranda, Ecuador
+Caluma, Ecuador
+Echeandía, Ecuador
+Las Naves, Ecuador
+Sigsig, Ecuador
+Girón, Ecuador
+Gualaceo, Ecuador
+Chordeleg, Ecuador
+Paute, Ecuador
+Pindal, Ecuador
+Celica, Ecuador
+Paltas, Ecuador
+Zapotillo, Ecuador
+Calvas, Ecuador
+Espíndola, Ecuador
+Macará, Ecuador
+Puyango, Ecuador
+Loja, Ecuador
+Catamayo, Ecuador
+Saraguro, Ecuador
+Yantzaza, Ecuador
+El Pangui, Ecuador
+Guayzimi, Ecuador
+Zamora, Ecuador
+Bogotá, Colombia
+Medellín, Colombia
+Cartagena, Colombia
+Cali, Colombia
+Barranquilla, Colombia
+Santa Marta, Colombia
+San Andrés, Colombia
+Pereira, Colombia
+Bucaramanga, Colombia
+Manizales, Colombia
+Armenia, Colombia
+Villavicencio, Colombia
+Popayán, Colombia
+Cúcuta, Colombia
+Neiva, Colombia
+Pasto, Colombia
+Tunja, Colombia
+Montería, Colombia
+Valledupar, Colombia
+Leticia, Colombia
+Ipiales, Colombia
+Buenaventura, Colombia
+Palmira, Colombia
+Sincelejo, Colombia
+Riohacha, Colombia
+Girardot, Colombia
+Mompox, Colombia
+Honda, Colombia
+Guatapé, Colombia
+Zipaquirá, Colombia
+Villa de Leyva, Colombia
+San Gil, Colombia
+Barichara, Colombia
+Taganga, Colombia
+Providencia, Colombia
+Melgar, Colombia
+Fusagasugá, Colombia
+Sopó, Colombia
+Rionegro, Colombia
+Jardín, Colombia
+Santa Fe de Antioquia, Colombia
+La Macarena, Colombia
+Salento, Colombia
+Filandia, Colombia
+Montenegro, Colombia
+Quimbaya, Colombia
+Calarcá, Colombia
+Ibagué, Colombia
+Pitalito, Colombia
+Yopal, Colombia
+Granada, Colombia
+Mitú, Colombia
+Florencia, Colombia
+Arauca, Colombia
+Duitama, Colombia
+Sogamoso, Colombia
+Chiquinquirá, Colombia
+Guaduas, Colombia
+San José del Guaviare, Colombia
+Puerto Carreño, Colombia
+Turbo, Colombia
+Apartadó, Colombia
+Caucasia, Colombia
+Lorica, Colombia
+Corozal, Colombia
+Coveñas, Colombia
+Tolú, Colombia
+Santa Cruz de Lorica, Colombia
+Plato, Colombia
+Aracataca, Colombia
+Fundación, Colombia
+La Dorada, Colombia
+Puerto Boyacá, Colombia
+Aguachica, Colombia
+Ocaña, Colombia
+Pamplona, Colombia
+Arauca, Colombia
+Yopal, Colombia
+Inírida, Colombia
+San José del Guaviare, Colombia
+Mitú, Colombia
+Puerto Inírida, Colombia
+Puerto López, Colombia
+Puerto Asís, Colombia
+Mocoa, Colombia
+La Hormiga, Colombia
+El Banco, Colombia
+Ayapel, Colombia
+La Plata, Colombia
+Garzón, Colombia
+La Tebaida, Colombia
+El Retiro, Colombia
+San Antonio del Tequendama, Colombia
+La Vega, Colombia
+La Calera, Colombia
+Ginebra, Colombia
+San Pedro, Colombia
+Silvia, Colombia
+Puracé, Colombia
+Ipiales, Colombia
