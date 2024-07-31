@@ -269,3 +269,117 @@ San José de Mayo, Uruguay
 Treinta y Tres, Uruguay
 Artigas, Uruguay
 Maldonado, Uruguay
+Canelones, Uruguay
+San Carlos, Uruguay
+Aiguá, Uruguay
+Nueva Helvecia, Uruguay
+Libertad, Uruguay
+Bella Unión, Uruguay
+Trinidad, Uruguay
+Paso de los Toros, Uruguay
+Fray Bentos, Uruguay
+Young, Uruguay
+Dolores, Uruguay
+Melo, Uruguay
+Chuy, Uruguay
+Castillos, Uruguay
+San Gregorio de Polanco, Uruguay
+Progreso, Uruguay
+Pan de Azúcar, Uruguay
+Juan Lacaze, Uruguay
+Sarandí Grande, Uruguay
+Tarariras, Uruguay
+Rosario, Uruguay
+Nueva Palmira, Uruguay
+Santa Lucía, Uruguay
+Pando, Uruguay
+Vergara, Uruguay
+Lascano, Uruguay
+Córdoba, Argentina
+San Carlos de Bariloche, Argentina
+Salta, Argentina
+Iguazú, Argentina
+San Juan, Argentina
+La Plata, Argentina
+San Martín de los Andes, Argentina
+Villa Carlos Paz, Argentina
+Puerto Madryn, Argentina
+Villa La Angostura, Argentina
+San Salvador de Jujuy, Argentina
+Tandil, Argentina
+San Fernando del Valle de Catamarca, Argentina
+Trelew, Argentina
+Neuquén, Argentina
+Paraná, Argentina
+Corrientes, Argentina
+Bahía Blanca, Argentina
+Merlo, Argentina
+San Luis, Argentina
+Gualeguaychú, Argentina
+Pinamar, Argentina
+Villa Gesell, Argentina
+La Rioja, Argentina
+Posadas, Argentina
+Santa Rosa, Argentina
+Comodoro Rivadavia, Argentina
+Puerto Iguazú, Argentina
+El Chaltén, Argentina
+Alta Gracia, Argentina
+Cariló, Argentina
+Tigre, Argentina
+Luján, Argentina
+San Rafael, Argentina
+Baradero, Argentina
+Junín, Argentina
+Concordia, Argentina
+Resistencia, Argentina
+San Nicolás de los Arroyos, Argentina
+San Miguel de Tucumán, Argentina
+Villa General Belgrano, Argentina
+Viedma, Argentina
+San Antonio de Areco, Argentina
+Villa de Merlo, Argentina
+Colón, Argentina
+Oberá, Argentina
+Termas de Río Hondo, Argentina
+Cafayate, Argentina
+San Javier, Argentina
+Purmamarca, Argentina
+Tilcara, Argentina
+Humahuaca, Argentina
+La Cumbre, Argentina
+San Lorenzo, Argentina
+Villa Traful, Argentina
+El Bolsón, Argentina
+Villa Pehuenia, Argentina
+Puerto Deseado, Argentina
+Puerto San Julián, Argentina
+Villa Regina, Argentina
+Perito Moreno, Argentina
+Cachi, Argentina
+Tafí del Valle, Argentina
+Tafí Viejo, Argentina
+Yerba Buena, Argentina
+Jesús María, Argentina
+Mina Clavero, Argentina
+Villa Cura Brochero, Argentina
+La Falda, Argentina
+Río Ceballos, Argentina
+Embalse, Argentina
+Los Reartes, Argentina
+Salsipuedes, Argentina
+Santa María de Punilla, Argentina
+Cosquín, Argentina
+Capilla del Monte, Argentina
+Monte Hermoso, Argentina
+Coronel Suárez, Argentina
+Las Grutas, Argentina
+El Cóndor, Argentina
+San Clemente del Tuyú, Argentina
+Santa Teresita, Argentina
+San Bernardo, Argentina
+Mar de Ajó, Argentina
+Villa Gesell, Argentina
+Miramar, Argentina
+Necochea, Argentina
+Quequén, Argentina
