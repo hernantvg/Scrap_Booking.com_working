@@ -383,3 +383,157 @@ Villa Gesell, Argentina
 Miramar, Argentina
 Necochea, Argentina
 Quequén, Argentina
+Villa del Dique, Argentina
+Valle Hermoso, Argentina
+Villa Dolores, Argentina
+Villa Giardino, Argentina
+Valparaíso, Chile
+San Pedro de Atacama, Chile
+Puerto Varas, Chile
+Pucón, Chile
+La Serena, Chile
+Valdivia, Chile
+Punta Arenas, Chile
+Iquique, Chile
+Concepción, Chile
+Temuco, Chile
+Arica, Chile
+Antofagasta, Chile
+Rancagua, Chile
+Chillán, Chile
+Osorno, Chile
+Coquimbo, Chile
+Talca, Chile
+Quintero, Chile
+Frutillar, Chile
+Villarrica, Chile
+Castro, Chile
+Curicó, Chile
+Calama, Chile
+Coyhaique, Chile
+Copiapó, Chile
+Linares, Chile
+San Fernando, Chile
+Ovalle, Chile
+Ancud, Chile
+Chaitén, Chile
+Vallenar, Chile
+Isla de Pascua, Chile
+Quillota, Chile
+San Antonio, Chile
+Aysén, Chile
+Los Andes, Chile
+Melipilla, Chile
+Los Ángeles, Chile
+Talcahuano, Chile
+Tomé, Chile
+Constitución, Chile
+Quellón, Chile
+Molina, Chile
+San Vicente de Tagua Tagua, Chile
+La Ligua, Chile
+Coronel, Chile
+Huasco, Chile
+Tierra Amarilla, Chile
+Tocopilla, Chile
+Mejillones, Chile
+Lota, Chile
+Mulchén, Chile
+Lautaro, Chile
+Victoria, Chile
+Rengo, Chile
+Machalí, Chile
+Colchagua, Chile
+Buin, Chile
+Peñaflor, Chile
+Rapa Nui, Chile
+Algarrobo, Chile
+El Quisco, Chile
+Papudo, Chile
+Zapallar, Chile
+El Tabo, Chile
+Combarbalá, Chile
+Monte Patria, Chile
+Illapel, Chile
+Salamanca, Chile
+Quirihue, Chile
+Bulnes, Chile
+Nacimiento, Chile
+Angol, Chile
+Loncoche, Chile
+Panguipulli, Chile
+Lanco, Chile
+Paillaco, Chile
+Río Bueno, Chile
+La Unión, Chile
+Los Lagos, Chile
+Futrono, Chile
+Lago Ranco, Chile
+Puyehue, Chile
+Purranque, Chile
+Fresia, Chile
+Maullín, Chile
+Llanquihue, Chile
+Río Negro, Chile
+Hualaihué, Chile
+Palena, Chile
+Cochrane, Chile
+Villa O'Higgins, Chile
+Puerto Aysén, Chile
+Chonchi, Chile
+Dalcahue, Chile
+Salvador, Brasil
+Florianópolis, Brasil
+Fortaleza, Brasil
+Recife, Brasil
+Porto Alegre, Brasil
+Brasília, Brasil
+Curitiba, Brasil
+Belo Horizonte, Brasil
+Manaus, Brasil
+Natal, Brasil
+Foz do Iguaçu, Brasil
+Aracaju, Brasil
+Vitória, Brasil
+Campo Grande, Brasil
+Cuiabá, Brasil
+Palmas, Brasil
+Teresina, Brasil
+Goiânia, Brasil
+São Luís, Brasil
+Belém, Brasil
+Macapá, Brasil
+Rio Branco, Brasil
+Boa Vista, Brasil
+Santos, Brasil
+Angra dos Reis, Brasil
+Petrópolis, Brasil
+Niterói, Brasil
+Ouro Preto, Brasil
+Tiradentes, Brasil
+Diamantina, Brasil
+Mariana, Brasil
+Mariana, Brasil
+Lavras Novas, Brasil
+Brumadinho, Brasil
+Inhotim, Brasil
+Congonhas, Brasil
+São João del-Rei, Brasil
+Belo Vale, Brasil
+Caeté, Brasil
+Juiz de Fora, Brasil
+Montes Claros, Brasil
+Uberlândia, Brasil
+Uberaba, Brasil
+Araxá, Brasil
+Poços de Caldas, Brasil
+São José dos Campos, Brasil
+Sorocaba, Brasil
+Campinas, Brasil
+São Carlos, Brasil
+Ribeirão Preto, Brasil
+Franca, Brasil
+Presidente Prudente, Brasil
+Marília, Brasil
+Bauru, Brasil
+Jundiaí, Brasil
