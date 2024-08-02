@@ -537,3 +537,153 @@ Presidente Prudente, Brasil
 Marília, Brasil
 Bauru, Brasil
 Jundiaí, Brasil
+Guarujá, Brasil
+Ilhabela, Brasil
+Caraguatatuba, Brasil
+São Sebastião, Brasil
+Campos do Jordão, Brasil
+Itanhaém, Brasil
+Praia Grande, Brasil
+Peruíbe, Brasil
+Iguape, Brasil
+Cananéia, Brasil
+Paranaguá, Brasil
+Ilha do Mel, Brasil
+Guaratuba, Brasil
+Matinhos, Brasil
+Pontal do Paraná, Brasil
+Itapema, Brasil
+Bombinhas, Brasil
+Balneário Camboriú, Brasil
+Itajaí, Brasil
+Navegantes, Brasil
+Penha, Brasil
+Joinville, Brasil
+Blumenau, Brasil
+Brusque, Brasil
+Jaraguá do Sul, Brasil
+São Bento do Sul, Brasil
+Lages, Brasil
+Chapecó, Brasil
+Joaçaba, Brasil
+Concórdia, Brasil
+Criciúma, Brasil
+Tubarão, Brasil
+Imbituba, Brasil
+Laguna, Brasil
+Potosí, Bolivia
+Oruro, Bolivia
+Tarija, Bolivia
+Copacabana, Bolivia
+Coroico, Bolivia
+Rurrenabaque, Bolivia
+Trinidad, Bolivia
+Tupiza, Bolivia
+Samaipata, Bolivia
+Sorata, Bolivia
+Villazón, Bolivia
+Camiri, Bolivia
+Villamontes, Bolivia
+San Ignacio de Velasco, Bolivia
+Concepción, Bolivia
+San Javier, Bolivia
+Vallegrande, Bolivia
+San José de Chiquitos, Bolivia
+Puerto Quijarro, Bolivia
+Puerto Suárez, Bolivia
+Montero, Bolivia
+Yacuiba, Bolivia
+Cobija, Bolivia
+Achacachi, Bolivia
+Tiahuanaco, Bolivia
+Quime, Bolivia
+Patacamaya, Bolivia
+Challapata, Bolivia
+Colchani, Bolivia
+Santiago de Huata, Bolivia
+Llallagua, Bolivia
+Pucarani, Bolivia
+Llica, Bolivia
+Arica, Bolivia
+Huanuni, Bolivia
+Aiquile, Bolivia
+Mizque, Bolivia
+Torotoro, Bolivia
+Totora, Bolivia
+Incallajta, Bolivia
+Sacaba, Bolivia
+Quillacollo, Bolivia
+Tarata, Bolivia
+Punata, Bolivia
+Arani, Bolivia
+Ciudad del Este, Paraguay
+Encarnación, Paraguay
+San Bernardino, Paraguay
+Luque, Paraguay
+Areguá, Paraguay
+Caacupé, Paraguay
+Villarica, Paraguay
+Filadelfia, Paraguay
+Concepción, Paraguay
+Pedro Juan Caballero, Paraguay
+Coronel Oviedo, Paraguay
+Pilar, Paraguay
+Ypacaraí, Paraguay
+Bella Vista, Paraguay
+Tobatí, Paraguay
+Itaipú, Paraguay
+San Lorenzo, Paraguay
+Lambaré, Paraguay
+Fernando de la Mora, Paraguay
+Itauguá, Paraguay
+Caaguazú, Paraguay
+Paraguarí, Paraguay
+Piribebuy, Paraguay
+Yaguarón, Paraguay
+Santaní, Paraguay
+Itacurubí de la Cordillera, Paraguay
+Ayolas, Paraguay
+San Juan Bautista, Paraguay
+Ybycuí, Paraguay
+Villarrica, Paraguay
+Colonia Independencia, Paraguay
+Hohenau, Paraguay
+Carmen del Paraná, Paraguay
+Capitán Meza, Paraguay
+Jesús de Tavarangue, Paraguay
+Trinidad, Paraguay
+Nueva Italia, Paraguay
+Altos, Paraguay
+Quyquyhó, Paraguay
+Carapeguá, Paraguay
+Capiatá, Paraguay
+Coronel Bogado, Paraguay
+San Ignacio, Paraguay
+Santa María de Fe, Paraguay
+San Cosme y Damián, Paraguay
+Fuerte Olimpo, Paraguay
+Paso Yobai, Paraguay
+Benjamín Aceval, Paraguay
+Cerrito, Paraguay
+Arequipa, Perú
+Trujillo, Perú
+Chiclayo, Perú
+Iquitos, Perú
+Puno, Perú
+Piura, Perú
+Tacna, Perú
+Ica, Perú
+Huaraz, Perú
+Paracas, Perú
+Nazca, Perú
+Ayacucho, Perú
+Tarapoto, Perú
+Cajamarca, Perú
+Huancayo, Perú
+Pucallpa, Perú
+Tumbes, Perú
+Moyobamba, Perú
+Huánuco, Perú
+Puerto Maldonado, Perú
+Juliaca, Perú
+Chachapoyas, Perú
