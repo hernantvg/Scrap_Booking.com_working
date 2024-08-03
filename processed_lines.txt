@@ -687,3 +687,138 @@ Huánuco, Perú
 Puerto Maldonado, Perú
 Juliaca, Perú
 Chachapoyas, Perú
+Tarma, Perú
+Chimbote, Perú
+Tingo María, Perú
+Huancavelica, Perú
+Abancay, Perú
+Pisco, Perú
+Moquegua, Perú
+Sullana, Perú
+Talara, Perú
+Ilo, Perú
+Chincha Alta, Perú
+Jaén, Perú
+Yurimaguas, Perú
+Paita, Perú
+Huaral, Perú
+Ferreñafe, Perú
+Lambayeque, Perú
+Oxapampa, Perú
+Satipo, Perú
+Bagua, Perú
+Huamachuco, Perú
+Cañete, Perú
+Chulucanas, Perú
+Barranca, Perú
+Lamas, Perú
+Tocache, Perú
+Rioja, Perú
+Ilave, Perú
+La Merced, Perú
+Sechura, Perú
+Yungay, Perú
+Mala, Perú
+San Ramón, Perú
+Atalaya, Perú
+Lircay, Perú
+Caraz, Perú
+Quillabamba, Perú
+Pampas, Perú
+Pallasca, Perú
+Pomabamba, Perú
+Contamana, Perú
+Huarmey, Perú
+Taraco, Perú
+Túcume, Perú
+Huanta, Perú
+Chincheros, Perú
+Uchiza, Perú
+Chota, Perú
+Andahuaylas, Perú
+Chepén, Perú
+La Oroya, Perú
+Monsefú, Perú
+Nuevo Chimbote, Perú
+Pacasmayo, Perú
+Querecotillo, Perú
+San Pedro de Lloc, Perú
+Supe, Perú
+Talavera, Perú
+Tocache, Perú
+Virú, Perú
+Aguas Calientes, Perú
+Andamarca, Perú
+Ayaviri, Perú
+Bernal, Perú
+Camana, Perú
+Colán, Perú
+El Carmen, Perú
+Guadalupe, Perú
+La Unión, Perú
+Pisac, Perú
+Reque, Perú
+San Ignacio, Perú
+Santa, Perú
+Sicán, Perú
+Zorritos, Perú
+Guayaquil, Ecuador
+Baños, Ecuador
+Manta, Ecuador
+Salinas, Ecuador
+Otavalo, Ecuador
+Loja, Ecuador
+Tena, Ecuador
+Puerto Ayora, Ecuador
+Puerto Baquerizo Moreno, Ecuador
+Riobamba, Ecuador
+Machala, Ecuador
+Ambato, Ecuador
+Ibarra, Ecuador
+Latacunga, Ecuador
+Esmeraldas, Ecuador
+Portoviejo, Ecuador
+Santo Domingo, Ecuador
+Puyo, Ecuador
+Tulcán, Ecuador
+Playas, Ecuador
+Canoa, Ecuador
+Mindo, Ecuador
+Vilcabamba, Ecuador
+Macas, Ecuador
+Guaranda, Ecuador
+Santa Elena, Ecuador
+Sucúa, Ecuador
+Zaruma, Ecuador
+Cotacachi, Ecuador
+Alausí, Ecuador
+Cayambe, Ecuador
+Salcedo, Ecuador
+Santa Cruz, Ecuador
+Cuyabeno, Ecuador
+Isabela, Ecuador
+San Cristóbal, Ecuador
+Jama, Ecuador
+Yaguachi, Ecuador
+Pomasqui, Ecuador
+Pedro Vicente Maldonado, Ecuador
+Pichincha, Ecuador
+Misahuallí, Ecuador
+Olón, Ecuador
+Ayampe, Ecuador
+Palora, Ecuador
+Chone, Ecuador
+Calceta, Ecuador
+Puerto López, Ecuador
+Jipijapa, Ecuador
+Santa Rosa, Ecuador
+Balao, Ecuador
+El Coca, Ecuador
+Lago Agrio, Ecuador
+Huaquillas, Ecuador
+Muisne, Ecuador
+Quinindé, Ecuador
+La Libertad, Ecuador
+Daule, Ecuador
+Pedro Carbo, Ecuador
+San Gabriel, Ecuador
