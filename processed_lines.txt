@@ -946,3 +946,202 @@ Garzón, Colombia
 La Tebaida, Colombia
 El Retiro, Colombia
 San Antonio del Tequendama, Colombia
+La Vega, Colombia
+La Calera, Colombia
+Ginebra, Colombia
+San Pedro, Colombia
+Silvia, Colombia
+Puracé, Colombia
+Maracaibo, Venezuela
+Valencia, Venezuela
+Mérida, Venezuela
+Puerto La Cruz, Venezuela
+Los Roques, Venezuela
+Canaima, Venezuela
+Ciudad Guayana, Venezuela
+Barquisimeto, Venezuela
+Coro, Venezuela
+San Cristóbal, Venezuela
+Maturín, Venezuela
+Cumaná, Venezuela
+Ciudad Bolívar, Venezuela
+El Tigre, Venezuela
+Acarigua, Venezuela
+Trujillo, Venezuela
+La Guaira, Venezuela
+Puerto Ordaz, Venezuela
+Guarenas, Venezuela
+Guatire, Venezuela
+Valle de la Pascua, Venezuela
+Anaco, Venezuela
+El Callao, Venezuela
+Tucupita, Venezuela
+Tinaquillo, Venezuela
+El Limón, Venezuela
+Charallave, Venezuela
+Ciudad Bolívar, Venezuela
+Mucurubá, Venezuela
+El Hatillo, Venezuela
+Santa Teresa del Tuy, Venezuela
+La Victoria, Venezuela
+El Junquito, Venezuela
+La Asunción, Venezuela
+Pampatar, Venezuela
+Porlamar, Venezuela
+Juan Griego, Venezuela
+San Fernando de Apure, Venezuela
+Altagracia de Orituco, Venezuela
+Ospino, Venezuela
+San Carlos, Venezuela
+Santa Ana de Coro, Venezuela
+San Juan de los Morros, Venezuela
+Capacho, Venezuela
+El Palmar, Venezuela
+Carabobo, Venezuela
+Villa de Cura, Venezuela
+Guanare, Venezuela
+Tucupido, Venezuela
+Valle de la Pascua, Venezuela
+Maracay, Venezuela
+La Puerta, Venezuela
+Cagua, Venezuela
+Los Teques, Venezuela
+La Colonia Tovar, Venezuela
+Santa Elena de Uairén, Venezuela
+Las Delicias, Venezuela
+Charallave, Venezuela
+Guama, Venezuela
+Boquerón, Venezuela
+La Sabana, Venezuela
+Las Mercedes, Venezuela
+Cumanacoa, Venezuela
+Río Caribe, Venezuela
+El Tocuyo, Venezuela
+San Sebastián, Venezuela
+La Esmeralda, Venezuela
+El Cuerpo de Agua, Venezuela
+Calabozo, Venezuela
+El Zulia, Venezuela
+Yaritagua, Venezuela
+La Grita, Venezuela
+El Yopal, Venezuela
+Socopó, Venezuela
+Bobures, Venezuela
+Achaguas, Venezuela
+Torunos, Venezuela
+Mucuruba, Venezuela
+Guatire, Venezuela
+Puerto Cabello, Venezuela
+La Pastora, Venezuela
+Casigua El Cubo, Venezuela
+Boca de Uchire, Venezuela
+La Paragua, Venezuela
+La Caramuca, Venezuela
+Yagua, Venezuela
+El Cauchal, Venezuela
+Maripa, Venezuela
+El Chivaro, Venezuela
+Morón, Venezuela
+Aroa, Venezuela
+Los Llanos, Venezuela
+Palmarito, Venezuela
+Guigue, Venezuela
+Aragua de Barcelona, Venezuela
+Santa Bárbara de Zulia, Venezuela
+La Chiquita, Venezuela
+Los Cortijos, Venezuela
+La Pica, Venezuela
+Colón, Panamá
+Bocas del Toro, Panamá
+Boquete, Panamá
+David, Panamá
+Playa Blanca, Panamá
+San Blas, Panamá
+El Valle de Antón, Panamá
+Santiago, Panamá
+Coronado, Panamá
+La Chorrera, Panamá
+Penonomé, Panamá
+Las Tablas, Panamá
+Chitré, Panamá
+Gamboa, Panamá
+Bocas Town, Panamá
+Volcán, Panamá
+Santa Clara, Panamá
+Pedasí, Panamá
+Anton, Panamá
+Isla Contadora, Panamá
+Isla Saboga, Panamá
+Isla San José, Panamá
+El Porvenir, Panamá
+Sabana Grande, Panamá
+La Palma, Panamá
+La Enea, Panamá
+Río Hato, Panamá
+San Miguelito, Panamá
+Nuevo Colón, Panamá
+Balboa, Panamá
+Casco Viejo, Panamá
+Cerro Azul, Panamá
+Costa del Este, Panamá
+Ciudad del Saber, Panamá
+Panamá Viejo, Panamá
+Chame, Panamá
+Río Sereno, Panamá
+Boquete, Panamá
+Santa Fé, Panamá
+El Cope, Panamá
+Finca Santa Rosa, Panamá
+Guararé, Panamá
+La Villa de Los Santos, Panamá
+Los Santos, Panamá
+San Carlos, Panamá
+La Rápida, Panamá
+La Pita, Panamá
+Sora, Panamá
+Cerro Punta, Panamá
+Quebrada de las Rosas, Panamá
+Panamonte, Panamá
+El Palmar, Panamá
+Isla Bastimentos, Panamá
+Yaviza, Panamá
+La Yeguada, Panamá
+El Hato, Panamá
+El Pito, Panamá
+El Roble, Panamá
+Boquete Bajo, Panamá
+El Valle de Los Caños, Panamá
+San Bartolo, Panamá
+Santa María, Panamá
+Nata, Panamá
+La Cabima, Panamá
+La Chorrera Vieja, Panamá
+Capira, Panamá
+San Sebastián, Panamá
+Las Lajas, Panamá
+La Chorrera Alta, Panamá
+El Arado, Panamá
+Alto Boquete, Panamá
+Río Grande, Panamá
+El Valle de Sajalices, Panamá
+San José, Panamá
+La Loma, Panamá
+El Rincón, Panamá
+Boquete Grande, Panamá
+Chiriquí, Panamá
+La Enea del Valle, Panamá
+Isla de Coiba, Panamá
+Valle de Antón, Panamá
+Cañas, Panamá
+La Yeguada del Valle, Panamá
+El Pitalito, Panamá
+El Peñón, Panamá
+La Joya, Panamá
+Cañita, Panamá
+Las Juntas, Panamá
+El Sesteadero, Panamá
+El Hato de La Vieja, Panamá
+Las Cañas, Panamá
+La Caridad, Panamá
+Río Rico, Panamá
+San Juan del Sur, Panamá
