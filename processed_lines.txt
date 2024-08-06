@@ -1145,3 +1145,143 @@ Las Cañas, Panamá
 La Caridad, Panamá
 Río Rico, Panamá
 San Juan del Sur, Panamá
+La Montaña, Panamá
+Valle de La Luna, Panamá
+El Espino, Panamá
+Santa Bárbara, Panamá
+Tegucigalpa, Honduras
+San Pedro Sula, Honduras
+La Ceiba, Honduras
+Roatan, Honduras
+Utila, Honduras
+Copán Ruinas, Honduras
+Choluteca, Honduras
+Puerto Cortés, Honduras
+El Progreso, Honduras
+Gracias, Honduras
+Santa Rosa de Copán, Honduras
+Tela, Honduras
+Juticalpa, Honduras
+La Lima, Honduras
+Olancho, Honduras
+La Paz, Honduras
+Yoro, Honduras
+Danlí, Honduras
+Siguatepeque, Honduras
+El Paraíso, Honduras
+Santa Bárbara, Honduras
+Tegucigalpa, Honduras
+Valle de Ángeles, Honduras
+Marcala, Honduras
+Talanga, Honduras
+Comayagua, Honduras
+La Entrada, Honduras
+Puerto de Cortés, Honduras
+Olanchito, Honduras
+La Guama, Honduras
+Jocomico, Honduras
+San Francisco de Yojoa, Honduras
+San Luis, Honduras
+San Juan de Flores, Honduras
+Santa Ana, Honduras
+San Manuel, Honduras
+El Paraíso, Honduras
+Colón, Honduras
+Morazán, Honduras
+El Ralo, Honduras
+Intibucá, Honduras
+La Esperanza, Honduras
+La Virtud, Honduras
+Vallehermoso, Honduras
+San Pedro del Norte, Honduras
+San Pedro del Sur, Honduras
+Marcala, Honduras
+San Marcos de Ocotepeque, Honduras
+La Tigra, Honduras
+El Triunfo, Honduras
+La Paz, Honduras
+Omoa, Honduras
+Trujillo, Honduras
+La Libertad, Honduras
+Tegucigalpa, Honduras
+Los Micos, Honduras
+El Aguacate, Honduras
+La Cieba, Honduras
+El Paraíso, Honduras
+Colinas, Honduras
+El Progreso, Honduras
+El Portillo, Honduras
+Copán, Honduras
+Santa Rita, Honduras
+Atlántida, Honduras
+Santa Bárbara, Honduras
+El Chote, Honduras
+Yoro, Honduras
+El Quebradón, Honduras
+El Choro, Honduras
+El Cuero, Honduras
+La Lima, Honduras
+El Progreso, Honduras
+Colón, Honduras
+El Ocote, Honduras
+Danlí, Honduras
+Marcala, Honduras
+El Mamey, Honduras
+El Hato, Honduras
+El Pino, Honduras
+La Esperanza, Honduras
+La Paz, Honduras
+El Trapiche, Honduras
+El Cacao, Honduras
+San Manuel, Honduras
+Las Vegas, Honduras
+El Florido, Honduras
+San José de Colinas, Honduras
+La Lima, Honduras
+El Bejucal, Honduras
+Los Anonos, Honduras
+Los Pinos, Honduras
+El Arenal, Honduras
+El Empalme, Honduras
+El Zamorano, Honduras
+El Tizate, Honduras
+La Luz, Honduras
+El Gigante, Honduras
+El Cañón, Honduras
+El Pedregal, Honduras
+San José, Costa Rica
+Liberia, Costa Rica
+Tamarindo, Costa Rica
+Jacó, Costa Rica
+Manuel Antonio, Costa Rica
+Arenal, Costa Rica
+Monteverde, Costa Rica
+Quepos, Costa Rica
+Cartago, Costa Rica
+Alajuela, Costa Rica
+Heredia, Costa Rica
+Puntarenas, Costa Rica
+Puerto Viejo, Costa Rica
+Nosara, Costa Rica
+Santa Teresa, Costa Rica
+Dominical, Costa Rica
+Samara, Costa Rica
+La Fortuna, Costa Rica
+Atenas, Costa Rica
+San Isidro de El General, Costa Rica
+Grecia, Costa Rica
+Ciudad Quesada, Costa Rica
+Turrialba, Costa Rica
+Puerto Jiménez, Costa Rica
+Sámara, Costa Rica
+La Cruz, Costa Rica
+Los Ángeles, Costa Rica
+San Carlos, Costa Rica
+San Ramón, Costa Rica
+Cañas, Costa Rica
+San Pablo, Costa Rica
+La Fortuna de San Carlos, Costa Rica
+Valle de Orosi, Costa Rica
+Bajos del Toro, Costa Rica
+Guápiles, Costa Rica
+Tilarán, Costa Rica
